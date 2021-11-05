@@ -9,6 +9,14 @@ import Foundation
 
 struct Problem1000 {
     
+    func simpleStart() {
+        let input = readLine()?.trimmingCharacters(in: .whitespacesAndNewlines)
+        let array = input?.components(separatedBy: " ") ?? []
+        if let a = Int(array[0]), let b = Int(array[1]) {
+            print(a + b)
+        }
+    }
+    
     func getInput() -> [Int] {
         print("Problem 1000")
         print("Give me an input:")
@@ -36,6 +44,5 @@ struct Problem1000 {
         }
         
     }
-    
 }
-        
+
