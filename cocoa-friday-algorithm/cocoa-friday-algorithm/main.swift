@@ -34,6 +34,9 @@ func goToProblem(number: Int) {
     case 8958:
         let problem = Problem8958()
         problem.start()
+    case 11654:
+        let problem = Problem11654()
+        problem.start()
     default:
         print("Not a valid Number")
     }
@@ -65,4 +68,7 @@ func goToProblem(number: Int) {
 //goToProblem(number: 2920)
 
 //MARK: - Problem 8958
-goToProblem(number: 8958)
+//goToProblem(number: 8958)
+
+//MARK: - Problem 11654
+goToProblem(number: 11654)

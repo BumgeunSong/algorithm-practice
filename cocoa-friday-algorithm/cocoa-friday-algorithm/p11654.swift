@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct Problem11654 {
+    func start() {
+        if let input = readLine() {
+            print(Character(input).asciiValue!)
+        }
+    }
+}
