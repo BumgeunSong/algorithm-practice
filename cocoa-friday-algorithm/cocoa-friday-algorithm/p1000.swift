@@ -10,16 +10,13 @@ import Foundation
 struct Problem1000 {
     
     func simpleStart() {
-        let input = readLine()?.trimmingCharacters(in: .whitespacesAndNewlines)
-        let array = input?.components(separatedBy: " ") ?? []
-        if let a = Int(array[0]), let b = Int(array[1]) {
+        let input = readLine(strippingNewline: true)?.components(separatedBy: " ") ?? []
+        if let a = Int(input[0]), let b = Int(input[1]) {
             print(a + b)
         }
     }
     
     func getInput() -> [Int] {
-        print("Problem 1000")
-        print("Give me an input:")
         let input = readLine()?.trimmingCharacters(in: .whitespacesAndNewlines).components(separatedBy: " ") ?? []
         var array: [Int] = []
         for element in input {

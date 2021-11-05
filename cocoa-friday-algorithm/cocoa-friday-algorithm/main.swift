@@ -7,8 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Let's get started")
 
+//MARK: - Problem 1000
+
+print("Problem 1000")
+print("Give me an input:")
 let problem1000 = Problem1000()
 problem1000.simpleStart()
-problem1000.printOutput()
+
