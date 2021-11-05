@@ -9,7 +9,7 @@ import Foundation
 
 struct Problem1000 {
     
-    func simpleStart() {
+    func start() {
         let input = readLine(strippingNewline: true)?.components(separatedBy: " ") ?? []
         if let a = Int(input[0]), let b = Int(input[1]) {
             print(a + b)
