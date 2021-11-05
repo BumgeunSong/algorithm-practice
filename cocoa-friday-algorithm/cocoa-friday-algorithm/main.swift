@@ -9,10 +9,12 @@ import Foundation
 
 print("Let's get started")
 
-// 숫자만 입력하면 자동으로 문제로 이동하는 함수를 만들고 싶었는데, 오히려 더 복잡한 거 같다.
+// 반복해서 실행 코드를 적고 있다는 사실을 깨달았다.
+// 숫자만 입력하면 자동으로 문제로 이동하는 함수 goToProblem() 를 만들고 싶었다.
+// 그런데 오히려 더 복잡해져버렸다.
 // 동적으로 struct 이름을 부르고 싶은데 파라미터 -> struct name 이 안 되는 거 같다.
-// struct type이 여러개여서 중복을 줄이기가 어렵다.
-// 어떻게 구현하면 좋을까?
+// Case로 분기문을 쓰자니, struct type이 여러개여서 중복이 안 줄어든다.
+// 어떻게 간단한 코드로 중복을 줄일 수 있을까?
 
 func goToProblem(number: Int) {
     print("This is problem \(number)")
