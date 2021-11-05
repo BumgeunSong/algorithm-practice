@@ -9,3 +9,5 @@ import Foundation
 
 print("Hello, World!")
 
+let problem1000 = Problem1000()
+problem1000.printOutput()
