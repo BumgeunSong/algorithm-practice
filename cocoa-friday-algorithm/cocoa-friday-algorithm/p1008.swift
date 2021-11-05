@@ -8,4 +8,10 @@
 import Foundation
 
 struct Problem1008 {
+    func start() {
+        if let input = readLine(strippingNewline: true)?.components(separatedBy: " ") {
+            let array = input.map{ Double($0) ?? 0 }
+            print(array[0] / array[1])
+        }
+    }
 }
