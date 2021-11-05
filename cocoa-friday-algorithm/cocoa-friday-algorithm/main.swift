@@ -62,7 +62,7 @@ func goToProblem(number: Int) {
 //problem2438.start()
 
 //MARK: - Problem 2920
-goToProblem(number: 2920)
+//goToProblem(number: 2920)
 
 //MARK: - Problem 8958
 goToProblem(number: 8958)
