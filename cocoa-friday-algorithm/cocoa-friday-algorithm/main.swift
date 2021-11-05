@@ -23,3 +23,9 @@ print("Give me an input:")
 let problem1008 = Problem1008()
 problem1008.start()
 
+//MARK: - Problem 2438
+
+print("Problem 2438")
+print("Give me an input:")
+let problem2438 = Problem2438()
+problem2438.start()
