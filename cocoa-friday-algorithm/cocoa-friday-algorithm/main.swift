@@ -93,6 +93,10 @@ let numbers2 = [5,0,2,7]
 
 let answers1 = [1,2,3,4,5]
 let answers2 = [1,3,2,4,2]
-print(test(answers1), " = [1]")
-print(test(answers2), " = [1,2,3]")
+//print(test(answers1), " = [1]")
+//print(test(answers2), " = [1,2,3]")
+
+//MARK: - 2016년
+
+print(whichDayIn2016(5, 24))
 
