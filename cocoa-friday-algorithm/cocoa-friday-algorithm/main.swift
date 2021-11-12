@@ -73,9 +73,11 @@ func goToProblem(number: Int) {
 //goToProblem(number: 8958)
 
 //MARK: - Problem 11654
-goToProblem(number: 11654)
+//goToProblem(number: 11654)
 
+//MARK: - 크레인 인형뽑기 게임
 
-
-
+let board1 = [[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]]
+let moves1 = [1,5,3,5,1,2,1,4]
+print(craneGame(board1, moves1))
 
