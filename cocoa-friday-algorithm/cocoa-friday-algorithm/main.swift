@@ -77,41 +77,5 @@ goToProblem(number: 11654)
 
 
 
-class Animal {
-    var name: String
-    init(n: String) {
-        name = n
-    }
-}
-
-class Human: Animal {
-    func code() {
-        print("Typing...")
-    }
-}
-
-class Fish: Animal {
-    func breatheUnderWater() {
-        print("Breathing...")
-    }
-}
-
-let angela = Human(n: "Eddy Song")
-let jack = Human(n: "Jack Bauer")
-let nemo = Fish(n: "Nemo")
-
-let neighbours = [angela, jack, nemo]
-
-if neighbours[0] is Human {
-    print("First Neighbour is a Human")
-}
-
-func findNemo(from animals: [Animal]) {
-    for animal in animals {
-        if animal is Fish {
-            print(animal.name)
-        }
-    }
-}
 
 
