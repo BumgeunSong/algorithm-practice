@@ -27,9 +27,9 @@ func test(_ answers:[Int]) -> [Int] {
     }
     
     var winner: [Int] = []
-    for n in 1...scores.count {
-        if scores[n-1] == scores.max() {
-            winner.append(n)
+    for n in 0..<scores.count {
+        if scores[n] == scores.max() {
+            winner.append(n+1)
         }
     }
     return winner
