@@ -14,12 +14,15 @@ func craneGame(_ board:[[Int]], _ moves:[Int]) -> Int {
     
     for move in moves {
         var doll = 0
-        for row in 1..<newBoard.count {
+        for row in 0...newBoard.count - 1 {
             if newBoard[row][move - 1] != 0 {
                 doll = newBoard[row][move - 1]
                 newBoard[row][move - 1] = 0
                 break
             }
+        }
+        if doll == 0 {
+            continue
         }
         
         if dollArray.isEmpty {
@@ -33,5 +36,6 @@ func craneGame(_ board:[[Int]], _ moves:[Int]) -> Int {
             }
         }
     }
+    print(dollArray)
     return result
 }
