@@ -86,5 +86,12 @@ let moves1 = [1,5,3,5,1,2,1,4]
 
 let numbers1 = [2,1,3,4,1]
 let numbers2 = [5,0,2,7]
-print(pick2Add(numbers1), "should be [2,3,4,5,6,7]")
-print(pick2Add(numbers2), "should be [2,5,7,9,12]")
+//print(pick2Add(numbers1), "should be [2,3,4,5,6,7]")
+//print(pick2Add(numbers2), "should be [2,5,7,9,12]")
+
+//MARK: - 모의고사
+
+let answers1 = [1,2,3,4,5]
+let answers2 = [1,3,2,4,2]
+print(test(answers1), " = [1]")
+print(test(answers2), " = [1,2,3]")
