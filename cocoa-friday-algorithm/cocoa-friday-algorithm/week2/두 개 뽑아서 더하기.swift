@@ -12,12 +12,12 @@ func pick2Add(_ numbers:[Int]) -> [Int] {
     var sums: Set<Int> = []
     var pastIndex: Array<Int> = []
     
-    for index1 in 0...numbers.count - 2 {
+    for index1 in 0..<numbers.count - 1 {
         if pastIndex.contains(numbers[index1]) {
             continue
         }
         
-        for index2 in index1 + 1...numbers.count - 1 {
+        for index2 in index1+1..<numbers.count {
             sums.insert(numbers[index1] + numbers[index2])
         }
         

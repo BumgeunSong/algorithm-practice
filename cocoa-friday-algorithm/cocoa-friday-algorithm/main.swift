@@ -79,7 +79,7 @@ func goToProblem(number: Int) {
 
 let board1 = [[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]]
 let moves1 = [1,5,3,5,1,2,1,4]
-print(craneGame(board1, moves1))
+//print(craneGame(board1, moves1))
 
 
 //MARK: - 두 개 뽑아서 더하기

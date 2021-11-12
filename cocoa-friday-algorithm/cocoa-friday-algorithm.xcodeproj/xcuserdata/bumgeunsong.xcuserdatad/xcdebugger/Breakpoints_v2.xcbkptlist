@@ -72,7 +72,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "541E8AF0-E24E-437A-A146-E08DE7477787"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "cocoa-friday-algorithm/week2/&#x1103;&#x116e; &#x1100;&#x1162; &#x1108;&#x1169;&#x11b8;&#x110b;&#x1161;&#x1109;&#x1165; &#x1103;&#x1165;&#x1112;&#x1161;&#x1100;&#x1175;.swift"
