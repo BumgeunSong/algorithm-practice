@@ -23,6 +23,6 @@ func pick2Add(_ numbers:[Int]) -> [Int] {
         
         pastIndex.append(numbers[index1])
     }
-    let result = Array(sums).sorted()
+    let result = sums.sorted()
     return result
 }
