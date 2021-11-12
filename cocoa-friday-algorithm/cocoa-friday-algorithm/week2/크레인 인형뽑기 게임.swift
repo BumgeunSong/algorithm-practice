@@ -10,18 +10,23 @@ import Foundation
 func craneGame(_ board:[[Int]], _ moves:[Int]) -> Int {
     var dollArray: [Int] = []
     var result = 0
+    var newBoard = board
+    
     for move in moves {
         var doll = 0
-        for row in board {
-            if row[move] != 0 {
-                doll = row[move]
-                row[move] = 0
+        for row in 1..<newBoard.count {
+            if newBoard[row][move - 1] != 0 {
+                doll = newBoard[row][move - 1]
+                newBoard[row][move - 1] = 0
                 break
             }
         }
-        if dollArray.isEmpty != true {
+        
+        if dollArray.isEmpty {
+            dollArray.append(doll)
+        } else {
             if dollArray.last == doll {
-                result += 1
+                result += 2
                 dollArray = dollArray.dropLast()
             } else {
                 dollArray.append(doll)
@@ -29,4 +34,4 @@ func craneGame(_ board:[[Int]], _ moves:[Int]) -> Int {
         }
     }
     return result
-})
+}
