@@ -98,11 +98,10 @@ let answers2 = [1,3,2,4,2]
 
 //MARK: - 2016년
 
-//print(whichDayIn2016(5, 24))
+print(whichDayIn2016(5, 24))
 
 //MARK: - 약수의 합
 
 //print(sumDivisor(12), "should be 28")
 //print(sumDivisor(5), "should be 6")
 //print(sumDivisor(0), "should be 0")
-
