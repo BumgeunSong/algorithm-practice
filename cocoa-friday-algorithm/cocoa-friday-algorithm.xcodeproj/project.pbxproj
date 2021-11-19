@@ -113,9 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				528D505B2734E0150037B7B9 /* main.swift */,
-				528FA72A273E09370018C2A1 /* week2 */,
 				528FA724273E09200018C2A1 /* week1 */,
-				BC1AECFB2743CDC600920813 /* etc. */,
+				BC3EBAD22747669C00CCE101 /* week3 */,
+				528FA72A273E09370018C2A1 /* week2 */,
+				BC1AECFB2743CDC600920813 /* _others */,
 			);
 			path = "cocoa-friday-algorithm";
 			sourceTree = "<group>";
@@ -146,19 +147,26 @@
 			path = week2;
 			sourceTree = "<group>";
 		};
-		BC1AECFB2743CDC600920813 /* etc. */ = {
+		BC1AECFB2743CDC600920813 /* _others */ = {
 			isa = PBXGroup;
 			children = (
 				BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */,
 				BC3EBAC427473CE500CCE101 /* RiverSize.swift */,
 				BC3EBAC627473D0F00CCE101 /* MergeTwoArray.swift */,
+			);
+			path = _others;
+			sourceTree = "<group>";
+		};
+		BC3EBAD22747669C00CCE101 /* week3 */ = {
+			isa = PBXGroup;
+			children = (
 				BC3EBAC827473F5400CCE101 /* Grading.swift */,
 				BC3EBACA274749BB00CCE101 /* compareTriplets.swift */,
 				BC3EBACC27474B4200CCE101 /* aVeryBigSum.swift */,
 				BC3EBACE27475AA600CCE101 /* timeConversion.swift */,
 				BC3EBAD0274760AA00CCE101 /* NumberLineJumps.swift */,
 			);
-			path = etc.;
+			path = week3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
