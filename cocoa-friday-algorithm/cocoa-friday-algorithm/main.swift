@@ -105,3 +105,11 @@ let answers2 = [1,3,2,4,2]
 //print(sumDivisor(12), "should be 28")
 //print(sumDivisor(5), "should be 6")
 //print(sumDivisor(0), "should be 0")
+
+
+// MARK: - Time Conversion
+
+print(timeConversion(s: "12:00:00AM"))
+print(timeConversion(s: "12:00:00PM"))
+print(timeConversion(s: "09:00:00AM"))
+print(timeConversion(s: "09:00:00PM"))
