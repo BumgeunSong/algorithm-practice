@@ -106,3 +106,4 @@ let answers2 = [1,3,2,4,2]
 //print(sumDivisor(5), "should be 6")
 //print(sumDivisor(0), "should be 0")
 
+
