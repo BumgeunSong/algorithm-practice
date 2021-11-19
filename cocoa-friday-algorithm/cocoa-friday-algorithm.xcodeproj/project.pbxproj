@@ -28,6 +28,7 @@
 		BC3EBACB274749BB00CCE101 /* compareTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3EBACA274749BB00CCE101 /* compareTriplets.swift */; };
 		BC3EBACD27474B4200CCE101 /* aVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3EBACC27474B4200CCE101 /* aVeryBigSum.swift */; };
 		BC3EBACF27475AA600CCE101 /* timeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3EBACE27475AA600CCE101 /* timeConversion.swift */; };
+		BC3EBAD1274760AA00CCE101 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3EBAD0274760AA00CCE101 /* NumberLineJumps.swift */; };
 		BC7CF372273E2E1A00531D45 /* 크레인 인형뽑기 게임.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF371273E2E1A00531D45 /* 크레인 인형뽑기 게임.swift */; };
 		BC7CF374273E3BF100531D45 /* 두 개 뽑아서 더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF373273E3BF100531D45 /* 두 개 뽑아서 더하기.swift */; };
 		BC7CF376273E451400531D45 /* 모의고사.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF375273E451400531D45 /* 모의고사.swift */; };
@@ -65,6 +66,7 @@
 		BC3EBACA274749BB00CCE101 /* compareTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareTriplets.swift; sourceTree = "<group>"; };
 		BC3EBACC27474B4200CCE101 /* aVeryBigSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aVeryBigSum.swift; sourceTree = "<group>"; };
 		BC3EBACE27475AA600CCE101 /* timeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeConversion.swift; sourceTree = "<group>"; };
+		BC3EBAD0274760AA00CCE101 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		BC7CF371273E2E1A00531D45 /* 크레인 인형뽑기 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "크레인 인형뽑기 게임.swift"; sourceTree = "<group>"; };
 		BC7CF373273E3BF100531D45 /* 두 개 뽑아서 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "두 개 뽑아서 더하기.swift"; sourceTree = "<group>"; };
 		BC7CF375273E451400531D45 /* 모의고사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모의고사.swift"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				BC3EBACA274749BB00CCE101 /* compareTriplets.swift */,
 				BC3EBACC27474B4200CCE101 /* aVeryBigSum.swift */,
 				BC3EBACE27475AA600CCE101 /* timeConversion.swift */,
+				BC3EBAD0274760AA00CCE101 /* NumberLineJumps.swift */,
 			);
 			path = etc.;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				BC3EBAC727473D0F00CCE101 /* MergeTwoArray.swift in Sources */,
 				52A6E7582734EE8C009210A4 /* p1008.swift in Sources */,
 				BC1AECFD2743CDF100920813 /* MaximumSubarray.swift in Sources */,
+				BC3EBAD1274760AA00CCE101 /* NumberLineJumps.swift in Sources */,
 				528D50632734E0640037B7B9 /* p1000.swift in Sources */,
 				52A6E75A2734F267009210A4 /* p2438.swift in Sources */,
 				BC3EBACD27474B4200CCE101 /* aVeryBigSum.swift in Sources */,

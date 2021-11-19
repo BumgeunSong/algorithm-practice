@@ -108,8 +108,14 @@ let answers2 = [1,3,2,4,2]
 
 
 // MARK: - Time Conversion
+//
+//print(timeConversion(s: "12:00:00AM"))
+//print(timeConversion(s: "12:00:00PM"))
+//print(timeConversion(s: "09:00:00AM"))
+//print(timeConversion(s: "09:00:00PM"))
+//
 
-print(timeConversion(s: "12:00:00AM"))
-print(timeConversion(s: "12:00:00PM"))
-print(timeConversion(s: "09:00:00AM"))
-print(timeConversion(s: "09:00:00PM"))
+print(kangaroo(x1: 0, v1: 2, x2: 5, v2: 3))
+
+
+print(-5 % 1)
