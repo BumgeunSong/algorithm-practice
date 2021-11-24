@@ -36,6 +36,8 @@
 		BC7CF376273E451400531D45 /* 모의고사.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF375273E451400531D45 /* 모의고사.swift */; };
 		BC7CF378273E4DE200531D45 /* 2016년.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF377273E4DE200531D45 /* 2016년.swift */; };
 		BC7CF37A273F848500531D45 /* 약수의 합.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF379273F848500531D45 /* 약수의 합.swift */; };
+		BCF04281274E524700627C73 /* reverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF04280274E524700627C73 /* reverseList.swift */; };
+		BCF04283274E5E9100627C73 /* removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF04282274E5E9100627C73 /* removeDuplicates.swift */; };
 		BCF96177274A25E600C05381 /* validSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF96176274A25E600C05381 /* validSudoku.swift */; };
 		BCF961A4274CDD0800C05381 /* hasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF961A3274CDD0800C05381 /* hasCycle.swift */; };
 		BCF961A6274CDD7300C05381 /* mergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF961A5274CDD7300C05381 /* mergeTwoLists.swift */; };
@@ -80,6 +82,8 @@
 		BC7CF375273E451400531D45 /* 모의고사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모의고사.swift"; sourceTree = "<group>"; };
 		BC7CF377273E4DE200531D45 /* 2016년.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2016년.swift"; sourceTree = "<group>"; };
 		BC7CF379273F848500531D45 /* 약수의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "약수의 합.swift"; sourceTree = "<group>"; };
+		BCF04280274E524700627C73 /* reverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = reverseList.swift; path = "../../../../../coding/algorithm-practice/cocoa-friday-algorithm/cocoa-friday-algorithm/_others/reverseList.swift"; sourceTree = "<group>"; };
+		BCF04282274E5E9100627C73 /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = removeDuplicates.swift; path = "../../../../../coding/algorithm-practice/cocoa-friday-algorithm/cocoa-friday-algorithm/_others/removeDuplicates.swift"; sourceTree = "<group>"; };
 		BCF96176274A25E600C05381 /* validSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validSudoku.swift; sourceTree = "<group>"; };
 		BCF961A3274CDD0800C05381 /* hasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasCycle.swift; sourceTree = "<group>"; };
 		BCF961A5274CDD7300C05381 /* mergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeTwoLists.swift; sourceTree = "<group>"; };
@@ -171,6 +175,8 @@
 				BCF961A3274CDD0800C05381 /* hasCycle.swift */,
 				BCF961A5274CDD7300C05381 /* mergeTwoLists.swift */,
 				BCF961A7274CDD9500C05381 /* removeElements.swift */,
+				BCF04280274E524700627C73 /* reverseList.swift */,
+				BCF04282274E5E9100627C73 /* removeDuplicates.swift */,
 			);
 			path = _others;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF04281274E524700627C73 /* reverseList.swift in Sources */,
 				52A6E75E2735000D009210A4 /* p8958.swift in Sources */,
 				BC7CF374273E3BF100531D45 /* 두 개 뽑아서 더하기.swift in Sources */,
 				BC7CF376273E451400531D45 /* 모의고사.swift in Sources */,
@@ -297,6 +304,7 @@
 				BCF961A6274CDD7300C05381 /* mergeTwoLists.swift in Sources */,
 				BC3EBAD627479BE400CCE101 /* bestTimeToBuyAndSell.swift in Sources */,
 				BC7CF372273E2E1A00531D45 /* 크레인 인형뽑기 게임.swift in Sources */,
+				BCF04283274E5E9100627C73 /* removeDuplicates.swift in Sources */,
 				BC3EBAD42747970100CCE101 /* intersect.swift in Sources */,
 				BC3EBACF27475AA600CCE101 /* timeConversion.swift in Sources */,
 				52A6E75C2734F3C6009210A4 /* p2920.swift in Sources */,
