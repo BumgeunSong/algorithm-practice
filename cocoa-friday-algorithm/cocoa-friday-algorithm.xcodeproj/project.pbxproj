@@ -186,7 +186,6 @@
 				BC3EBAD527479BE400CCE101 /* bestTimeToBuyAndSell.swift */,
 				BCF96176274A25E600C05381 /* validSudoku.swift */,
 				BCF961A3274CDD0800C05381 /* hasCycle.swift */,
-				BCF961A5274CDD7300C05381 /* mergeTwoLists.swift */,
 				BCF961A7274CDD9500C05381 /* removeElements.swift */,
 				BCF04280274E524700627C73 /* reverseList.swift */,
 				BCF04282274E5E9100627C73 /* removeDuplicates.swift */,
@@ -198,6 +197,7 @@
 		BC2F4C88275075F2006613D5 /* week4 */ = {
 			isa = PBXGroup;
 			children = (
+				BCF961A5274CDD7300C05381 /* mergeTwoLists.swift */,
 				BC2F4C8927507630006613D5 /* ReverseInteger.swift */,
 				BC2F4C8D27508541006613D5 /* isPalindrome.swift */,
 				BC2F4C8F27508681006613D5 /* romanToInt.swift */,
