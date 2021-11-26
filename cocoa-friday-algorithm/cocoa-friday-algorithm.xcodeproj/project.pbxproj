@@ -24,6 +24,7 @@
 		BC1AECFD2743CDF100920813 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */; };
 		BC2F4C8A27507630006613D5 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F4C8927507630006613D5 /* ReverseInteger.swift */; };
 		BC2F4C8C27507A28006613D5 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F4C8B27507A28006613D5 /* TwoSum.swift */; };
+		BC2F4C8E27508541006613D5 /* isPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F4C8D27508541006613D5 /* isPalindrome.swift */; };
 		BC3EBAC527473CE500CCE101 /* RiverSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3EBAC427473CE500CCE101 /* RiverSize.swift */; };
 		BC3EBAC727473D0F00CCE101 /* MergeTwoArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3EBAC627473D0F00CCE101 /* MergeTwoArray.swift */; };
 		BC3EBAC927473F5400CCE101 /* Grading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3EBAC827473F5400CCE101 /* Grading.swift */; };
@@ -73,6 +74,7 @@
 		BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		BC2F4C8927507630006613D5 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		BC2F4C8B27507A28006613D5 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		BC2F4C8D27508541006613D5 /* isPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPalindrome.swift; sourceTree = "<group>"; };
 		BC3EBAC427473CE500CCE101 /* RiverSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiverSize.swift; sourceTree = "<group>"; };
 		BC3EBAC627473D0F00CCE101 /* MergeTwoArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoArray.swift; sourceTree = "<group>"; };
 		BC3EBAC827473F5400CCE101 /* Grading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grading.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				BC2F4C8927507630006613D5 /* ReverseInteger.swift */,
+				BC2F4C8D27508541006613D5 /* isPalindrome.swift */,
 				BC2F4C8B27507A28006613D5 /* TwoSum.swift */,
 			);
 			path = week4;
@@ -323,6 +326,7 @@
 				BC3EBAD627479BE400CCE101 /* bestTimeToBuyAndSell.swift in Sources */,
 				BC2F4C8C27507A28006613D5 /* TwoSum.swift in Sources */,
 				BC7CF372273E2E1A00531D45 /* 크레인 인형뽑기 게임.swift in Sources */,
+				BC2F4C8E27508541006613D5 /* isPalindrome.swift in Sources */,
 				BCF04283274E5E9100627C73 /* removeDuplicates.swift in Sources */,
 				BC3EBAD42747970100CCE101 /* intersect.swift in Sources */,
 				BC3EBACF27475AA600CCE101 /* timeConversion.swift in Sources */,
