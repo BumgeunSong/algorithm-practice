@@ -147,4 +147,7 @@ let answers2 = [1,3,2,4,2]
 //print(isValidSudoku(board))
 
 
+print(romanToInt("LVIII"))
+print(romanToInt("MCMXCIV"))
+
 
