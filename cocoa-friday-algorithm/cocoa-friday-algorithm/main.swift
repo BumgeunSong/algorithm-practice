@@ -151,3 +151,8 @@ let answers2 = [1,3,2,4,2]
 //print(romanToInt("MCMXCIV"))
 
 print(longestCommonPrefix(["flower","flow","flight"]))
+
+
+
+var input = TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)))
+print(levelOrder(input))
