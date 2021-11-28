@@ -154,5 +154,6 @@ print(longestCommonPrefix(["flower","flow","flight"]))
 
 
 
-var input = TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)))
-print(levelOrder(input))
+var input = TreeNode(4, TreeNode(2, TreeNode(1), TreeNode(3)),
+                     TreeNode(7, TreeNode(6), TreeNode(9)))
+print(invertTree(input))

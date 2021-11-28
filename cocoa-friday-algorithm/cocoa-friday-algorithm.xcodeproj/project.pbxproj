@@ -42,6 +42,7 @@
 		BC7CF378273E4DE200531D45 /* 2016년.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF377273E4DE200531D45 /* 2016년.swift */; };
 		BC7CF37A273F848500531D45 /* 약수의 합.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF379273F848500531D45 /* 약수의 합.swift */; };
 		BCE48CA02752609900028475 /* levelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE48C9F2752609900028475 /* levelOrder.swift */; };
+		BCE48CA32753520400028475 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE48CA22753520400028475 /* InvertBinaryTree.swift */; };
 		BCF04281274E524700627C73 /* reverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF04280274E524700627C73 /* reverseList.swift */; };
 		BCF04283274E5E9100627C73 /* removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF04282274E5E9100627C73 /* removeDuplicates.swift */; };
 		BCF04285274F6DD600627C73 /* binaryTreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF04284274F6DD600627C73 /* binaryTreeTraversal.swift */; };
@@ -95,6 +96,7 @@
 		BC7CF377273E4DE200531D45 /* 2016년.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2016년.swift"; sourceTree = "<group>"; };
 		BC7CF379273F848500531D45 /* 약수의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "약수의 합.swift"; sourceTree = "<group>"; };
 		BCE48C9F2752609900028475 /* levelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levelOrder.swift; sourceTree = "<group>"; };
+		BCE48CA22753520400028475 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
 		BCF04280274E524700627C73 /* reverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = reverseList.swift; path = "../../../../../coding/algorithm-practice/cocoa-friday-algorithm/cocoa-friday-algorithm/_others/reverseList.swift"; sourceTree = "<group>"; };
 		BCF04282274E5E9100627C73 /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = removeDuplicates.swift; path = "../../../../../coding/algorithm-practice/cocoa-friday-algorithm/cocoa-friday-algorithm/_others/removeDuplicates.swift"; sourceTree = "<group>"; };
 		BCF04284274F6DD600627C73 /* binaryTreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryTreeTraversal.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				BCF04282274E5E9100627C73 /* removeDuplicates.swift */,
 				BCF04284274F6DD600627C73 /* binaryTreeTraversal.swift */,
 				BCE48C9F2752609900028475 /* levelOrder.swift */,
+				BCE48CA22753520400028475 /* InvertBinaryTree.swift */,
 			);
 			path = _others;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				BC3EBACD27474B4200CCE101 /* aVeryBigSum.swift in Sources */,
 				BC2F4C8A27507630006613D5 /* ReverseInteger.swift in Sources */,
 				BC3EBAC927473F5400CCE101 /* Grading.swift in Sources */,
+				BCE48CA32753520400028475 /* InvertBinaryTree.swift in Sources */,
 				52A6E76027350733009210A4 /* p11654.swift in Sources */,
 				BCF961A6274CDD7300C05381 /* mergeTwoLists.swift in Sources */,
 				BC3EBAD627479BE400CCE101 /* bestTimeToBuyAndSell.swift in Sources */,
