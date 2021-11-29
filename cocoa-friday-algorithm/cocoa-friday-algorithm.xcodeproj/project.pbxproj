@@ -103,8 +103,8 @@
 		BCE48C9F2752609900028475 /* levelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levelOrder.swift; sourceTree = "<group>"; };
 		BCE48CA22753520400028475 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
 		BCE48CA4275353D700028475 /* pathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathSum.swift; sourceTree = "<group>"; };
-		BCF04280274E524700627C73 /* reverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = reverseList.swift; path = "../../../../../coding/algorithm-practice/cocoa-friday-algorithm/cocoa-friday-algorithm/_others/reverseList.swift"; sourceTree = "<group>"; };
-		BCF04282274E5E9100627C73 /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = removeDuplicates.swift; path = "../../../../../coding/algorithm-practice/cocoa-friday-algorithm/cocoa-friday-algorithm/_others/removeDuplicates.swift"; sourceTree = "<group>"; };
+		BCF04280274E524700627C73 /* reverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseList.swift; sourceTree = "<group>"; };
+		BCF04282274E5E9100627C73 /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicates.swift; sourceTree = "<group>"; };
 		BCF04284274F6DD600627C73 /* binaryTreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryTreeTraversal.swift; sourceTree = "<group>"; };
 		BCF96176274A25E600C05381 /* validSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validSudoku.swift; sourceTree = "<group>"; };
 		BCF961A3274CDD0800C05381 /* hasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasCycle.swift; sourceTree = "<group>"; };
@@ -151,11 +151,15 @@
 			isa = PBXGroup;
 			children = (
 				528D505B2734E0150037B7B9 /* main.swift */,
-				BC2F4C88275075F2006613D5 /* week4 */,
-				528FA724273E09200018C2A1 /* week1 */,
-				BC3EBAD22747669C00CCE101 /* week3 */,
-				528FA72A273E09370018C2A1 /* week2 */,
 				BC1AECFB2743CDC600920813 /* _others */,
+				BC9B897B27547C18000B3828 /* Array */,
+				BC9B897F27547C3E000B3828 /* BinarySearchTree */,
+				BC9B897D27547C31000B3828 /* LinkedList */,
+				BC9B897E27547C39000B3828 /* Tree */,
+				528FA724273E09200018C2A1 /* week1 */,
+				528FA72A273E09370018C2A1 /* week2 */,
+				BC3EBAD22747669C00CCE101 /* week3 */,
+				BC2F4C88275075F2006613D5 /* week4 */,
 			);
 			path = "cocoa-friday-algorithm";
 			sourceTree = "<group>";
@@ -189,22 +193,6 @@
 		BC1AECFB2743CDC600920813 /* _others */ = {
 			isa = PBXGroup;
 			children = (
-				BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */,
-				BC3EBAC427473CE500CCE101 /* RiverSize.swift */,
-				BC3EBAC627473D0F00CCE101 /* MergeTwoArray.swift */,
-				BC3EBAD32747970100CCE101 /* intersect.swift */,
-				BC3EBAD527479BE400CCE101 /* bestTimeToBuyAndSell.swift */,
-				BCF96176274A25E600C05381 /* validSudoku.swift */,
-				BCF961A3274CDD0800C05381 /* hasCycle.swift */,
-				BCF961A7274CDD9500C05381 /* removeElements.swift */,
-				BCF04280274E524700627C73 /* reverseList.swift */,
-				BCF04282274E5E9100627C73 /* removeDuplicates.swift */,
-				BCF04284274F6DD600627C73 /* binaryTreeTraversal.swift */,
-				BCE48C9F2752609900028475 /* levelOrder.swift */,
-				BCE48CA22753520400028475 /* InvertBinaryTree.swift */,
-				BCE48CA4275353D700028475 /* pathSum.swift */,
-				BC9B89772754743E000B3828 /* searchBST.swift */,
-				BC9B897927547642000B3828 /* insertIntoBST.swift */,
 			);
 			path = _others;
 			sourceTree = "<group>";
@@ -232,6 +220,50 @@
 				BC3EBAD0274760AA00CCE101 /* NumberLineJumps.swift */,
 			);
 			path = week3;
+			sourceTree = "<group>";
+		};
+		BC9B897B27547C18000B3828 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				BC3EBAC627473D0F00CCE101 /* MergeTwoArray.swift */,
+				BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */,
+				BC3EBAD32747970100CCE101 /* intersect.swift */,
+				BC3EBAD527479BE400CCE101 /* bestTimeToBuyAndSell.swift */,
+				BCF96176274A25E600C05381 /* validSudoku.swift */,
+				BC3EBAC427473CE500CCE101 /* RiverSize.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		BC9B897D27547C31000B3828 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				BCF961A3274CDD0800C05381 /* hasCycle.swift */,
+				BCF961A7274CDD9500C05381 /* removeElements.swift */,
+				BCF04280274E524700627C73 /* reverseList.swift */,
+				BCF04282274E5E9100627C73 /* removeDuplicates.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		BC9B897E27547C39000B3828 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				BCF04284274F6DD600627C73 /* binaryTreeTraversal.swift */,
+				BCE48C9F2752609900028475 /* levelOrder.swift */,
+				BCE48CA22753520400028475 /* InvertBinaryTree.swift */,
+				BCE48CA4275353D700028475 /* pathSum.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		BC9B897F27547C3E000B3828 /* BinarySearchTree */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B897927547642000B3828 /* insertIntoBST.swift */,
+				BC9B89772754743E000B3828 /* searchBST.swift */,
+			);
+			path = BinarySearchTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
