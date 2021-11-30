@@ -143,8 +143,12 @@ let answers2 = [1,3,2,4,2]
 //print(romanToInt("LVIII"))
 //print(romanToInt("MCMXCIV"))
 
-print(longestCommonPrefix(["flower","flow","flight"]))
+//print(longestCommonPrefix(["flower","flow","flight"]))
 
-var input = TreeNode(4, TreeNode(2, TreeNode(1), TreeNode(3)),
-                     TreeNode(7, TreeNode(6), TreeNode(9)))
 // print(invertTree(input))
+
+var input = TreeNode(6, p, TreeNode(8, TreeNode(7), TreeNode(9)))
+var q = TreeNode(4, TreeNode(3), TreeNode(5))
+var p = TreeNode(2, TreeNode(0), q)
+
+print(lowestCommonAncestor(input, p, q))
