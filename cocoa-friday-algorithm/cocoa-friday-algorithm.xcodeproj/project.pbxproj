@@ -62,6 +62,7 @@
 		BCFE984B2759F98C002F4954 /* sortedSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE984A2759F98C002F4954 /* sortedSquares.swift */; };
 		BCFE984D2759FEF4002F4954 /* rotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE984C2759FEF4002F4954 /* rotateArray.swift */; };
 		BCFE9877275B2E3D002F4954 /* moveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE9876275B2E3D002F4954 /* moveZeros.swift */; };
+		BCFE9879275B2ED2002F4954 /* twoSum_sortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE9878275B2ED2002F4954 /* twoSum_sortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -128,6 +129,7 @@
 		BCFE984A2759F98C002F4954 /* sortedSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortedSquares.swift; sourceTree = "<group>"; };
 		BCFE984C2759FEF4002F4954 /* rotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateArray.swift; sourceTree = "<group>"; };
 		BCFE9876275B2E3D002F4954 /* moveZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveZeros.swift; sourceTree = "<group>"; };
+		BCFE9878275B2ED2002F4954 /* twoSum_sortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum_sortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +307,7 @@
 				BCFE984A2759F98C002F4954 /* sortedSquares.swift */,
 				BCFE984C2759FEF4002F4954 /* rotateArray.swift */,
 				BCFE9876275B2E3D002F4954 /* moveZeros.swift */,
+				BCFE9878275B2ED2002F4954 /* twoSum_sortedArray.swift */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				BC7CF374273E3BF100531D45 /* 두 개 뽑아서 더하기.swift in Sources */,
 				BCFE984B2759F98C002F4954 /* sortedSquares.swift in Sources */,
 				BC7CF376273E451400531D45 /* 모의고사.swift in Sources */,
+				BCFE9879275B2ED2002F4954 /* twoSum_sortedArray.swift in Sources */,
 				528D505C2734E0150037B7B9 /* main.swift in Sources */,
 				528FA72C273E094E0018C2A1 /* 나누어 떨어지는 숫자 배열.swift in Sources */,
 				BC3EBAC527473CE500CCE101 /* RiverSize.swift in Sources */,
