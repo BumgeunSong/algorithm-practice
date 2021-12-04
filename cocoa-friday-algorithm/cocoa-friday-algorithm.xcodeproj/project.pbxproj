@@ -61,6 +61,7 @@
 		BCFE98482758F457002F4954 /* searchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98472758F457002F4954 /* searchInsertPosition.swift */; };
 		BCFE984B2759F98C002F4954 /* sortedSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE984A2759F98C002F4954 /* sortedSquares.swift */; };
 		BCFE984D2759FEF4002F4954 /* rotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE984C2759FEF4002F4954 /* rotateArray.swift */; };
+		BCFE9877275B2E3D002F4954 /* moveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE9876275B2E3D002F4954 /* moveZeros.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,6 +127,7 @@
 		BCFE98472758F457002F4954 /* searchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchInsertPosition.swift; sourceTree = "<group>"; };
 		BCFE984A2759F98C002F4954 /* sortedSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortedSquares.swift; sourceTree = "<group>"; };
 		BCFE984C2759FEF4002F4954 /* rotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateArray.swift; sourceTree = "<group>"; };
+		BCFE9876275B2E3D002F4954 /* moveZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveZeros.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +304,7 @@
 			children = (
 				BCFE984A2759F98C002F4954 /* sortedSquares.swift */,
 				BCFE984C2759FEF4002F4954 /* rotateArray.swift */,
+				BCFE9876275B2E3D002F4954 /* moveZeros.swift */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				BCE48CA5275353D700028475 /* pathSum.swift in Sources */,
 				52A6E76027350733009210A4 /* p11654.swift in Sources */,
 				BCF961A6274CDD7300C05381 /* mergeTwoLists.swift in Sources */,
+				BCFE9877275B2E3D002F4954 /* moveZeros.swift in Sources */,
 				BC3EBAD627479BE400CCE101 /* bestTimeToBuyAndSell.swift in Sources */,
 				BC9D6C7E2755CA1600518A10 /* lowestCommonAncestor.swift in Sources */,
 				BC2F4C8C27507A28006613D5 /* TwoSum.swift in Sources */,
