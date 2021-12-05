@@ -64,6 +64,7 @@
 		BCFE9877275B2E3D002F4954 /* moveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE9876275B2E3D002F4954 /* moveZeros.swift */; };
 		BCFE9879275B2ED2002F4954 /* twoSum_sortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE9878275B2ED2002F4954 /* twoSum_sortedArray.swift */; };
 		BCFE987B275CD3DB002F4954 /* reverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE987A275CD3DB002F4954 /* reverseWords.swift */; };
+		BCFE987D275CD41A002F4954 /* reverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE987C275CD41A002F4954 /* reverseString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -132,6 +133,7 @@
 		BCFE9876275B2E3D002F4954 /* moveZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveZeros.swift; sourceTree = "<group>"; };
 		BCFE9878275B2ED2002F4954 /* twoSum_sortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum_sortedArray.swift; sourceTree = "<group>"; };
 		BCFE987A275CD3DB002F4954 /* reverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseWords.swift; sourceTree = "<group>"; };
+		BCFE987C275CD41A002F4954 /* reverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +313,7 @@
 				BCFE9876275B2E3D002F4954 /* moveZeros.swift */,
 				BCFE9878275B2ED2002F4954 /* twoSum_sortedArray.swift */,
 				BCFE987A275CD3DB002F4954 /* reverseWords.swift */,
+				BCFE987C275CD41A002F4954 /* reverseString.swift */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				BCF961A4274CDD0800C05381 /* hasCycle.swift in Sources */,
 				BC9D6C7C2755C26200518A10 /* twoSumBST.swift in Sources */,
 				528D50632734E0640037B7B9 /* p1000.swift in Sources */,
+				BCFE987D275CD41A002F4954 /* reverseString.swift in Sources */,
 				52A6E75A2734F267009210A4 /* p2438.swift in Sources */,
 				BC2F4C922750AB90006613D5 /* longestCommonPrefix.swift in Sources */,
 				BC3EBACD27474B4200CCE101 /* aVeryBigSum.swift in Sources */,
