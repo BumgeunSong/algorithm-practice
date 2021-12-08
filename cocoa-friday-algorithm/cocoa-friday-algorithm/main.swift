@@ -153,4 +153,7 @@ let answers2 = [1,3,2,4,2]
 //
 //print(lowestCommonAncestor(input, p, q))
 
-print(lengthOfLongestSubstring("abcabcbb"))
+//print(lengthOfLongestSubstring("abcabcbb"))
+
+let s1 = "ab", s2 = "eidbaooo"
+print(checkInclusion(s1, s2))
