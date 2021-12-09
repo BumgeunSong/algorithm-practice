@@ -23,6 +23,7 @@
 		52A6E76027350733009210A4 /* p11654.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6E75F27350733009210A4 /* p11654.swift */; };
 		BC1AECFD2743CDF100920813 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */; };
 		BC2C18C52761EFB60012AF45 /* floodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C18C42761EFB60012AF45 /* floodFill.swift */; };
+		BC2C18C7276207A00012AF45 /* maxAreaOfIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C18C6276207A00012AF45 /* maxAreaOfIsland.swift */; };
 		BC2F4C8A27507630006613D5 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F4C8927507630006613D5 /* ReverseInteger.swift */; };
 		BC2F4C8C27507A28006613D5 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F4C8B27507A28006613D5 /* TwoSum.swift */; };
 		BC2F4C8E27508541006613D5 /* isPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F4C8D27508541006613D5 /* isPalindrome.swift */; };
@@ -97,6 +98,7 @@
 		52A6E75F27350733009210A4 /* p11654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p11654.swift; sourceTree = "<group>"; };
 		BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		BC2C18C42761EFB60012AF45 /* floodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floodFill.swift; sourceTree = "<group>"; };
+		BC2C18C6276207A00012AF45 /* maxAreaOfIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxAreaOfIsland.swift; sourceTree = "<group>"; };
 		BC2F4C8927507630006613D5 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		BC2F4C8B27507A28006613D5 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		BC2F4C8D27508541006613D5 /* isPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPalindrome.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				BC2C18C42761EFB60012AF45 /* floodFill.swift */,
+				BC2C18C6276207A00012AF45 /* maxAreaOfIsland.swift */,
 			);
 			path = BFS_DFS;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 				52A6E75E2735000D009210A4 /* p8958.swift in Sources */,
 				BC7CF374273E3BF100531D45 /* 두 개 뽑아서 더하기.swift in Sources */,
 				BCFE984B2759F98C002F4954 /* sortedSquares.swift in Sources */,
+				BC2C18C7276207A00012AF45 /* maxAreaOfIsland.swift in Sources */,
 				BC7CF376273E451400531D45 /* 모의고사.swift in Sources */,
 				BCFE9879275B2ED2002F4954 /* twoSum_sortedArray.swift in Sources */,
 				528D505C2734E0150037B7B9 /* main.swift in Sources */,
