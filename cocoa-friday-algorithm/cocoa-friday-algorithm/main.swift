@@ -161,14 +161,18 @@ let answers2 = [1,3,2,4,2]
 //let grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]
 //print(maxAreaOfIsland(grid))
 
-var perfectTree = Node(1)
-perfectTree.left = Node(2)
-perfectTree.left?.left = Node(4)
-perfectTree.left?.right = Node(5)
-perfectTree.right = Node(3)
-perfectTree.right?.left = Node(6)
-perfectTree.right?.right = Node(7)
+//var perfectTree = Node(1)
+//perfectTree.left = Node(2)
+//perfectTree.left?.left = Node(4)
+//perfectTree.left?.right = Node(5)
+//perfectTree.right = Node(3)
+//perfectTree.right?.left = Node(6)
+//perfectTree.right?.right = Node(7)
+//
+////debugPrint(connect(perfectTree))
+//
+//print([Node?]().isEmpty)
 
-//debugPrint(connect(perfectTree))
+let input = [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[0,0,0]]
 
-print([Node?]().isEmpty)
+print(updateMatrix(input))
