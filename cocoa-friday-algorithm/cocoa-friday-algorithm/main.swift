@@ -181,5 +181,4 @@ let input = [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,
 
 //print(climbStairs(10))
 
-let nums = [1,2,3]
-print(permute(nums))
+print(Array(1..<1))
