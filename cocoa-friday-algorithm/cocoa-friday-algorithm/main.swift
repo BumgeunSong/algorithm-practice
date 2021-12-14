@@ -179,4 +179,7 @@ let input = [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,
 
 //print(combine(3, 3))
 
-print(climbStairs(10))
+//print(climbStairs(10))
+
+let nums = [1,2,3]
+print(permute(nums))

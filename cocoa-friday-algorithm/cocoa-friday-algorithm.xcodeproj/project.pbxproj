@@ -29,6 +29,7 @@
 		BC2C18CD2764948C0012AF45 /* updateMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C18CC2764948C0012AF45 /* updateMatrix.swift */; };
 		BC2C18D42765F1640012AF45 /* combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C18D32765F1640012AF45 /* combinations.swift */; };
 		BC2C18D7276729620012AF45 /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C18D6276729620012AF45 /* ClimbingStairs.swift */; };
+		BC2C18DA276874250012AF45 /* permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C18D9276874250012AF45 /* permutations.swift */; };
 		BC2F4C8A27507630006613D5 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F4C8927507630006613D5 /* ReverseInteger.swift */; };
 		BC2F4C8C27507A28006613D5 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F4C8B27507A28006613D5 /* TwoSum.swift */; };
 		BC2F4C8E27508541006613D5 /* isPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F4C8D27508541006613D5 /* isPalindrome.swift */; };
@@ -109,6 +110,7 @@
 		BC2C18CC2764948C0012AF45 /* updateMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateMatrix.swift; sourceTree = "<group>"; };
 		BC2C18D32765F1640012AF45 /* combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combinations.swift; sourceTree = "<group>"; };
 		BC2C18D6276729620012AF45 /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
+		BC2C18D9276874250012AF45 /* permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permutations.swift; sourceTree = "<group>"; };
 		BC2F4C8927507630006613D5 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		BC2F4C8B27507A28006613D5 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		BC2F4C8D27508541006613D5 /* isPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPalindrome.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				BC2C18D32765F1640012AF45 /* combinations.swift */,
+				BC2C18D9276874250012AF45 /* permutations.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -496,6 +499,7 @@
 				BC3EBAD1274760AA00CCE101 /* NumberLineJumps.swift in Sources */,
 				BCF961A4274CDD0800C05381 /* hasCycle.swift in Sources */,
 				BC9D6C7C2755C26200518A10 /* twoSumBST.swift in Sources */,
+				BC2C18DA276874250012AF45 /* permutations.swift in Sources */,
 				528D50632734E0640037B7B9 /* p1000.swift in Sources */,
 				BCFE987D275CD41A002F4954 /* reverseString.swift in Sources */,
 				BCBD5D1F2760BEB200261F16 /* lengthOfLongestSubstring.swift in Sources */,
