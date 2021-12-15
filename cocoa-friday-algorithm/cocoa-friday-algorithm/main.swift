@@ -184,4 +184,4 @@ let input = [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,
 //print(Array(1..<1))
 
 
-print(letterCasePermutation("a1b2"))
+print(minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]))
