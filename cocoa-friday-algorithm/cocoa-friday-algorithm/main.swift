@@ -181,4 +181,7 @@ let input = [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,
 
 //print(climbStairs(10))
 
-print(Array(1..<1))
+//print(Array(1..<1))
+
+
+print(letterCasePermutation("a1b2"))
