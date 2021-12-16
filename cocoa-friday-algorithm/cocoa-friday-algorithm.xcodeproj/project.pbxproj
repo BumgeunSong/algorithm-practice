@@ -48,6 +48,7 @@
 		BC7C8A172769BFDA002D52AB /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C8A162769BFDA002D52AB /* HouseRobber.swift */; };
 		BC7C8A192769D75B002D52AB /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C8A182769D75B002D52AB /* Triangle.swift */; };
 		BC7C8A1B276B0499002D52AB /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C8A1A276B0499002D52AB /* SingleNumber.swift */; };
+		BC7C8A1D276B07C6002D52AB /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C8A1C276B07C6002D52AB /* MajorityElement.swift */; };
 		BC7CF372273E2E1A00531D45 /* 크레인 인형뽑기 게임.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF371273E2E1A00531D45 /* 크레인 인형뽑기 게임.swift */; };
 		BC7CF374273E3BF100531D45 /* 두 개 뽑아서 더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF373273E3BF100531D45 /* 두 개 뽑아서 더하기.swift */; };
 		BC7CF376273E451400531D45 /* 모의고사.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF375273E451400531D45 /* 모의고사.swift */; };
@@ -133,6 +134,7 @@
 		BC7C8A162769BFDA002D52AB /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
 		BC7C8A182769D75B002D52AB /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		BC7C8A1A276B0499002D52AB /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		BC7C8A1C276B07C6002D52AB /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		BC7CF371273E2E1A00531D45 /* 크레인 인형뽑기 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "크레인 인형뽑기 게임.swift"; sourceTree = "<group>"; };
 		BC7CF373273E3BF100531D45 /* 두 개 뽑아서 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "두 개 뽑아서 더하기.swift"; sourceTree = "<group>"; };
 		BC7CF375273E451400531D45 /* 모의고사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모의고사.swift"; sourceTree = "<group>"; };
@@ -326,6 +328,7 @@
 				BCF96176274A25E600C05381 /* validSudoku.swift */,
 				BC3EBAC427473CE500CCE101 /* RiverSize.swift */,
 				BC7C8A1A276B0499002D52AB /* SingleNumber.swift */,
+				BC7C8A1C276B07C6002D52AB /* MajorityElement.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				52A6E75E2735000D009210A4 /* p8958.swift in Sources */,
 				BC7CF374273E3BF100531D45 /* 두 개 뽑아서 더하기.swift in Sources */,
 				BCFE984B2759F98C002F4954 /* sortedSquares.swift in Sources */,
+				BC7C8A1D276B07C6002D52AB /* MajorityElement.swift in Sources */,
 				BC2C18C7276207A00012AF45 /* maxAreaOfIsland.swift in Sources */,
 				BC7CF376273E451400531D45 /* 모의고사.swift in Sources */,
 				BCFE9879275B2ED2002F4954 /* twoSum_sortedArray.swift in Sources */,
