@@ -184,4 +184,16 @@ let input = [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,
 //print(Array(1..<1))
 
 
-print(minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]))
+//print(minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]))
+
+//debugPrint(threeSum([-1,0,1,2,-1,-4]))
+
+func repeatTask(times: Int, task: () -> Void) {
+    for _ in 0..<times {
+        task()
+    }
+}
+
+var color = [2,0,2,1,1,0]
+sortColors(&color)
+
