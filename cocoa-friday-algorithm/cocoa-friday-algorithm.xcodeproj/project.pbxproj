@@ -76,6 +76,7 @@
 		BCF961A4274CDD0800C05381 /* hasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF961A3274CDD0800C05381 /* hasCycle.swift */; };
 		BCF961A6274CDD7300C05381 /* mergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF961A5274CDD7300C05381 /* mergeTwoLists.swift */; };
 		BCF961A8274CDD9500C05381 /* removeElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF961A7274CDD9500C05381 /* removeElements.swift */; };
+		BCFB5A58276F66BF006025C0 /* MyHashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A57276F66BF006025C0 /* MyHashMap.swift */; };
 		BCFE98442758DB61002F4954 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98432758DB61002F4954 /* BinarySearch.swift */; };
 		BCFE98462758DEC8002F4954 /* firstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98452758DEC7002F4954 /* firstBadVersion.swift */; };
 		BCFE98482758F457002F4954 /* searchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98472758F457002F4954 /* searchInsertPosition.swift */; };
@@ -165,6 +166,7 @@
 		BCF961A3274CDD0800C05381 /* hasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasCycle.swift; sourceTree = "<group>"; };
 		BCF961A5274CDD7300C05381 /* mergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeTwoLists.swift; sourceTree = "<group>"; };
 		BCF961A7274CDD9500C05381 /* removeElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeElements.swift; sourceTree = "<group>"; };
+		BCFB5A57276F66BF006025C0 /* MyHashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashMap.swift; sourceTree = "<group>"; };
 		BCFE98432758DB61002F4954 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		BCFE98452758DEC7002F4954 /* firstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstBadVersion.swift; sourceTree = "<group>"; };
 		BCFE98472758F457002F4954 /* searchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchInsertPosition.swift; sourceTree = "<group>"; };
@@ -338,6 +340,7 @@
 				BC7C8A1E276B1450002D52AB /* 3sum.swift */,
 				BC88EE5F276C5B6D009E5DDF /* sortColors.swift */,
 				BC88EE61276E16F5009E5DDF /* MergeIntervals.swift */,
+				BCFB5A57276F66BF006025C0 /* MyHashMap.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -547,6 +550,7 @@
 				BCF961A6274CDD7300C05381 /* mergeTwoLists.swift in Sources */,
 				BC88EE60276C5B6D009E5DDF /* sortColors.swift in Sources */,
 				BCFE9877275B2E3D002F4954 /* moveZeros.swift in Sources */,
+				BCFB5A58276F66BF006025C0 /* MyHashMap.swift in Sources */,
 				BC3EBAD627479BE400CCE101 /* bestTimeToBuyAndSell.swift in Sources */,
 				BC9D6C7E2755CA1600518A10 /* lowestCommonAncestor.swift in Sources */,
 				BC2F4C8C27507A28006613D5 /* TwoSum.swift in Sources */,
