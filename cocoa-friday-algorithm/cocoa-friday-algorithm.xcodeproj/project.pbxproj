@@ -81,6 +81,7 @@
 		BCFB5A5C27705A30006025C0 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A5B27705A30006025C0 /* RotateImage.swift */; };
 		BCFB5A5E27719D32006025C0 /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A5D27719D32006025C0 /* SpiralMatrix.swift */; };
 		BCFB5A6627735240006025C0 /* Search2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A6527735240006025C0 /* Search2DMatrix.swift */; };
+		BCFB5A6827735F0D006025C0 /* Non-overlappingIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A6727735F0D006025C0 /* Non-overlappingIntervals.swift */; };
 		BCFE98442758DB61002F4954 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98432758DB61002F4954 /* BinarySearch.swift */; };
 		BCFE98462758DEC8002F4954 /* firstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98452758DEC7002F4954 /* firstBadVersion.swift */; };
 		BCFE98482758F457002F4954 /* searchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98472758F457002F4954 /* searchInsertPosition.swift */; };
@@ -175,6 +176,7 @@
 		BCFB5A5B27705A30006025C0 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
 		BCFB5A5D27719D32006025C0 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
 		BCFB5A6527735240006025C0 /* Search2DMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2DMatrix.swift; sourceTree = "<group>"; };
+		BCFB5A6727735F0D006025C0 /* Non-overlappingIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Non-overlappingIntervals.swift"; sourceTree = "<group>"; };
 		BCFE98432758DB61002F4954 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		BCFE98452758DEC7002F4954 /* firstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstBadVersion.swift; sourceTree = "<group>"; };
 		BCFE98472758F457002F4954 /* searchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchInsertPosition.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 				BCFB5A5B27705A30006025C0 /* RotateImage.swift */,
 				BCFB5A5D27719D32006025C0 /* SpiralMatrix.swift */,
 				BCFB5A6527735240006025C0 /* Search2DMatrix.swift */,
+				BCFB5A6727735F0D006025C0 /* Non-overlappingIntervals.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -518,6 +521,7 @@
 				BCF04281274E524700627C73 /* reverseList.swift in Sources */,
 				BC2C18D7276729620012AF45 /* ClimbingStairs.swift in Sources */,
 				BC9D6C7A2755BF7E00518A10 /* isValidBST.swift in Sources */,
+				BCFB5A6827735F0D006025C0 /* Non-overlappingIntervals.swift in Sources */,
 				BCBD5D15275F962100261F16 /* middleNode.swift in Sources */,
 				BCFB5A5E27719D32006025C0 /* SpiralMatrix.swift in Sources */,
 				52A6E75E2735000D009210A4 /* p8958.swift in Sources */,
