@@ -82,6 +82,7 @@
 		BCFB5A5E27719D32006025C0 /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A5D27719D32006025C0 /* SpiralMatrix.swift */; };
 		BCFB5A6627735240006025C0 /* Search2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A6527735240006025C0 /* Search2DMatrix.swift */; };
 		BCFB5A6827735F0D006025C0 /* Non-overlappingIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A6727735F0D006025C0 /* Non-overlappingIntervals.swift */; };
+		BCFB5A6B27749411006025C0 /* AddString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A6A27749411006025C0 /* AddString.swift */; };
 		BCFE98442758DB61002F4954 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98432758DB61002F4954 /* BinarySearch.swift */; };
 		BCFE98462758DEC8002F4954 /* firstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98452758DEC7002F4954 /* firstBadVersion.swift */; };
 		BCFE98482758F457002F4954 /* searchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98472758F457002F4954 /* searchInsertPosition.swift */; };
@@ -177,6 +178,7 @@
 		BCFB5A5D27719D32006025C0 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
 		BCFB5A6527735240006025C0 /* Search2DMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2DMatrix.swift; sourceTree = "<group>"; };
 		BCFB5A6727735F0D006025C0 /* Non-overlappingIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Non-overlappingIntervals.swift"; sourceTree = "<group>"; };
+		BCFB5A6A27749411006025C0 /* AddString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddString.swift; sourceTree = "<group>"; };
 		BCFE98432758DB61002F4954 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		BCFE98452758DEC7002F4954 /* firstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstBadVersion.swift; sourceTree = "<group>"; };
 		BCFE98472758F457002F4954 /* searchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchInsertPosition.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				528D505B2734E0150037B7B9 /* main.swift */,
+				BCFB5A6927749409006025C0 /* String */,
 				BC2C18D52767294F0012AF45 /* Dynamic Programming */,
 				BC2C18D22765F1520012AF45 /* Backtracking */,
 				BC2C18C32761EF940012AF45 /* BFS_DFS */,
@@ -403,6 +406,14 @@
 			path = SlidingWindow;
 			sourceTree = "<group>";
 		};
+		BCFB5A6927749409006025C0 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				BCFB5A6A27749411006025C0 /* AddString.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		BCFE98422758DB53002F4954 /* BinarySearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -544,6 +555,7 @@
 				BC7C8A1F276B1450002D52AB /* 3sum.swift in Sources */,
 				52A6E7582734EE8C009210A4 /* p1008.swift in Sources */,
 				BC88EE62276E16F5009E5DDF /* MergeIntervals.swift in Sources */,
+				BCFB5A6B27749411006025C0 /* AddString.swift in Sources */,
 				BC1AECFD2743CDF100920813 /* MaximumSubarray.swift in Sources */,
 				BC3EBAD1274760AA00CCE101 /* NumberLineJumps.swift in Sources */,
 				BCF961A4274CDD0800C05381 /* hasCycle.swift in Sources */,
