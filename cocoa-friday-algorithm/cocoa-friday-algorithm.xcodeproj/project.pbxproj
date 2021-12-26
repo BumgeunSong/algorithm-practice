@@ -86,6 +86,7 @@
 		BCFB5A6D27749E7B006025C0 /* longestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A6C27749E7B006025C0 /* longestPalindrome.swift */; };
 		BCFB5A6F2775EB7C006025C0 /* wordPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A6E2775EB7C006025C0 /* wordPattern.swift */; };
 		BCFB5A712776FFBB006025C0 /* PartitionLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A702776FFBB006025C0 /* PartitionLabels.swift */; };
+		BCFB5A7327788EB6006025C0 /* GroupAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A7227788EB6006025C0 /* GroupAnagram.swift */; };
 		BCFE98442758DB61002F4954 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98432758DB61002F4954 /* BinarySearch.swift */; };
 		BCFE98462758DEC8002F4954 /* firstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98452758DEC7002F4954 /* firstBadVersion.swift */; };
 		BCFE98482758F457002F4954 /* searchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE98472758F457002F4954 /* searchInsertPosition.swift */; };
@@ -185,6 +186,7 @@
 		BCFB5A6C27749E7B006025C0 /* longestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestPalindrome.swift; sourceTree = "<group>"; };
 		BCFB5A6E2775EB7C006025C0 /* wordPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordPattern.swift; sourceTree = "<group>"; };
 		BCFB5A702776FFBB006025C0 /* PartitionLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionLabels.swift; sourceTree = "<group>"; };
+		BCFB5A7227788EB6006025C0 /* GroupAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagram.swift; sourceTree = "<group>"; };
 		BCFE98432758DB61002F4954 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		BCFE98452758DEC7002F4954 /* firstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstBadVersion.swift; sourceTree = "<group>"; };
 		BCFE98472758F457002F4954 /* searchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchInsertPosition.swift; sourceTree = "<group>"; };
@@ -417,6 +419,7 @@
 			children = (
 				BCFB5A6A27749411006025C0 /* AddString.swift */,
 				BCFB5A6C27749E7B006025C0 /* longestPalindrome.swift */,
+				BCFB5A7227788EB6006025C0 /* GroupAnagram.swift */,
 				BCFB5A6E2775EB7C006025C0 /* wordPattern.swift */,
 				BCFB5A702776FFBB006025C0 /* PartitionLabels.swift */,
 			);
@@ -595,6 +598,7 @@
 				BCFB5A58276F66BF006025C0 /* MyHashMap.swift in Sources */,
 				BC3EBAD627479BE400CCE101 /* bestTimeToBuyAndSell.swift in Sources */,
 				BC9D6C7E2755CA1600518A10 /* lowestCommonAncestor.swift in Sources */,
+				BCFB5A7327788EB6006025C0 /* GroupAnagram.swift in Sources */,
 				BC2F4C8C27507A28006613D5 /* TwoSum.swift in Sources */,
 				BC7C8A192769D75B002D52AB /* Triangle.swift in Sources */,
 				BC7CF372273E2E1A00531D45 /* 크레인 인형뽑기 게임.swift in Sources */,
