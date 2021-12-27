@@ -9,5 +9,5 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-print(wordPattern("abba",
-                  "dog cat cat fish"))
+multiply("498828660196",
+         "840477629533")
