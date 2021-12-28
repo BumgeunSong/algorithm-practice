@@ -9,5 +9,4 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-multiply("498828660196",
-         "840477629533")
+findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT")
