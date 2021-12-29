@@ -9,4 +9,5 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT")
+print(addTwoNumbers(ListNode(2, ListNode(4, ListNode(3))),
+            ListNode(5, ListNode(6, ListNode(4)))))
