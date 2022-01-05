@@ -9,4 +9,4 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-p1076()
+p1052()
