@@ -6,33 +6,33 @@
 //
 
 import Foundation
-
-class MyLinkedList {
-
-    init() {
-        
-    }
-    
-    func get(_ index: Int) -> Int {
-        
-    }
-    
-    func addAtHead(_ val: Int) {
-        
-    }
-    
-    func addAtTail(_ val: Int) {
-        
-    }
-    
-    func addAtIndex(_ index: Int, _ val: Int) {
-        
-    }
-    
-    func deleteAtIndex(_ index: Int) {
-        
-    }
-}
+//
+//class MyLinkedList {
+//
+//    init() {
+//        
+//    }
+//    
+//    func get(_ index: Int) -> Int {
+//        
+//    }
+//    
+//    func addAtHead(_ val: Int) {
+//        
+//    }
+//    
+//    func addAtTail(_ val: Int) {
+//        
+//    }
+//    
+//    func addAtIndex(_ index: Int, _ val: Int) {
+//        
+//    }
+//    
+//    func deleteAtIndex(_ index: Int) {
+//        
+//    }
+//}
 
 /**
  * Your MyLinkedList object will be instantiated and called as such:
