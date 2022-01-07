@@ -9,5 +9,3 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-//p1052()
-p10757()

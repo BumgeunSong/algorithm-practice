@@ -13,9 +13,10 @@ func reverseKGroup(_ head: ListNode?, _ k: Int) -> ListNode? {
     let answer = ListNode(0)
     var p1 = answer
     var p2 = head
+    var p3 = head
     
     while true {
-        var p3 = p2
+        p3 = p2
         for _ in 0..<k-1 {
             p3 = p3?.next
             if p3 == nil {
