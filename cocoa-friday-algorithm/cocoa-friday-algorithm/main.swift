@@ -8,4 +8,3 @@
 import Foundation
 
 print("Let's get algorithm tested")
-
