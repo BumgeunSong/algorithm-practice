@@ -8,3 +8,5 @@
 import Foundation
 
 print("Let's get algorithm tested")
+
+minRemoveToMakeValid("lee(t(c)o)de)")
