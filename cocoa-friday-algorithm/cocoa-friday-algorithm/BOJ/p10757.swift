@@ -16,7 +16,7 @@ func p10757() {
     
     let maxCount = max(a.count, b.count)
     
-    for i in 0..<maxCount {
+    for _ in 0..<maxCount {
         let aEnd = a.isEmpty ? 0 : a.last!.wholeNumberValue!
         let bEnd = b.isEmpty ? 0 : b.last!.wholeNumberValue!
         let sum = aEnd + bEnd + carry

@@ -9,4 +9,4 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-findTheWinner(5, 2)
+print(sortedArrayToBST([-10,-3,0,5,9]))

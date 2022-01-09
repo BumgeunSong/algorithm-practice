@@ -10,7 +10,7 @@ import Foundation
 func findTheWinner(_ n: Int, _ k: Int) -> Int {
     var circle = Array(1...n)
     var loseCount = 0
-    
+
     var index = 1
     while loseCount < n-1 {
         if index % k == 0 { loseCount += 1 }
