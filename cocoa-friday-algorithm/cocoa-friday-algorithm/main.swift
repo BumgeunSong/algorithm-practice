@@ -9,4 +9,4 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-print(sortedArrayToBST([-10,-3,0,5,9]))
+print([-10,-3,0,5,9][0...0])
