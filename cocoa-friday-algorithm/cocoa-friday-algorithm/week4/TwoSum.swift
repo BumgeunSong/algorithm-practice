@@ -12,6 +12,7 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         .map { [$0.offset, $0.element] }
         .sorted { $0[1] < $1[1] }
     
+    
     var lowIndex = 0
     var highIndex = sorted.count - 1
     
