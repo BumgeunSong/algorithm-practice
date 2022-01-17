@@ -9,3 +9,4 @@ import Foundation
 
 print("Let's get algorithm tested")
 
+print(lowestCommonAncestor2(TreeNode(1, TreeNode(2), nil), TreeNode(1), TreeNode(2)))
