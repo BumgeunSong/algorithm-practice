@@ -58,6 +58,7 @@
 		BC3EBAD627479BE400CCE101 /* bestTimeToBuyAndSell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3EBAD527479BE400CCE101 /* bestTimeToBuyAndSell.swift */; };
 		BC499962277F164500558C76 /* getIntersectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC499961277F164500558C76 /* getIntersectionNode.swift */; };
 		BC49996427808C4800558C76 /* deleteDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC49996327808C4800558C76 /* deleteDuplicates.swift */; };
+		BC661BBD2797D2F8001199D8 /* Crane_kakao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC661BBC2797D2F8001199D8 /* Crane_kakao.swift */; };
 		BC78E9F2277DCA1100179563 /* detectCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78E9F1277DCA1100179563 /* detectCycle.swift */; };
 		BC7C8A172769BFDA002D52AB /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C8A162769BFDA002D52AB /* HouseRobber.swift */; };
 		BC7C8A192769D75B002D52AB /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C8A182769D75B002D52AB /* Triangle.swift */; };
@@ -185,6 +186,7 @@
 		BC3EBAD527479BE400CCE101 /* bestTimeToBuyAndSell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestTimeToBuyAndSell.swift; sourceTree = "<group>"; };
 		BC499961277F164500558C76 /* getIntersectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getIntersectionNode.swift; sourceTree = "<group>"; };
 		BC49996327808C4800558C76 /* deleteDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteDuplicates.swift; sourceTree = "<group>"; };
+		BC661BBC2797D2F8001199D8 /* Crane_kakao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crane_kakao.swift; sourceTree = "<group>"; };
 		BC78E9F1277DCA1100179563 /* detectCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectCycle.swift; sourceTree = "<group>"; };
 		BC7C8A162769BFDA002D52AB /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
 		BC7C8A182769D75B002D52AB /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
@@ -342,6 +344,7 @@
 		BC1AECFB2743CDC600920813 /* _others */ = {
 			isa = PBXGroup;
 			children = (
+				BC661BBC2797D2F8001199D8 /* Crane_kakao.swift */,
 			);
 			path = _others;
 			sourceTree = "<group>";
@@ -731,6 +734,7 @@
 				BCFE98442758DB61002F4954 /* BinarySearch.swift in Sources */,
 				BC3EBACF27475AA600CCE101 /* timeConversion.swift in Sources */,
 				BCF04285274F6DD600627C73 /* binaryTreeTraversal.swift in Sources */,
+				BC661BBD2797D2F8001199D8 /* Crane_kakao.swift in Sources */,
 				BCE48CA02752609900028475 /* levelOrder.swift in Sources */,
 				BC2C18CD2764948C0012AF45 /* updateMatrix.swift in Sources */,
 				BCFE987B275CD3DB002F4954 /* reverseWords.swift in Sources */,
