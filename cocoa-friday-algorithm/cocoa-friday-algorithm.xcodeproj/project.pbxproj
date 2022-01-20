@@ -124,6 +124,7 @@
 		BCFE9879275B2ED2002F4954 /* twoSum_sortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE9878275B2ED2002F4954 /* twoSum_sortedArray.swift */; };
 		BCFE987B275CD3DB002F4954 /* reverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE987A275CD3DB002F4954 /* reverseWords.swift */; };
 		BCFE987D275CD41A002F4954 /* reverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE987C275CD41A002F4954 /* reverseString.swift */; };
+		BCFF68A427998D0500544735 /* findJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF68A327998D0500544735 /* findJudge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -252,6 +253,7 @@
 		BCFE9878275B2ED2002F4954 /* twoSum_sortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum_sortedArray.swift; sourceTree = "<group>"; };
 		BCFE987A275CD3DB002F4954 /* reverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseWords.swift; sourceTree = "<group>"; };
 		BCFE987C275CD41A002F4954 /* reverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseString.swift; sourceTree = "<group>"; };
+		BCFF68A327998D0500544735 /* findJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findJudge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +305,7 @@
 				BC1AECFB2743CDC600920813 /* _others */,
 				BC9B897B27547C18000B3828 /* Array */,
 				BC9B897F27547C3E000B3828 /* BinarySearchTree */,
+				BCFF68A227998CE300544735 /* Graph */,
 				BC260BDB2789689A0095F325 /* StackQueue */,
 				BC9B897D27547C31000B3828 /* LinkedList */,
 				BC9B897E27547C39000B3828 /* Tree */,
@@ -551,6 +554,14 @@
 			path = TwoPointers;
 			sourceTree = "<group>";
 		};
+		BCFF68A227998CE300544735 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF68A327998D0500544735 /* findJudge.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -714,6 +725,7 @@
 				BC9D6C7E2755CA1600518A10 /* lowestCommonAncestor.swift in Sources */,
 				BC260BE1278AA7DD0095F325 /* findTheWinner.swift in Sources */,
 				BCFB5A7327788EB6006025C0 /* GroupAnagram.swift in Sources */,
+				BCFF68A427998D0500544735 /* findJudge.swift in Sources */,
 				BCDC496B27906F9200E6F795 /* pathSum2.swift in Sources */,
 				BC260BD6278571B70095F325 /* p1052.swift in Sources */,
 				BC2F4C8C27507A28006613D5 /* TwoSum.swift in Sources */,

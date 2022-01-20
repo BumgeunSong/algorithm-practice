@@ -9,48 +9,72 @@ import Foundation
 
 class Codec {
     func serialize(_ root: TreeNode?) -> String {
-        if root == nil { return "" }
-        func inorder(_ root: TreeNode?) -> [Int] {
-            if root == nil { return [Int]() }
-            return inorder(root?.left) + [root!.val] + inorder(root?.right)
+        
+        func levelorder(_ root: TreeNode?) -> [[Int?]] {
+            var answer: [[Int?]] = []
+            if root == nil { return answer }
+            var currentlevel = [root]
+            
+            while !currentlevel.compactMap({ $0 }).isEmpty {
+                var currentVal: [Int?] = []
+                var nextLevel: [TreeNode?] = []
+                
+                for node in currentlevel {
+                    if let node = node {
+                        currentVal.append(node.val)
+                        nextLevel.append(node.left)
+                        nextLevel.append(node.right)
+                    } else {
+                        currentVal.append(nil)
+                    }
+                    
+                }
+                answer.append(currentVal)
+                currentlevel = nextLevel
+            }
+            return answer
         }
         
-        func preorder(_ root: TreeNode?) -> [Int] {
-            if root == nil { return [Int]() }
-            return [root!.val] + preorder(root?.left) + preorder(root?.right)
+        let levelorder = levelorder(root)
+        
+        var string = [String]()
+        for level in levelorder {
+            string.append(level.map { val in
+                if val != nil { return "\(val!)" }
+                else { return "#" }
+            }.joined(separator: ","))
         }
         
-        return preorder(root).map({ "\($0)" }).joined(separator: ",") + "/" + inorder(root).map({ "\($0)" }).joined(separator: ",")
+        return string.joined(separator: "/")
     }
     
     func deserialize(_ data: String) -> TreeNode? {
-        if data.isEmpty { return nil }
-        let dataArr = data.components(separatedBy: "/")
-        let preorder = dataArr[0].components(separatedBy: ",").map {Int($0)!}
-        let inorder = dataArr[1].components(separatedBy: ",").map {Int($0)!}
-
-        guard preorder.count == inorder.count else { return nil }
+        let levelArray = data.components(separatedBy: "/")
+            .map { $0.components(separatedBy: ",") }
         
-        func buildTree(_ preorder: [Int], _ inorder: [Int]) -> TreeNode? {
-            if preorder.isEmpty { return nil }
-            
-            if preorder.count == 1 { return TreeNode(preorder[0]) }
-            
-            let root = preorder.first!, rootIndex = inorder.firstIndex(of: root)!
-            
-            let count = preorder.count
-            let leftInorder = 0 < rootIndex ? Array(inorder[0..<rootIndex]) : []
-            let rightInorder = 1 < count ? Array(inorder[rootIndex+1..<count]) : []
-            
-            let leftcount = leftInorder.count
-            
-            let leftPreorder = 1 < leftcount+1 ? Array(preorder[1...leftcount]) : []
-            let rightPreorder = leftcount+1 < count ? Array(preorder[leftcount+1..<count]) : []
-            
-            return TreeNode(root,
-                            buildTree(leftPreorder, leftInorder),
-                            buildTree(rightPreorder, rightInorder))
+        let levelTree = levelArray.map { level in
+            level.map { str in
+                return Int(str) != nil ? TreeNode(Int(str)!) : nil
+            }
         }
-        return buildTree(preorder, inorder)
+        
+        guard let root = levelTree.first?.first else {
+            return nil
+        }
+        
+        let prevLevel = [root]
+        
+        for i in 0..<levelTree.count {
+            for j in 0..<levelTree[i].count {
+                if j % (levelTree[i].count / 2) == 0 {
+                    
+                } else {
+                    
+                }
+                levelTree[i-1][j % levelTree.count]
+            }
+        }
+    
+       return TreeNode(1)
     }
 }
