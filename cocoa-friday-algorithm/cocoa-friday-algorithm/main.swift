@@ -9,6 +9,6 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-findJudge(3, [[1,3],[2,3]])
-findJudge(3, [[1,3],[2,3],[3,1]])
+findSmallestSetOfVertices(6, [[0,1],[0,2],[2,5],[3,4],[4,2]])
+
 

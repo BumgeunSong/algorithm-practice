@@ -125,6 +125,7 @@
 		BCFE987B275CD3DB002F4954 /* reverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE987A275CD3DB002F4954 /* reverseWords.swift */; };
 		BCFE987D275CD41A002F4954 /* reverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE987C275CD41A002F4954 /* reverseString.swift */; };
 		BCFF68A427998D0500544735 /* findJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF68A327998D0500544735 /* findJudge.swift */; };
+		BCFF68A6279A67F000544735 /* findSmallestSetOfVertices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF68A5279A67F000544735 /* findSmallestSetOfVertices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -254,6 +255,7 @@
 		BCFE987A275CD3DB002F4954 /* reverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseWords.swift; sourceTree = "<group>"; };
 		BCFE987C275CD41A002F4954 /* reverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseString.swift; sourceTree = "<group>"; };
 		BCFF68A327998D0500544735 /* findJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findJudge.swift; sourceTree = "<group>"; };
+		BCFF68A5279A67F000544735 /* findSmallestSetOfVertices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findSmallestSetOfVertices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -558,6 +560,7 @@
 			isa = PBXGroup;
 			children = (
 				BCFF68A327998D0500544735 /* findJudge.swift */,
+				BCFF68A5279A67F000544735 /* findSmallestSetOfVertices.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -759,6 +762,7 @@
 				52A6E75C2734F3C6009210A4 /* p2920.swift in Sources */,
 				BC3EBACB274749BB00CCE101 /* compareTriplets.swift in Sources */,
 				BC260BD82785925B0095F325 /* p10757.swift in Sources */,
+				BCFF68A6279A67F000544735 /* findSmallestSetOfVertices.swift in Sources */,
 				BC7CF37A273F848500531D45 /* 약수의 합.swift in Sources */,
 				BCF96177274A25E600C05381 /* validSudoku.swift in Sources */,
 				BCFB5A6F2775EB7C006025C0 /* wordPattern.swift in Sources */,
