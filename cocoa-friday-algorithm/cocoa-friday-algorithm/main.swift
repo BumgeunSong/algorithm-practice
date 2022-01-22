@@ -9,6 +9,6 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-findSmallestSetOfVertices(6, [[0,1],[0,2],[2,5],[3,4],[4,2]])
-
+print(canVisitAllRooms(
+    [[2,3],[],[2],[1,3]]))
 
