@@ -127,6 +127,7 @@
 		BCFF68A427998D0500544735 /* findJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF68A327998D0500544735 /* findJudge.swift */; };
 		BCFF68A6279A67F000544735 /* findSmallestSetOfVertices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF68A5279A67F000544735 /* findSmallestSetOfVertices.swift */; };
 		BCFF68AA279C125600544735 /* canVisitAllRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF68A9279C125600544735 /* canVisitAllRooms.swift */; };
+		BCFF68AD279D160000544735 /* findKthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF68AC279D160000544735 /* findKthLargest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -258,6 +259,7 @@
 		BCFF68A327998D0500544735 /* findJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findJudge.swift; sourceTree = "<group>"; };
 		BCFF68A5279A67F000544735 /* findSmallestSetOfVertices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findSmallestSetOfVertices.swift; sourceTree = "<group>"; };
 		BCFF68A9279C125600544735 /* canVisitAllRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canVisitAllRooms.swift; sourceTree = "<group>"; };
+		BCFF68AC279D160000544735 /* findKthLargest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findKthLargest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 				BC1AECFB2743CDC600920813 /* _others */,
 				BC9B897B27547C18000B3828 /* Array */,
 				BC9B897F27547C3E000B3828 /* BinarySearchTree */,
+				BCFF68AB279D15F300544735 /* Heap */,
 				BCFF68A227998CE300544735 /* Graph */,
 				BC260BDB2789689A0095F325 /* StackQueue */,
 				BC9B897D27547C31000B3828 /* LinkedList */,
@@ -568,6 +571,14 @@
 			path = Graph;
 			sourceTree = "<group>";
 		};
+		BCFF68AB279D15F300544735 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF68AC279D160000544735 /* findKthLargest.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -728,6 +739,7 @@
 				BCFE9877275B2E3D002F4954 /* moveZeros.swift in Sources */,
 				BCFB5A58276F66BF006025C0 /* MyHashMap.swift in Sources */,
 				BC3EBAD627479BE400CCE101 /* bestTimeToBuyAndSell.swift in Sources */,
+				BCFF68AD279D160000544735 /* findKthLargest.swift in Sources */,
 				BC260BD42785400F0095F325 /* p1076.swift in Sources */,
 				BC9D6C7E2755CA1600518A10 /* lowestCommonAncestor.swift in Sources */,
 				BC260BE1278AA7DD0095F325 /* findTheWinner.swift in Sources */,
