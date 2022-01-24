@@ -9,6 +9,4 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-print(canVisitAllRooms(
-    [[2,3],[],[2],[1,3]]))
-
+findKthLargest([3,2,3,1,2,4,5,5,6], 4)
