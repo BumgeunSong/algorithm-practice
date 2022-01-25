@@ -9,4 +9,7 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-findKthLargest([3,2,3,1,2,4,5,5,6], 4)
+print(topKFrequent([5,3,1,1,1,3,5,73,1],3))
+
+
+
