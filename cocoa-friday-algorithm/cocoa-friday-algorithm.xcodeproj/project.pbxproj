@@ -90,6 +90,7 @@
 		BCE48CA02752609900028475 /* levelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE48C9F2752609900028475 /* levelOrder.swift */; };
 		BCE48CA32753520400028475 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE48CA22753520400028475 /* InvertBinaryTree.swift */; };
 		BCE48CA5275353D700028475 /* pathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE48CA4275353D700028475 /* pathSum.swift */; };
+		BCEB0683279FE41E00C8DA72 /* topKFrequent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB0682279FE41E00C8DA72 /* topKFrequent.swift */; };
 		BCF04281274E524700627C73 /* reverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF04280274E524700627C73 /* reverseList.swift */; };
 		BCF04283274E5E9100627C73 /* removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF04282274E5E9100627C73 /* removeDuplicates.swift */; };
 		BCF04285274F6DD600627C73 /* binaryTreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF04284274F6DD600627C73 /* binaryTreeTraversal.swift */; };
@@ -222,6 +223,7 @@
 		BCE48C9F2752609900028475 /* levelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levelOrder.swift; sourceTree = "<group>"; };
 		BCE48CA22753520400028475 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
 		BCE48CA4275353D700028475 /* pathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathSum.swift; sourceTree = "<group>"; };
+		BCEB0682279FE41E00C8DA72 /* topKFrequent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topKFrequent.swift; sourceTree = "<group>"; };
 		BCF04280274E524700627C73 /* reverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseList.swift; sourceTree = "<group>"; };
 		BCF04282274E5E9100627C73 /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicates.swift; sourceTree = "<group>"; };
 		BCF04284274F6DD600627C73 /* binaryTreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryTreeTraversal.swift; sourceTree = "<group>"; };
@@ -575,6 +577,7 @@
 			isa = PBXGroup;
 			children = (
 				BCFF68AC279D160000544735 /* findKthLargest.swift */,
+				BCEB0682279FE41E00C8DA72 /* topKFrequent.swift */,
 			);
 			path = Heap;
 			sourceTree = "<group>";
@@ -713,6 +716,7 @@
 				528D50632734E0640037B7B9 /* p1000.swift in Sources */,
 				BCFE987D275CD41A002F4954 /* reverseString.swift in Sources */,
 				BCBD5D1F2760BEB200261F16 /* lengthOfLongestSubstring.swift in Sources */,
+				BCEB0683279FE41E00C8DA72 /* topKFrequent.swift in Sources */,
 				52A6E75A2734F267009210A4 /* p2438.swift in Sources */,
 				BC94C931278C502D00E2FDA1 /* buildTree.swift in Sources */,
 				BC2F4C922750AB90006613D5 /* longestCommonPrefix.swift in Sources */,
