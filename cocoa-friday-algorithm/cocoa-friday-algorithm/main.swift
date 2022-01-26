@@ -9,7 +9,4 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-print(topKFrequent([1,1,1,2,2,3], 2))
-
-
-
+print(frequencySort("tree"))
