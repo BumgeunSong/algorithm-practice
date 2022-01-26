@@ -423,17 +423,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5199480F-29AC-4174-BCC2-114407322EC3"
-            shouldBeEnabled = "Yes"
+            uuid = "F75C7647-DA15-4EE4-AEB1-309F85D868A4"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "cocoa-friday-algorithm/Heap/topKFrequent.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "topKFrequent(_:_:)"
-            landmarkType = "9">
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "init(array:frequency:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86449C13-C98B-433D-82F9-A23E20FA8E79"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cocoa-friday-algorithm/Heap/topKFrequent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "init(array:frequency:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
