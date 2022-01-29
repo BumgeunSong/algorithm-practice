@@ -6,35 +6,24 @@
 //
 
 import Foundation
-//
+
 func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
-    var low = 0
-    var high = nums.count - 1
-    var range = [-1, -1]
+    let empty = [-1, -1]
+    if nums.isEmpty { return empty }
+    if nums.count == 1 { return nums[0] == target ? [0,0] : empty }
     
-    while low <= high {
-        let mid = (low + high) / 2
-        if nums[mid] == target {
-            
-            
-            let lft = searchRange(Array(nums[mid+1..<nums.count]), target)
-            let rgt = searchRange(Array(nums[0..<mid]), target)
-            // no left target
-            if lft == [-1, -1] && rgt == [-1, -1] {
-                return [mid, mid]
-            } else {
-                
-            }
-            // no right target
-            
-            // no left-right target
-            // all left-right target
-        } else if nums[mid] > target {
-            high = mid - 1
-        } else {
-            low = mid + 1
-        }
+    let mid = nums.count / 2
+    let lft = searchRange(Array(nums[0..<mid]), target)
+    let rgt = searchRange(Array(nums[mid..<nums.count]), target)
+    
+    if lft == empty && rgt == empty {
+        return empty
+    } else if lft == empty {
+        return [mid+rgt[0], mid+rgt[1]]
+    } else if rgt == empty {
+        return lft
+    } else {
+        return [lft[0], mid+rgt[1]]
     }
-    return range
 }
 

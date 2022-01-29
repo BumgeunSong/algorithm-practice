@@ -9,4 +9,4 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-print(frequencySort("tree"))
+print(searchRange([5,7,7,8,8,10], 8))
