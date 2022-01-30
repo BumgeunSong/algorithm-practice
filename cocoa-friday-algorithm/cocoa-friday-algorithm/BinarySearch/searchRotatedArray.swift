@@ -8,26 +8,27 @@
 import Foundation
 
 func searchRotatedArray(_ nums: [Int], _ target: Int) -> Int {
-    if nums.count == 0 { return -1 }
-    if nums.count == 1 { return nums[0] == target ? 0 : -1 }
-    if nums[0] < nums[nums.count-1] { return search(nums, target) }
     
-    let k = findK(nums) + 1
-    let original = Array(nums[k..<nums.count]) + Array(nums[0..<k])
-    print(original)
+    var leftEnd = 0
+    var rightEnd = nums.count-1
     
-    return search(original, target) == -1 ? -1 : (search(original, target) + k) % original.count
-}
-
-func findK(_ nums: [Int]) -> Int {
-    
-    if nums.count == 1 { return 0 }
-    if nums.count == 2 { return nums[0] > nums[1] ? 0 : 1 }
-    
-    let mid = nums.count / 2
-    if nums[mid] > nums[nums.count-1] {
-        return findK(Array(nums[mid..<nums.count-1])) + mid
-    } else  {
-        return findK(Array(nums[0..<mid]))
+    while leftEnd <= rightEnd {
+        let mid = (leftEnd + rightEnd) / 2
+        if nums[mid] == target { return mid }
+        
+        else if nums[mid] <= nums[rightEnd] {
+            if nums[mid] < target && target <= nums[rightEnd] {
+                leftEnd = mid+1
+            } else {
+                rightEnd = mid-1
+            }
+        } else if nums[leftEnd] <= nums[mid] {
+            if nums[leftEnd] <= target && target < nums[mid] {
+                rightEnd = mid-1
+            } else {
+                leftEnd = mid+1
+            }
+        }
     }
+    return -1
 }
