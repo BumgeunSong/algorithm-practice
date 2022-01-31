@@ -59,6 +59,7 @@
 		BC499962277F164500558C76 /* getIntersectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC499961277F164500558C76 /* getIntersectionNode.swift */; };
 		BC49996427808C4800558C76 /* deleteDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC49996327808C4800558C76 /* deleteDuplicates.swift */; };
 		BC62BE2D27A7A0090016D35C /* findMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62BE2C27A7A0090016D35C /* findMin.swift */; };
+		BC62BE2F27A7A7740016D35C /* findPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62BE2E27A7A7740016D35C /* findPeakElement.swift */; };
 		BC661BBD2797D2F8001199D8 /* Crane_kakao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC661BBC2797D2F8001199D8 /* Crane_kakao.swift */; };
 		BC78E9F2277DCA1100179563 /* detectCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78E9F1277DCA1100179563 /* detectCycle.swift */; };
 		BC7C8A172769BFDA002D52AB /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C8A162769BFDA002D52AB /* HouseRobber.swift */; };
@@ -197,6 +198,7 @@
 		BC499961277F164500558C76 /* getIntersectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getIntersectionNode.swift; sourceTree = "<group>"; };
 		BC49996327808C4800558C76 /* deleteDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteDuplicates.swift; sourceTree = "<group>"; };
 		BC62BE2C27A7A0090016D35C /* findMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMin.swift; sourceTree = "<group>"; };
+		BC62BE2E27A7A7740016D35C /* findPeakElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPeakElement.swift; sourceTree = "<group>"; };
 		BC661BBC2797D2F8001199D8 /* Crane_kakao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crane_kakao.swift; sourceTree = "<group>"; };
 		BC78E9F1277DCA1100179563 /* detectCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectCycle.swift; sourceTree = "<group>"; };
 		BC7C8A162769BFDA002D52AB /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
@@ -558,6 +560,7 @@
 				BCEB06BA27A3E4D300C8DA72 /* SearchRange.swift */,
 				BCEB06BE27A69F4500C8DA72 /* SearchMatrix.swift */,
 				BC62BE2C27A7A0090016D35C /* findMin.swift */,
+				BC62BE2E27A7A7740016D35C /* findPeakElement.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -716,6 +719,7 @@
 				BC7CF378273E4DE200531D45 /* 2016년.swift in Sources */,
 				BCF961A8274CDD9500C05381 /* removeElements.swift in Sources */,
 				BC3EBAC727473D0F00CCE101 /* MergeTwoArray.swift in Sources */,
+				BC62BE2F27A7A7740016D35C /* findPeakElement.swift in Sources */,
 				BCFB5A5C27705A30006025C0 /* RotateImage.swift in Sources */,
 				BC7C8A1F276B1450002D52AB /* 3sum.swift in Sources */,
 				BCFF68AA279C125600544735 /* canVisitAllRooms.swift in Sources */,
