@@ -13,7 +13,7 @@ func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
     for num in nums {
         heap.insert(num)
     }
-    let sorted = nums.sorted(by: >)
+//    let sorted = nums.sorted(by: >)
     var maxValue = heap.peek
     for _ in 0..<k {
         maxValue = heap.remove()

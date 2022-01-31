@@ -71,7 +71,7 @@ class Codec {
                 } else {
                     
                 }
-                levelTree[i-1][j % levelTree.count]
+//                levelTree[i-1][j % levelTree.count]
             }
         }
     
