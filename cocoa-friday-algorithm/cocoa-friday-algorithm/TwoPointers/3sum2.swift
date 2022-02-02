@@ -17,7 +17,7 @@ func threeSum3(_ nums: [Int]) -> [[Int]] {
     for (i, pick) in sortedNums.enumerated() {
         let numsAfterPick = sortedNums.suffix(from: i+1)
         
-        let twoSum = twoSum3(numsAfterPick, target: -pick)
+        let twoSum = twoSum3(Array(numsAfterPick), target: -pick)
         guard !twoSum.isEmpty else { continue }
         
         twoSum.forEach { result.insert( $0 + [pick] ) }

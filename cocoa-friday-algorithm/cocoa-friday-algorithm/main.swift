@@ -9,4 +9,5 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-print(threeSum3([1,2,-2,-1]))
+print(backspaceCompare("ab##",
+                       "c#d#"))
