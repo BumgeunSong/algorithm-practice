@@ -9,5 +9,6 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-
-print(maxArea([1,2,4,3]))
+let s = "cbaebabacd", p = "abc"
+//let s = "aaaaaaaaaa", p = "aaaaaaaaaaaaa"
+print(findAnagrams(s, p))
