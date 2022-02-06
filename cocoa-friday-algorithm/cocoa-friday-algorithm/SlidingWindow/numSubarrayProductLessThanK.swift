@@ -21,5 +21,6 @@ func numSubarrayProductLessThanK(_ nums: [Int], _ k: Int) -> Int {
         }
         result += (p2 - p1) + 1
     }
+    
     return result
 }
