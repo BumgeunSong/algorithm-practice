@@ -9,6 +9,6 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-let s = "cbaebabacd", p = "abc"
-//let s = "aaaaaaaaaa", p = "aaaaaaaaaaaaa"
-print(findAnagrams(s, p))
+print(numSubarrayProductLessThanK([10,5,2,6], 100))
+// nums = [1,2,3], k = 0
+print(numSubarrayProductLessThanK([1,2,3], 0))
