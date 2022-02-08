@@ -9,6 +9,7 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-print(numSubarrayProductLessThanK([10,5,2,6], 100))
-// nums = [1,2,3], k = 0
-print(numSubarrayProductLessThanK([1,2,3], 0))
+let target = 15, nums = [5,1,3,5,10,7,4,9,2,8]
+
+print(minSubArrayLen(target, nums))
+// 2
