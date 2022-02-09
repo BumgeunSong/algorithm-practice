@@ -9,7 +9,7 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-let target = 15, nums = [5,1,3,5,10,7,4,9,2,8]
 
-print(minSubArrayLen(target, nums))
-// 2
+let root = TreeNode(3, TreeNode(4, TreeNode(1), TreeNode(2)), TreeNode(5))
+let subRoot = TreeNode(4, TreeNode(1), TreeNode(2))
+print(isSubtree(root, subRoot))
