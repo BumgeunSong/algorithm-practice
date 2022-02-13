@@ -9,8 +9,4 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-
-let root = TreeNode(3, TreeNode(4, TreeNode(1), TreeNode(2)), TreeNode(5))
-let subRoot = TreeNode(4, TreeNode(1), TreeNode(2))
-print(isSubtree(root, subRoot))
-
+print(shortestPathBinaryMatrix([[0,0,0],[1,1,0],[1,1,0]]))
