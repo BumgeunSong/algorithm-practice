@@ -96,6 +96,7 @@
 		BCBD5D17275FA37300261F16 /* removeNthFromEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD5D16275FA37300261F16 /* removeNthFromEnd.swift */; };
 		BCBD5D1F2760BEB200261F16 /* lengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD5D1E2760BEB200261F16 /* lengthOfLongestSubstring.swift */; };
 		BCBD5D212760D1BB00261F16 /* checkInclusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD5D202760D1BB00261F16 /* checkInclusion.swift */; };
+		BCC4479027C10FDB0064D33C /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC4478F27C10FDB0064D33C /* Subsets.swift */; };
 		BCD98C5727BC9A0600AB87E5 /* SurroundedRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD98C5627BC9A0600AB87E5 /* SurroundedRegions.swift */; };
 		BCDC496B27906F9200E6F795 /* pathSum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC496A27906F9200E6F795 /* pathSum2.swift */; };
 		BCDC49E12792F27400E6F795 /* deleteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC49E02792F27400E6F795 /* deleteNode.swift */; };
@@ -248,6 +249,7 @@
 		BCBD5D16275FA37300261F16 /* removeNthFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeNthFromEnd.swift; sourceTree = "<group>"; };
 		BCBD5D1E2760BEB200261F16 /* lengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		BCBD5D202760D1BB00261F16 /* checkInclusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkInclusion.swift; sourceTree = "<group>"; };
+		BCC4478F27C10FDB0064D33C /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 		BCD98C5627BC9A0600AB87E5 /* SurroundedRegions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundedRegions.swift; sourceTree = "<group>"; };
 		BCDC496A27906F9200E6F795 /* pathSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathSum2.swift; sourceTree = "<group>"; };
 		BCDC49E02792F27400E6F795 /* deleteNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteNode.swift; sourceTree = "<group>"; };
@@ -445,6 +447,7 @@
 				BC2C18D32765F1640012AF45 /* combinations.swift */,
 				BC2C18DB276881C00012AF45 /* letterCasePermutation.swift */,
 				BC2C18D9276874250012AF45 /* permutations.swift */,
+				BCC4478F27C10FDB0064D33C /* Subsets.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -801,6 +804,7 @@
 				BCE48CA32753520400028475 /* InvertBinaryTree.swift in Sources */,
 				BC2C18D42765F1640012AF45 /* combinations.swift in Sources */,
 				BCF72FF92793E313005161E0 /* BSTIterator.swift in Sources */,
+				BCC4479027C10FDB0064D33C /* Subsets.swift in Sources */,
 				BCE48CA5275353D700028475 /* pathSum.swift in Sources */,
 				BC2C18C52761EFB60012AF45 /* floodFill.swift in Sources */,
 				52A6E76027350733009210A4 /* p11654.swift in Sources */,
