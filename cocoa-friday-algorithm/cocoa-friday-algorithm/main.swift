@@ -9,4 +9,4 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-print(subsets([1,2,3]))
+print(subsetsWithDup([1,2,2]))
