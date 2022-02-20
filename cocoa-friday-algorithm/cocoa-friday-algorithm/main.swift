@@ -9,4 +9,6 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-print(subsetsWithDup([1,2,2]))
+print(permuteUnique([1,2,3]))
+print("---")
+print(permuteUnique([1,1,2]))
