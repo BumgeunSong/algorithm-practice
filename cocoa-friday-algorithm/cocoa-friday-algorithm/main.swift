@@ -9,6 +9,5 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-print(permuteUnique([1,2,3]))
-print("---")
-print(permuteUnique([1,1,2]))
+let candidates = [2,3,6,7], target = 7
+print(combinationSum(candidates, target))
