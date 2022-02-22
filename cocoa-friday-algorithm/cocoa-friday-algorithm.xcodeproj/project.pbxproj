@@ -80,6 +80,7 @@
 		BC7ED78727BBC6E600183C81 /* findCircleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7ED78627BBC6E600183C81 /* findCircleNum.swift */; };
 		BC88EE60276C5B6D009E5DDF /* sortColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC88EE5F276C5B6D009E5DDF /* sortColors.swift */; };
 		BC88EE62276E16F5009E5DDF /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC88EE61276E16F5009E5DDF /* MergeIntervals.swift */; };
+		BC8BDC0527C4A637008E38F3 /* combinationSum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8BDC0427C4A637008E38F3 /* combinationSum2.swift */; };
 		BC8E378327AD670900CA84BC /* maxArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E378227AD670900CA84BC /* maxArea.swift */; };
 		BC94593E2782FFFE00C4FC30 /* swapPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94593D2782FFFE00C4FC30 /* swapPairs.swift */; };
 		BC94C931278C502D00E2FDA1 /* buildTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94C930278C502D00E2FDA1 /* buildTree.swift */; };
@@ -236,6 +237,7 @@
 		BC7ED78627BBC6E600183C81 /* findCircleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findCircleNum.swift; sourceTree = "<group>"; };
 		BC88EE5F276C5B6D009E5DDF /* sortColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortColors.swift; sourceTree = "<group>"; };
 		BC88EE61276E16F5009E5DDF /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
+		BC8BDC0427C4A637008E38F3 /* combinationSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combinationSum2.swift; sourceTree = "<group>"; };
 		BC8E378227AD670900CA84BC /* maxArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxArea.swift; sourceTree = "<group>"; };
 		BC94593D2782FFFE00C4FC30 /* swapPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapPairs.swift; sourceTree = "<group>"; };
 		BC94C930278C502D00E2FDA1 /* buildTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildTree.swift; sourceTree = "<group>"; };
@@ -451,6 +453,7 @@
 			isa = PBXGroup;
 			children = (
 				BC2C18D32765F1640012AF45 /* combinations.swift */,
+				BC8BDC0427C4A637008E38F3 /* combinationSum2.swift */,
 				BC2C18DB276881C00012AF45 /* letterCasePermutation.swift */,
 				BC2C18D9276874250012AF45 /* permutations.swift */,
 				BCC4478F27C10FDB0064D33C /* Subsets.swift */,
@@ -854,6 +857,7 @@
 				BCEB06BB27A3E4D300C8DA72 /* SearchRange.swift in Sources */,
 				BC7C8A172769BFDA002D52AB /* HouseRobber.swift in Sources */,
 				BC260BDA278715B00095F325 /* reverseKGroup.swift in Sources */,
+				BC8BDC0527C4A637008E38F3 /* combinationSum2.swift in Sources */,
 				BC49996427808C4800558C76 /* deleteDuplicates.swift in Sources */,
 				BC3EBAD42747970100CCE101 /* intersect.swift in Sources */,
 				BC499962277F164500558C76 /* getIntersectionNode.swift in Sources */,
