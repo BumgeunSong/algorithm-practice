@@ -9,6 +9,5 @@ import Foundation
 
 print("Let's get algorithm tested")
 
-let candidates = [10,1,2,7,6,1,5], target = 8
-
-print(Backtracking().combinationSum2(candidates, 8))
+print(generateParenthesis(3))
+print(generateParenthesis(1))

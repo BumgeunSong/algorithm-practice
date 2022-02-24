@@ -104,6 +104,7 @@
 		BCDC496B27906F9200E6F795 /* pathSum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC496A27906F9200E6F795 /* pathSum2.swift */; };
 		BCDC49E12792F27400E6F795 /* deleteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC49E02792F27400E6F795 /* deleteNode.swift */; };
 		BCE3683C27C117E900C4BD13 /* subsetsWithDup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE3683B27C117E900C4BD13 /* subsetsWithDup.swift */; };
+		BCE3CB6C27C7A800004F2AFE /* generateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE3CB6B27C7A800004F2AFE /* generateParenthesis.swift */; };
 		BCE48CA02752609900028475 /* levelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE48C9F2752609900028475 /* levelOrder.swift */; };
 		BCE48CA32753520400028475 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE48CA22753520400028475 /* InvertBinaryTree.swift */; };
 		BCE48CA5275353D700028475 /* pathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE48CA4275353D700028475 /* pathSum.swift */; };
@@ -261,6 +262,7 @@
 		BCDC496A27906F9200E6F795 /* pathSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathSum2.swift; sourceTree = "<group>"; };
 		BCDC49E02792F27400E6F795 /* deleteNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteNode.swift; sourceTree = "<group>"; };
 		BCE3683B27C117E900C4BD13 /* subsetsWithDup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subsetsWithDup.swift; sourceTree = "<group>"; };
+		BCE3CB6B27C7A800004F2AFE /* generateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateParenthesis.swift; sourceTree = "<group>"; };
 		BCE48C9F2752609900028475 /* levelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levelOrder.swift; sourceTree = "<group>"; };
 		BCE48CA22753520400028475 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
 		BCE48CA4275353D700028475 /* pathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathSum.swift; sourceTree = "<group>"; };
@@ -460,6 +462,7 @@
 				BCE3683B27C117E900C4BD13 /* subsetsWithDup.swift */,
 				BCB1A00127C262AB00D7B8FD /* permuteUnique.swift */,
 				BCB1A02527C37E0400D7B8FD /* combinationSum.swift */,
+				BCE3CB6B27C7A800004F2AFE /* generateParenthesis.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -850,6 +853,7 @@
 				BC9B89782754743E000B3828 /* searchBST.swift in Sources */,
 				BC2F4C8E27508541006613D5 /* isPalindrome.swift in Sources */,
 				BC9B897A27547642000B3828 /* insertIntoBST.swift in Sources */,
+				BCE3CB6C27C7A800004F2AFE /* generateParenthesis.swift in Sources */,
 				BC260BD227853EAC0095F325 /* p1009.swift in Sources */,
 				BC62BE2D27A7A0090016D35C /* findMin.swift in Sources */,
 				BC2C18CB27632A9C0012AF45 /* connect.swift in Sources */,
