@@ -6,8 +6,7 @@
 //
 
 import Foundation
+let board: [[Character]] = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
+let word = "ABCCED"
 
-print("Let's get algorithm tested")
-
-print(generateParenthesis(3))
-print(generateParenthesis(1))
+print(exist(board, word))
