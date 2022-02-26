@@ -6,7 +6,10 @@
 //
 
 import Foundation
-let board: [[Character]] = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
-let word = "ABCCED"
+var board: [[Character]] = [["A","B","C","E"],
+                            ["S","F","E","S"],
+                            ["A","D","E","E"]]
+let word = "ABCESEEEFS"
 
-print(exist(board, word))
+let result = exist(board, word)
+print(result)
