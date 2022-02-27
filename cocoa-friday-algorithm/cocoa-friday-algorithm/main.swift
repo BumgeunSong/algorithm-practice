@@ -6,10 +6,7 @@
 //
 
 import Foundation
-var board: [[Character]] = [["A","B","C","E"],
-                            ["S","F","E","S"],
-                            ["A","D","E","E"]]
-let word = "ABCESEEEFS"
 
-let result = exist(board, word)
+let nums = [2,3,2]
+let result = rob2(nums)
 print(result)
