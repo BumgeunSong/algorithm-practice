@@ -7,6 +7,8 @@
 
 import Foundation
 
-let nums = [2,3,2]
-let result = rob2(nums)
-print(result)
+//let result = canJump([2,3,1,1,4])
+let result2 = canJump([2,3,1,1,4])
+
+//print(result)
+print(result2)
