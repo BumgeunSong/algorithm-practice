@@ -24,6 +24,7 @@
 		BC102BD927B1628E00FB0A9B /* minSubArrayLen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC102BD827B1628E00FB0A9B /* minSubArrayLen.swift */; };
 		BC102BF927B35F7400FB0A9B /* isSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC102BF827B35F7400FB0A9B /* isSubtree.swift */; };
 		BC1AECFD2743CDF100920813 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */; };
+		BC250E6127CE627400226A8A /* JumpGame2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC250E6027CE627400226A8A /* JumpGame2.swift */; };
 		BC260BCB27847BA70095F325 /* designLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC260BCA27847BA70095F325 /* designLinkedList.swift */; };
 		BC260BCD27852C6A0095F325 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC260BCC27852C6A0095F325 /* Sample.swift */; };
 		BC260BD227853EAC0095F325 /* p1009.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC260BD127853EAC0095F325 /* p1009.swift */; };
@@ -185,6 +186,7 @@
 		BC102BD827B1628E00FB0A9B /* minSubArrayLen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minSubArrayLen.swift; sourceTree = "<group>"; };
 		BC102BF827B35F7400FB0A9B /* isSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSubtree.swift; sourceTree = "<group>"; };
 		BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
+		BC250E6027CE627400226A8A /* JumpGame2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame2.swift; sourceTree = "<group>"; };
 		BC260BCA27847BA70095F325 /* designLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designLinkedList.swift; sourceTree = "<group>"; };
 		BC260BCC27852C6A0095F325 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		BC260BD127853EAC0095F325 /* p1009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p1009.swift; sourceTree = "<group>"; };
@@ -480,6 +482,7 @@
 				BC2C18D6276729620012AF45 /* ClimbingStairs.swift */,
 				BCE3CB6F27CB4E65004F2AFE /* HouseRobber2.swift */,
 				BCE3CB7127CC545C004F2AFE /* Jump Game.swift */,
+				BC250E6027CE627400226A8A /* JumpGame2.swift */,
 				BC7C8A162769BFDA002D52AB /* HouseRobber.swift */,
 				BC7C8A182769D75B002D52AB /* Triangle.swift */,
 			);
@@ -884,6 +887,7 @@
 				BCE48CA02752609900028475 /* levelOrder.swift in Sources */,
 				BC2C18CD2764948C0012AF45 /* updateMatrix.swift in Sources */,
 				BCFE987B275CD3DB002F4954 /* reverseWords.swift in Sources */,
+				BC250E6127CE627400226A8A /* JumpGame2.swift in Sources */,
 				BCE84CA027AAA20400E918EC /* backspaceCompare.swift in Sources */,
 				BCFB5A6D27749E7B006025C0 /* longestPalindrome.swift in Sources */,
 				BC260BE3278AB4140095F325 /* sortedArrayToBST.swift in Sources */,

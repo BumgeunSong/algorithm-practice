@@ -6,9 +6,3 @@
 //
 
 import Foundation
-
-//let result = canJump([2,3,1,1,4])
-let result2 = canJump([2,3,1,1,4])
-
-//print(result)
-print(result2)
