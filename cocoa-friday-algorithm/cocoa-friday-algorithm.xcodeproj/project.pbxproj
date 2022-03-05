@@ -24,6 +24,7 @@
 		BC102BD927B1628E00FB0A9B /* minSubArrayLen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC102BD827B1628E00FB0A9B /* minSubArrayLen.swift */; };
 		BC102BF927B35F7400FB0A9B /* isSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC102BF827B35F7400FB0A9B /* isSubtree.swift */; };
 		BC1806DB27D1D5F10057679D /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1806DA27D1D5F10057679D /* UniquePaths.swift */; };
+		BC1806DD27D30C7F0057679D /* Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1806DC27D30C7F0057679D /* Longest Palindromic Substring.swift */; };
 		BC1AECFD2743CDF100920813 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */; };
 		BC250E6127CE627400226A8A /* JumpGame2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC250E6027CE627400226A8A /* JumpGame2.swift */; };
 		BC260BCB27847BA70095F325 /* designLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC260BCA27847BA70095F325 /* designLinkedList.swift */; };
@@ -187,6 +188,7 @@
 		BC102BD827B1628E00FB0A9B /* minSubArrayLen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minSubArrayLen.swift; sourceTree = "<group>"; };
 		BC102BF827B35F7400FB0A9B /* isSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSubtree.swift; sourceTree = "<group>"; };
 		BC1806DA27D1D5F10057679D /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
+		BC1806DC27D30C7F0057679D /* Longest Palindromic Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 		BC1AECFC2743CDF100920813 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		BC250E6027CE627400226A8A /* JumpGame2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame2.swift; sourceTree = "<group>"; };
 		BC260BCA27847BA70095F325 /* designLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designLinkedList.swift; sourceTree = "<group>"; };
@@ -486,6 +488,7 @@
 				BCE3CB7127CC545C004F2AFE /* Jump Game.swift */,
 				BC250E6027CE627400226A8A /* JumpGame2.swift */,
 				BC1806DA27D1D5F10057679D /* UniquePaths.swift */,
+				BC1806DC27D30C7F0057679D /* Longest Palindromic Substring.swift */,
 				BC7C8A162769BFDA002D52AB /* HouseRobber.swift */,
 				BC7C8A182769D75B002D52AB /* Triangle.swift */,
 			);
@@ -831,6 +834,7 @@
 				BC2F4C8A27507630006613D5 /* ReverseInteger.swift in Sources */,
 				BCFB5A6627735240006025C0 /* Search2DMatrix.swift in Sources */,
 				BC3EBAC927473F5400CCE101 /* Grading.swift in Sources */,
+				BC1806DD27D30C7F0057679D /* Longest Palindromic Substring.swift in Sources */,
 				BCFB5A712776FFBB006025C0 /* PartitionLabels.swift in Sources */,
 				BCFE98482758F457002F4954 /* searchInsertPosition.swift in Sources */,
 				BCE84CAA27ABE53C00E918EC /* intervalIntersection.swift in Sources */,

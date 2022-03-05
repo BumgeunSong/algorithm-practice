@@ -6,3 +6,5 @@
 //
 
 import Foundation
+
+print(longestPalindrome2("cbbd"))
