@@ -7,4 +7,6 @@
 
 import Foundation
 
-print(longestPalindrome2("cbbd"))
+func numberOfArithmeticSlices(_ nums: [Int]) -> Int {
+    
+}
