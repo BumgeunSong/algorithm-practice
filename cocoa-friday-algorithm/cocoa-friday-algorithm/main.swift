@@ -7,6 +7,5 @@
 
 import Foundation
 
-func numberOfArithmeticSlices(_ nums: [Int]) -> Int {
-    
-}
+let result = numberOfArithmeticSlices([7,7,7,7])
+print(result)
