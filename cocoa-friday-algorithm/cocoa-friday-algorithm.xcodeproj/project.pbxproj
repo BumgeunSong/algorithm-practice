@@ -82,6 +82,7 @@
 		BC7CF37A273F848500531D45 /* 약수의 합.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7CF379273F848500531D45 /* 약수의 합.swift */; };
 		BC7ED78727BBC6E600183C81 /* findCircleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7ED78627BBC6E600183C81 /* findCircleNum.swift */; };
 		BC802D6527D8DA1C002BD536 /* numberOfArithmeticSlices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC802D6427D8DA1B002BD536 /* numberOfArithmeticSlices.swift */; };
+		BC802D6727DA1807002BD536 /* HappyNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC802D6627DA1807002BD536 /* HappyNumbers.swift */; };
 		BC88EE60276C5B6D009E5DDF /* sortColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC88EE5F276C5B6D009E5DDF /* sortColors.swift */; };
 		BC88EE62276E16F5009E5DDF /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC88EE61276E16F5009E5DDF /* MergeIntervals.swift */; };
 		BC8BDC0527C4A637008E38F3 /* combinationSum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8BDC0427C4A637008E38F3 /* combinationSum2.swift */; };
@@ -247,6 +248,7 @@
 		BC7CF379273F848500531D45 /* 약수의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "약수의 합.swift"; sourceTree = "<group>"; };
 		BC7ED78627BBC6E600183C81 /* findCircleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findCircleNum.swift; sourceTree = "<group>"; };
 		BC802D6427D8DA1B002BD536 /* numberOfArithmeticSlices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberOfArithmeticSlices.swift; sourceTree = "<group>"; };
+		BC802D6627DA1807002BD536 /* HappyNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumbers.swift; sourceTree = "<group>"; };
 		BC88EE5F276C5B6D009E5DDF /* sortColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortColors.swift; sourceTree = "<group>"; };
 		BC88EE61276E16F5009E5DDF /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
 		BC8BDC0427C4A637008E38F3 /* combinationSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combinationSum2.swift; sourceTree = "<group>"; };
@@ -421,6 +423,7 @@
 			isa = PBXGroup;
 			children = (
 				BC661BBC2797D2F8001199D8 /* Crane_kakao.swift */,
+				BC802D6627DA1807002BD536 /* HappyNumbers.swift */,
 			);
 			path = _others;
 			sourceTree = "<group>";
@@ -778,6 +781,7 @@
 				BCD98C5727BC9A0600AB87E5 /* SurroundedRegions.swift in Sources */,
 				BCFB5A5E27719D32006025C0 /* SpiralMatrix.swift in Sources */,
 				52A6E75E2735000D009210A4 /* p8958.swift in Sources */,
+				BC802D6727DA1807002BD536 /* HappyNumbers.swift in Sources */,
 				BC7CF374273E3BF100531D45 /* 두 개 뽑아서 더하기.swift in Sources */,
 				BC260BDD278968E00095F325 /* MinStack.swift in Sources */,
 				BCFE984B2759F98C002F4954 /* sortedSquares.swift in Sources */,
