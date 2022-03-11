@@ -7,5 +7,10 @@
 
 import Foundation
 
-let result = numberOfArithmeticSlices([7,7,7,7])
-print(result)
+let result1 = numDecodings("12")
+let result2 = numDecodings("226")
+let result3 = numDecodings("06")
+
+print(result1)
+print(result2)
+print(result3)
