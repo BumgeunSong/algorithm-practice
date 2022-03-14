@@ -138,6 +138,7 @@
 		BCF961A4274CDD0800C05381 /* hasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF961A3274CDD0800C05381 /* hasCycle.swift */; };
 		BCF961A6274CDD7300C05381 /* mergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF961A5274CDD7300C05381 /* mergeTwoLists.swift */; };
 		BCF961A8274CDD9500C05381 /* removeElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF961A7274CDD9500C05381 /* removeElements.swift */; };
+		BCF9B77927DEB741008B4879 /* NumberofLongestIncreasingSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9B77827DEB741008B4879 /* NumberofLongestIncreasingSubsequence.swift */; };
 		BCFB5A58276F66BF006025C0 /* MyHashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A57276F66BF006025C0 /* MyHashMap.swift */; };
 		BCFB5A5A27705705006025C0 /* PascalsTriangle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A5927705705006025C0 /* PascalsTriangle2.swift */; };
 		BCFB5A5C27705A30006025C0 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB5A5B27705A30006025C0 /* RotateImage.swift */; };
@@ -307,6 +308,7 @@
 		BCF961A3274CDD0800C05381 /* hasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasCycle.swift; sourceTree = "<group>"; };
 		BCF961A5274CDD7300C05381 /* mergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeTwoLists.swift; sourceTree = "<group>"; };
 		BCF961A7274CDD9500C05381 /* removeElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeElements.swift; sourceTree = "<group>"; };
+		BCF9B77827DEB741008B4879 /* NumberofLongestIncreasingSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberofLongestIncreasingSubsequence.swift; sourceTree = "<group>"; };
 		BCFB5A57276F66BF006025C0 /* MyHashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashMap.swift; sourceTree = "<group>"; };
 		BCFB5A5927705705006025C0 /* PascalsTriangle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangle2.swift; sourceTree = "<group>"; };
 		BCFB5A5B27705A30006025C0 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
@@ -506,6 +508,7 @@
 				BC802D6827DAF164002BD536 /* DecodeWays.swift */,
 				BC70F81D27DC6EF000F880F0 /* WordBreak.swift */,
 				BC70F8A627DE0B7900F880F0 /* LongestIncreasingSubsequence.swift */,
+				BCF9B77827DEB741008B4879 /* NumberofLongestIncreasingSubsequence.swift */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -835,6 +838,7 @@
 				BC102BF927B35F7400FB0A9B /* isSubtree.swift in Sources */,
 				BCFB5A752778974F006025C0 /* Multiply Strings.swift in Sources */,
 				BC9D6C7C2755C26200518A10 /* twoSumBST.swift in Sources */,
+				BCF9B77927DEB741008B4879 /* NumberofLongestIncreasingSubsequence.swift in Sources */,
 				BC2C18DA276874250012AF45 /* permutations.swift in Sources */,
 				528D50632734E0640037B7B9 /* p1000.swift in Sources */,
 				BC7ED78727BBC6E600183C81 /* findCircleNum.swift in Sources */,
