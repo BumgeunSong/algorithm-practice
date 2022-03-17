@@ -64,6 +64,7 @@
 		BC499962277F164500558C76 /* getIntersectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC499961277F164500558C76 /* getIntersectionNode.swift */; };
 		BC49996427808C4800558C76 /* deleteDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC49996327808C4800558C76 /* deleteDuplicates.swift */; };
 		BC545A3627BA789B0053E2BD /* numIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC545A3527BA789B0053E2BD /* numIslands.swift */; };
+		BC5628F327E3062F00EF0665 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5628F227E3062F00EF0665 /* ContainsDuplicate.swift */; };
 		BC5FDD0727B54C2900CB2BF1 /* PopulatingNextRightPointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FDD0627B54C2900CB2BF1 /* PopulatingNextRightPointers.swift */; };
 		BC5FDD0B27B7FEDD00CB2BF1 /* shortestPathBinaryMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FDD0A27B7FEDD00CB2BF1 /* shortestPathBinaryMatrix.swift */; };
 		BC62BE2D27A7A0090016D35C /* findMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62BE2C27A7A0090016D35C /* findMin.swift */; };
@@ -235,6 +236,7 @@
 		BC499961277F164500558C76 /* getIntersectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getIntersectionNode.swift; sourceTree = "<group>"; };
 		BC49996327808C4800558C76 /* deleteDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteDuplicates.swift; sourceTree = "<group>"; };
 		BC545A3527BA789B0053E2BD /* numIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numIslands.swift; sourceTree = "<group>"; };
+		BC5628F227E3062F00EF0665 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		BC5FDD0627B54C2900CB2BF1 /* PopulatingNextRightPointers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulatingNextRightPointers.swift; sourceTree = "<group>"; };
 		BC5FDD0A27B7FEDD00CB2BF1 /* shortestPathBinaryMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shortestPathBinaryMatrix.swift; sourceTree = "<group>"; };
 		BC62BE2C27A7A0090016D35C /* findMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMin.swift; sourceTree = "<group>"; };
@@ -561,6 +563,7 @@
 				BCFB5A5D27719D32006025C0 /* SpiralMatrix.swift */,
 				BCFB5A6527735240006025C0 /* Search2DMatrix.swift */,
 				BCFB5A6727735F0D006025C0 /* Non-overlappingIntervals.swift */,
+				BC5628F227E3062F00EF0665 /* ContainsDuplicate.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -892,6 +895,7 @@
 				BCFB5A7327788EB6006025C0 /* GroupAnagram.swift in Sources */,
 				BCFF68A427998D0500544735 /* findJudge.swift in Sources */,
 				BCEB06BF27A69F4500C8DA72 /* SearchMatrix.swift in Sources */,
+				BC5628F327E3062F00EF0665 /* ContainsDuplicate.swift in Sources */,
 				BCDC496B27906F9200E6F795 /* pathSum2.swift in Sources */,
 				BC260BD6278571B70095F325 /* p1052.swift in Sources */,
 				BC2F4C8C27507A28006613D5 /* TwoSum.swift in Sources */,
