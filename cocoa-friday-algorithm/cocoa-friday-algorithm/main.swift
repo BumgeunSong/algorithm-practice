@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(findNumberOfLIS([2,2,2,2,2]))
-print(findNumberOfLIS([1,3,5,4,9,8]))
+
+
