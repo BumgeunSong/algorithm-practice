@@ -28,8 +28,16 @@ import Foundation
 
 struct Array {
     static func maxSubArray(_ nums: [Int]) -> Int {
-        let diff = 0
-        return diff
+        
+        var localMax = 0
+        var globalMax = nums[0]
+        
+        for num in nums {
+            localMax = max(localMax + num, num)
+            globalMax = max(globalMax, localMax)
+        }
+        
+        return globalMax
     }
 }
 
