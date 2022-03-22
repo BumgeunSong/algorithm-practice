@@ -42,4 +42,20 @@ class algorithmTests: XCTestCase {
         Array.merge(&nums1, m, nums2, n)
         XCTAssertEqual(nums1, [1])
     }
+    
+    func testTwoSum() throws {
+        var nums = [2,7,11,15], target = 9
+        let result1 = Array.twoSum(nums, target)
+        XCTAssertEqual(result1, [0,1])
+        
+        nums = [3,2,4]
+        target = 6
+        let result2 = Array.twoSum(nums, target)
+        XCTAssertEqual(result2, [1,2])
+        
+        nums = [3,3]
+        target = 6
+        let result3 = Array.twoSum(nums, target)
+        XCTAssertEqual(result3, [0,1])
+    }
 }
