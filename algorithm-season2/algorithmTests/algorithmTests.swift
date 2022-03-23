@@ -58,4 +58,15 @@ class algorithmTests: XCTestCase {
         let result3 = Array.twoSum(nums, target)
         XCTAssertEqual(result3, [0,1])
     }
+    
+    func testIntersect() {
+        var nums1 = [1,2,2,1], nums2 = [2,2]
+        let result1 = Array.intersect(nums1, nums2)
+        XCTAssertEqual(result1, [2,2])
+        
+        nums1 = [4,9,5]
+        nums2 = [9,4,9,8,4]
+        let result2 = Array.intersect(nums1, nums2)
+        XCTAssertEqual(result2, [4,9])
+    }
 }

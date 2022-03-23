@@ -14,6 +14,8 @@
 		BC56291927E4419100EF0665 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC56291727E4395000EF0665 /* MaximumSubarray.swift */; };
 		BC56291B27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC56291A27E75EBD00EF0665 /* MergeSortedArray.swift */; };
 		BC56291C27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC56291A27E75EBD00EF0665 /* MergeSortedArray.swift */; };
+		BC9E8DB727EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */; };
+		BC9E8DB827EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */; };
 		BCAB10B327EA043E000064E2 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB10B227EA043E000064E2 /* twoSum.swift */; };
 		BCAB10B427EA0565000064E2 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB10B227EA043E000064E2 /* twoSum.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +39,7 @@
 		BC56291127E4384200EF0665 /* algorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithmTests.swift; sourceTree = "<group>"; };
 		BC56291727E4395000EF0665 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		BC56291A27E75EBD00EF0665 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
+		BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionofTwoArrays2.swift; sourceTree = "<group>"; };
 		BCAB10B227EA043E000064E2 /* twoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +86,7 @@
 				BC56291727E4395000EF0665 /* MaximumSubarray.swift */,
 				BC56291A27E75EBD00EF0665 /* MergeSortedArray.swift */,
 				BCAB10B227EA043E000064E2 /* twoSum.swift */,
+				BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */,
 			);
 			path = "algorithm-season2";
 			sourceTree = "<group>";
@@ -186,6 +190,7 @@
 			files = (
 				BC56290527E437F400EF0665 /* main.swift in Sources */,
 				BC56291B27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
+				BC9E8DB727EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */,
 				BCAB10B327EA043E000064E2 /* twoSum.swift in Sources */,
 				BC56291827E4395000EF0665 /* MaximumSubarray.swift in Sources */,
 			);
@@ -198,6 +203,7 @@
 				BC56291627E438B600EF0665 /* main.swift in Sources */,
 				BCAB10B427EA0565000064E2 /* twoSum.swift in Sources */,
 				BC56291C27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
+				BC9E8DB827EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */,
 				BC56291227E4384200EF0665 /* algorithmTests.swift in Sources */,
 				BC56291927E4419100EF0665 /* MaximumSubarray.swift in Sources */,
 			);
