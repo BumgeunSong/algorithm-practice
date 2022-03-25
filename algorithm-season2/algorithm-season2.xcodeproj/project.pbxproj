@@ -16,6 +16,8 @@
 		BC56291C27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC56291A27E75EBD00EF0665 /* MergeSortedArray.swift */; };
 		BC9E8DB727EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */; };
 		BC9E8DB827EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */; };
+		BC9E8DCC27ED5EA600D65C41 /* maxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DCB27ED5EA600D65C41 /* maxProfit.swift */; };
+		BC9E8DCD27ED5EA600D65C41 /* maxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DCB27ED5EA600D65C41 /* maxProfit.swift */; };
 		BCAB10B327EA043E000064E2 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB10B227EA043E000064E2 /* twoSum.swift */; };
 		BCAB10B427EA0565000064E2 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB10B227EA043E000064E2 /* twoSum.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,7 @@
 		BC56291727E4395000EF0665 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		BC56291A27E75EBD00EF0665 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionofTwoArrays2.swift; sourceTree = "<group>"; };
+		BC9E8DCB27ED5EA600D65C41 /* maxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxProfit.swift; sourceTree = "<group>"; };
 		BCAB10B227EA043E000064E2 /* twoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +90,7 @@
 				BC56291A27E75EBD00EF0665 /* MergeSortedArray.swift */,
 				BCAB10B227EA043E000064E2 /* twoSum.swift */,
 				BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */,
+				BC9E8DCB27ED5EA600D65C41 /* maxProfit.swift */,
 			);
 			path = "algorithm-season2";
 			sourceTree = "<group>";
@@ -192,6 +196,7 @@
 				BC56291B27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
 				BC9E8DB727EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */,
 				BCAB10B327EA043E000064E2 /* twoSum.swift in Sources */,
+				BC9E8DCC27ED5EA600D65C41 /* maxProfit.swift in Sources */,
 				BC56291827E4395000EF0665 /* MaximumSubarray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC56291627E438B600EF0665 /* main.swift in Sources */,
+				BC9E8DCD27ED5EA600D65C41 /* maxProfit.swift in Sources */,
 				BCAB10B427EA0565000064E2 /* twoSum.swift in Sources */,
 				BC56291C27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
 				BC9E8DB827EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */,

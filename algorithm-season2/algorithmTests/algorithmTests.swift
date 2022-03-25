@@ -59,7 +59,7 @@ class algorithmTests: XCTestCase {
         XCTAssertEqual(result3, [0,1])
     }
     
-    func testIntersect() {
+    func testIntersect() throws {
         var nums1 = [1,2,2,1], nums2 = [2,2]
         let result1 = Array.intersect(nums1, nums2)
         XCTAssertEqual(result1, [2,2])
@@ -69,4 +69,30 @@ class algorithmTests: XCTestCase {
         let result2 = Array.intersect(nums1, nums2)
         XCTAssertEqual(result2, [4,9])
     }
+    
+    func testMaxProfit() throws {
+        let inputs = [
+            [7,1,5,3,6,4],
+            [7,6,4,3,1]
+        ]
+        
+        let output = inputs.map { prices in
+            Array.maxProfit(prices)
+        }
+        
+        XCTAssertEqual(output,
+                       [5, 0])
+    }
+    
+//    func testTemplate() throws {
+//        let inputs = [
+//            [7],
+//            [7]
+//        ]
+//        let output = inputs.map { prices in
+//            Array.maxProfit(prices)
+//        }
+//
+//        XCTAssertEqual(output, [])
+//    }
 }
