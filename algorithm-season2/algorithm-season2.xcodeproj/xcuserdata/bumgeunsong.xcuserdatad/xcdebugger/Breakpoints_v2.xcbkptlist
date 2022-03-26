@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "63D349AF-483D-46CA-A58C-87C990B75EFD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58FB895C-3E33-469C-8B26-568380AB74B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithm-season2/twoSum.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "twoSum(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A9E9AB9-9C0F-4133-A24D-8971E0209E45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithm-season2/maxProfit.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "maxProfit(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9A9E9AB9-9C0F-4133-A24D-8971E0209E45 - c5fd690d3a4abbfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static algorithmTests.Array.maxProfit(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/maxProfit.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "9A9E9AB9-9C0F-4133-A24D-8971E0209E45 - c5fd690d3a4abbfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static algorithmTests.Array.maxProfit(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/maxProfit.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "528">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BAC8742-2670-4C82-8E84-4B3942CD1E6B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithm-season2/mergeSort.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "mergeSort(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7BAC8742-2670-4C82-8E84-4B3942CD1E6B - 2d12efa0e13ff4e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static algorithmTests.Sorting.mergeSort(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/mergeSort.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "972">
+               </Location>
+               <Location
+                  uuid = "7BAC8742-2670-4C82-8E84-4B3942CD1E6B - 2d12efa0e13ff4e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static algorithmTests.Sorting.mergeSort(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/mergeSort.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "876">
+               </Location>
+               <Location
+                  uuid = "7BAC8742-2670-4C82-8E84-4B3942CD1E6B - 2d12efa0e13ff4e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static algorithmTests.Sorting.mergeSort(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/mergeSort.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "872">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB21E59A-9157-49E7-9595-9C851A5C1EDD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithm-season2/mergeSort.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "mergeSort(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19B6AF7F-C928-4B3A-B3DD-C7A81CDD1C0D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithm-season2/mergeSort.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "mergeSortedArray(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

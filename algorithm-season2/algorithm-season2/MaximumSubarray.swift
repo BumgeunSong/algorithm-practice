@@ -26,7 +26,7 @@ import Foundation
  시작 포인터 옮기면서 합에서 빼고, 최대값 기록
  */
 
-struct Array {
+struct Arrays {
     static func maxSubArray(_ nums: [Int]) -> Int {
         
         var localMax = 0

@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Array {
+extension Arrays {
     static func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
         // 둘다 정렬하고
         // 같은 숫자 나오면 추가한 뒤에 하나씩 뒤로

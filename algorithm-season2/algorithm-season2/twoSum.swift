@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Array {
+extension Arrays {
     static func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         let sortedNums = nums.enumerated().map { (index, value) in
             return (index: index, value: value)

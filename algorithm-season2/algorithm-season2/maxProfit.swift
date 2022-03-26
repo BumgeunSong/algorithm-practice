@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Array {
+extension Arrays {
     static func maxProfit(_ prices: [Int]) -> Int {
         var globalMax = 0
         var localMax = 0
