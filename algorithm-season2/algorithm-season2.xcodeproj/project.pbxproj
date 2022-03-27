@@ -23,6 +23,7 @@
 		BC9E8DD227EF070C00D65C41 /* mergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DD127EF070C00D65C41 /* mergeSort.swift */; };
 		BC9E8DD327EF070C00D65C41 /* mergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DD127EF070C00D65C41 /* mergeSort.swift */; };
 		BC9E8DD527EF075500D65C41 /* SortingAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DD427EF075500D65C41 /* SortingAlgorithmTests.swift */; };
+		BC9E8DDA27F0A9D800D65C41 /* Archery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DD927F0A9D800D65C41 /* Archery.swift */; };
 		BCAB10B327EA043E000064E2 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB10B227EA043E000064E2 /* twoSum.swift */; };
 		BCAB10B427EA0565000064E2 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB10B227EA043E000064E2 /* twoSum.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		BC9E8DCE27EF02F900D65C41 /* maxSheepCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxSheepCount.swift; sourceTree = "<group>"; };
 		BC9E8DD127EF070C00D65C41 /* mergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeSort.swift; sourceTree = "<group>"; };
 		BC9E8DD427EF075500D65C41 /* SortingAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmTests.swift; sourceTree = "<group>"; };
+		BC9E8DD927F0A9D800D65C41 /* Archery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archery.swift; sourceTree = "<group>"; };
 		BCAB10B227EA043E000064E2 /* twoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 				BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */,
 				BC9E8DCB27ED5EA600D65C41 /* maxProfit.swift */,
 				BC9E8DD127EF070C00D65C41 /* mergeSort.swift */,
+				BC9E8DD927F0A9D800D65C41 /* Archery.swift */,
 			);
 			path = "algorithm-season2";
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			files = (
 				BC9E8DCF27EF02F900D65C41 /* maxSheepCount.swift in Sources */,
 				BC56290527E437F400EF0665 /* main.swift in Sources */,
+				BC9E8DDA27F0A9D800D65C41 /* Archery.swift in Sources */,
 				BC9E8DD227EF070C00D65C41 /* mergeSort.swift in Sources */,
 				BC56291B27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
 				BC9E8DB727EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */,
