@@ -24,6 +24,8 @@
 		BC9E8DD327EF070C00D65C41 /* mergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DD127EF070C00D65C41 /* mergeSort.swift */; };
 		BC9E8DD527EF075500D65C41 /* SortingAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DD427EF075500D65C41 /* SortingAlgorithmTests.swift */; };
 		BC9E8DDA27F0A9D800D65C41 /* Archery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DD927F0A9D800D65C41 /* Archery.swift */; };
+		BC9E8DF427F1FE9700D65C41 /* ReshapetheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DF327F1FE9700D65C41 /* ReshapetheMatrix.swift */; };
+		BC9E8DF527F1FE9900D65C41 /* ReshapetheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DF327F1FE9700D65C41 /* ReshapetheMatrix.swift */; };
 		BCAB10B327EA043E000064E2 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB10B227EA043E000064E2 /* twoSum.swift */; };
 		BCAB10B427EA0565000064E2 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB10B227EA043E000064E2 /* twoSum.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,7 @@
 		BC9E8DD127EF070C00D65C41 /* mergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeSort.swift; sourceTree = "<group>"; };
 		BC9E8DD427EF075500D65C41 /* SortingAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmTests.swift; sourceTree = "<group>"; };
 		BC9E8DD927F0A9D800D65C41 /* Archery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archery.swift; sourceTree = "<group>"; };
+		BC9E8DF327F1FE9700D65C41 /* ReshapetheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReshapetheMatrix.swift; sourceTree = "<group>"; };
 		BCAB10B227EA043E000064E2 /* twoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +104,7 @@
 				BC56291A27E75EBD00EF0665 /* MergeSortedArray.swift */,
 				BCAB10B227EA043E000064E2 /* twoSum.swift */,
 				BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */,
+				BC9E8DF327F1FE9700D65C41 /* ReshapetheMatrix.swift */,
 				BC9E8DCB27ED5EA600D65C41 /* maxProfit.swift */,
 				BC9E8DD127EF070C00D65C41 /* mergeSort.swift */,
 				BC9E8DD927F0A9D800D65C41 /* Archery.swift */,
@@ -209,6 +213,7 @@
 				BC9E8DCF27EF02F900D65C41 /* maxSheepCount.swift in Sources */,
 				BC56290527E437F400EF0665 /* main.swift in Sources */,
 				BC9E8DDA27F0A9D800D65C41 /* Archery.swift in Sources */,
+				BC9E8DF427F1FE9700D65C41 /* ReshapetheMatrix.swift in Sources */,
 				BC9E8DD227EF070C00D65C41 /* mergeSort.swift in Sources */,
 				BC56291B27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
 				BC9E8DB727EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */,
@@ -229,6 +234,7 @@
 				BCAB10B427EA0565000064E2 /* twoSum.swift in Sources */,
 				BC56291C27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
 				BC9E8DB827EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */,
+				BC9E8DF527F1FE9900D65C41 /* ReshapetheMatrix.swift in Sources */,
 				BC56291227E4384200EF0665 /* ArrayAlgorithmTests.swift in Sources */,
 				BC9E8DD327EF070C00D65C41 /* mergeSort.swift in Sources */,
 				BC56291927E4419100EF0665 /* MaximumSubarray.swift in Sources */,
