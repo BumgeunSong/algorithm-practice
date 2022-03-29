@@ -147,5 +147,69 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F528A295-4D7F-4426-BDB7-40419BCBE718"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithm-season2/Archery.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "winner(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F528A295-4D7F-4426-BDB7-40419BCBE718 - 8bdfa4fd4ac82d5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static algorithmTests.Kakao.winner(Swift.Int, Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/Archery.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+               <Location
+                  uuid = "F528A295-4D7F-4426-BDB7-40419BCBE718 - 8bdfa4fd4ac82d3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static algorithmTests.Kakao.winner(Swift.Int, Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/Archery.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "137B1252-1972-4197-87C3-D956197E47CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithm-season2/Archery.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "winner(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

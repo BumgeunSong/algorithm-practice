@@ -26,6 +26,8 @@
 		BC9E8DDA27F0A9D800D65C41 /* Archery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DD927F0A9D800D65C41 /* Archery.swift */; };
 		BC9E8DF427F1FE9700D65C41 /* ReshapetheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DF327F1FE9700D65C41 /* ReshapetheMatrix.swift */; };
 		BC9E8DF527F1FE9900D65C41 /* ReshapetheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DF327F1FE9700D65C41 /* ReshapetheMatrix.swift */; };
+		BC9E8E1327F33BEA00D65C41 /* KakaoAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8E1227F33BEA00D65C41 /* KakaoAlgorithmTests.swift */; };
+		BC9E8E1427F33BFC00D65C41 /* Archery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DD927F0A9D800D65C41 /* Archery.swift */; };
 		BCAB10B327EA043E000064E2 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB10B227EA043E000064E2 /* twoSum.swift */; };
 		BCAB10B427EA0565000064E2 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB10B227EA043E000064E2 /* twoSum.swift */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,7 @@
 		BC9E8DD427EF075500D65C41 /* SortingAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmTests.swift; sourceTree = "<group>"; };
 		BC9E8DD927F0A9D800D65C41 /* Archery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archery.swift; sourceTree = "<group>"; };
 		BC9E8DF327F1FE9700D65C41 /* ReshapetheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReshapetheMatrix.swift; sourceTree = "<group>"; };
+		BC9E8E1227F33BEA00D65C41 /* KakaoAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAlgorithmTests.swift; sourceTree = "<group>"; };
 		BCAB10B227EA043E000064E2 /* twoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +120,7 @@
 			children = (
 				BC56291127E4384200EF0665 /* ArrayAlgorithmTests.swift */,
 				BC9E8DD427EF075500D65C41 /* SortingAlgorithmTests.swift */,
+				BC9E8E1227F33BEA00D65C41 /* KakaoAlgorithmTests.swift */,
 			);
 			path = algorithmTests;
 			sourceTree = "<group>";
@@ -228,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9E8DD527EF075500D65C41 /* SortingAlgorithmTests.swift in Sources */,
+				BC9E8E1427F33BFC00D65C41 /* Archery.swift in Sources */,
 				BC56291627E438B600EF0665 /* main.swift in Sources */,
 				BC9E8DD027EF02F900D65C41 /* maxSheepCount.swift in Sources */,
 				BC9E8DCD27ED5EA600D65C41 /* maxProfit.swift in Sources */,
@@ -236,6 +241,7 @@
 				BC9E8DB827EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */,
 				BC9E8DF527F1FE9900D65C41 /* ReshapetheMatrix.swift in Sources */,
 				BC56291227E4384200EF0665 /* ArrayAlgorithmTests.swift in Sources */,
+				BC9E8E1327F33BEA00D65C41 /* KakaoAlgorithmTests.swift in Sources */,
 				BC9E8DD327EF070C00D65C41 /* mergeSort.swift in Sources */,
 				BC56291927E4419100EF0665 /* MaximumSubarray.swift in Sources */,
 			);
