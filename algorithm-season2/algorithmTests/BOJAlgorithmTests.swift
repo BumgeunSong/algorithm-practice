@@ -9,36 +9,79 @@ import XCTest
 
 class BOJAlgorithmTests: XCTestCase {
     
-    let graph = [
-        1: [[2, 3]],
-        2: [[1, 3], [3, 2], [4, 4]],
-        3: [[2, 2]],
-        4: [[2, 4]]
-    ]
-    
-    override func setUp() {
-        
-    }
-    
-    func testMootube() {
-        
-        let result1 = getNumberOfRelatedVideo(root: 2, k: 1, graph: graph)
-        XCTAssertEqual(result1, 3)
-        
-    }
-    
-    func testMootube2() {
-        let result2 = getNumberOfRelatedVideo(root: 1, k: 4, graph: graph)
-        XCTAssertEqual(result2, 0)
-        
-    }
-    
-    func testMootube3() {
-        let result3 = getNumberOfRelatedVideo(root: 1, k: 3, graph: graph)
-        XCTAssertEqual(result3, 2)
-    }
-
     func testRead() {
-        read()
+        
+        let n = Int(readLine()!)!
+        
+        var prices = [0] + readLine()!.components(separatedBy: " ").map { Int($0)! }
+        
+        var discounts = [Int: [[Int]]]()
+        
+        for i in 0..<n {
+            let p1 = Int(readLine()!)!
+            for _ in 0..<p1 {
+                let lineArr = readLine()!.components(separatedBy: " ").map { Int($0)! }
+                discounts[i+1, default: [[Int]]()] += [lineArr]
+            }
+        }
+        print("discounts", discounts)
+        print("prices", prices)
+        
+        potion(prices: prices, discounts: discounts)
+    }
+    
+    func testPaste() {
+
+        func plus(lhs: Int, rhs: Int) -> Int {
+            let digits = String(rhs).count
+            return lhs * Int(pow(Double(10), Double(digits))) + rhs
+        }
+
+        func paste(_ root: Int, sum: Int, target: Int, visited: [Bool]) -> Int {
+            let sum = plus(lhs: sum, rhs: door[root-1])
+            if root == target { return sum }
+
+            var visited = visited
+            visited[root] = true
+
+            let toVisit = graph[root].filter { node in
+                                              !visited[node]
+                                             }
+
+            if toVisit.isEmpty { return 0 }
+
+            return toVisit.reduce(0) { partialResult, node in
+                                      return partialResult + paste(node, sum: sum, target: target, visited: visited)
+                                     }
+        }
+
+                let lineArr = readLine()!.components(separatedBy: " ").map { Int($0)! }
+                let n = lineArr[0]
+                let q = lineArr[1]
+                let door = readLine()!.components(separatedBy: " ").map { Int($0)! }
+                
+                let visited = Array(repeating: false, count: n+1)
+                var graph = Array(repeating: [Int](), count: n+1)
+                
+                for _ in 0..<n-1 {
+                    let lineArr = readLine()!.components(separatedBy: " ").map { Int($0)! }
+                    let node = lineArr[0]
+                    let toNode = lineArr[1]
+                    graph[node].append(toNode)
+                    graph[toNode].append(node)
+                }
+
+                var roots = [Int]()
+                var targets = [Int]()
+                for _ in 0..<q {
+                    let lineArr = readLine()!.components(separatedBy: " ").map { Int($0)! }
+                    roots.append(lineArr[0])
+                    targets.append(lineArr[1])
+                    
+                }
+                
+                for i in 0..<roots.count {
+                    print(paste(roots[i], sum: 0, target: targets[i], visited: visited) % 1000000007)
+                }
     }
 }

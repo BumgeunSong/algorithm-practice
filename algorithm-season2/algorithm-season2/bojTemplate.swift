@@ -8,10 +8,20 @@
 import Foundation
 
 func readInput() {
-    let lineArr = readLine()!.components(separatedBy: " ").map { Int($0)! }
     
-    let a = lineArr[0]
-    let b = lineArr[1]
+    let n = Int(readLine()!)!
     
-    print(a+b)
+    var prices = [0] + readLine()!.components(separatedBy: " ").map { Int($0)! }
+    
+    var discounts = [Int: [[Int]]]()
+    
+    for i in 0..<n {
+        let p1 = Int(readLine()!)!
+        for _ in 0..<p1 {
+            let lineArr = readLine()!.components(separatedBy: " ").map { Int($0)! }
+            discounts[i+1, default: [[Int]]()] += [lineArr]
+        }
+    }
+    
+    potion(prices: prices, discounts: discounts)
 }
