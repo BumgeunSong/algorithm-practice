@@ -7,6 +7,35 @@
 
 import Foundation
 
+func getMinPrices(prices: [Int], discounts: [Int: [(Int, Int)]]) -> Int {
+    var minSum = prices.reduce(0, +)
+    
+    func sumOfPrice(_ nums: [Int], currentSum: Int, prices: [Int]) {
+        if nums.count == 1 {
+            minSum = min(minSum, currentSum + prices[nums[0]])
+            return
+        }
+        
+        for num in nums {
+            if currentSum + prices[num] >= minSum { continue }
+            
+            var prices = prices
+            
+            discounts[num]?.forEach({ (discountTarget, discountAmount) in
+                prices[discountTarget] = max(1, prices[discountTarget] + discountAmount)
+            })
+            
+            let numsWithoutNum = nums.filter { $0 != num }
+            sumOfPrice(numsWithoutNum, currentSum: currentSum + prices[num], prices: prices)
+        }
+    }
+    
+    sumOfPrice(Array(0..<prices.count), currentSum: 0, prices: prices)
+    
+    return minSum
+}
+
+
 func potion(prices: [Int], discounts: [Int: [[Int]]]) {
     var minSum = prices.reduce(0, +)
     let visited = Array(repeating: false, count: prices.count)

@@ -317,8 +317,8 @@
             filePath = "algorithmTests/BOJAlgorithmTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "testRead()"
             landmarkType = "7">
          </BreakpointContent>
@@ -333,8 +333,8 @@
             filePath = "algorithm-season2/potion.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "dfs(_:prices:currentSum:visited:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -349,8 +349,8 @@
             filePath = "algorithm-season2/potion.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "dfs(_:prices:currentSum:visited:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -365,8 +365,8 @@
             filePath = "algorithm-season2/potion.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "dfs(_:prices:currentSum:visited:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -381,8 +381,8 @@
             filePath = "algorithm-season2/potion.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "dfs(_:prices:currentSum:visited:)"
             landmarkType = "9">
             <Locations>
@@ -429,10 +429,106 @@
             filePath = "algorithmTests/BOJAlgorithmTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "BOJAlgorithmTests"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F8BB13B-6861-43CE-A7C4-2B54A5664C7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithm-season2/potion.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "sumOfPrice(_:currentSum:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "2F8BB13B-6861-43CE-A7C4-2B54A5664C7D - e1fdb35996a79dbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumOfPrice(_: Swift.Array&lt;Swift.Int&gt;, currentSum: Swift.Int) -&gt; ()"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/potion.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "2F8BB13B-6861-43CE-A7C4-2B54A5664C7D - 4658f11f3ab7ca53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumOfPrice(_: Swift.Array&lt;Swift.Int&gt;, currentSum: Swift.Int, prices: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/potion.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "384">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5144F80-500C-47B1-BB15-44ADB337279F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithm-season2/potion.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "sumOfPrice(_:currentSum:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "E5144F80-500C-47B1-BB15-44ADB337279F - e1fdb35996a79ee6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumOfPrice(_: Swift.Array&lt;Swift.Int&gt;, currentSum: Swift.Int) -&gt; ()"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/potion.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "E5144F80-500C-47B1-BB15-44ADB337279F - 4658f11f3ab7c90e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumOfPrice(_: Swift.Array&lt;Swift.Int&gt;, currentSum: Swift.Int, prices: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/algorithm-season2/potion.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "672">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

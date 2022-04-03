@@ -9,6 +9,14 @@ import XCTest
 
 class BOJAlgorithmTests: XCTestCase {
     
+    func testSumOfPrice() {
+        let result = getMinPrices(prices: [10, 15, 20, 25], discounts: [
+            0: [(1, -20), (2, -10)], 1: [], 2: [(3, -10)], 3: [(1, -10)]
+        ])
+        XCTAssertEqual(result, 36)
+    }
+    
+    
     func testRead() {
         
         let n = Int(readLine()!)!
@@ -24,6 +32,7 @@ class BOJAlgorithmTests: XCTestCase {
                 discounts[i+1, default: [[Int]]()] += [lineArr]
             }
         }
+        
         print("discounts", discounts)
         print("prices", prices)
         
