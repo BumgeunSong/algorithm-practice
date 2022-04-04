@@ -38,6 +38,8 @@
 		BCC6640727F815110078C1E2 /* potion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6640527F815110078C1E2 /* potion.swift */; };
 		BCC6640927F8311C0078C1E2 /* paste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6640827F8311C0078C1E2 /* paste.swift */; };
 		BCC6640A27F8311C0078C1E2 /* paste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6640827F8311C0078C1E2 /* paste.swift */; };
+		BCC6640D27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6640C27FA6E210078C1E2 /* CoreAlgorithm.swift */; };
+		BCC6640E27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6640C27FA6E210078C1E2 /* CoreAlgorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +75,7 @@
 		BCC6640327F6E88C0078C1E2 /* bojTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bojTemplate.swift; sourceTree = "<group>"; };
 		BCC6640527F815110078C1E2 /* potion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = potion.swift; sourceTree = "<group>"; };
 		BCC6640827F8311C0078C1E2 /* paste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paste.swift; sourceTree = "<group>"; };
+		BCC6640C27FA6E210078C1E2 /* CoreAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAlgorithm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 		BC5628F827E437F400EF0665 = {
 			isa = PBXGroup;
 			children = (
+				BCC6640B27FA672E0078C1E2 /* Core */,
 				BC56290327E437F400EF0665 /* algorithm-season2 */,
 				BC56291027E4384200EF0665 /* algorithmTests */,
 				BC56290227E437F400EF0665 /* Products */,
@@ -143,6 +147,14 @@
 			path = algorithmTests;
 			sourceTree = "<group>";
 		};
+		BCC6640B27FA672E0078C1E2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BCC6640C27FA6E210078C1E2 /* CoreAlgorithm.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,7 +200,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					BC56290027E437F400EF0665 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -236,6 +248,7 @@
 				BC56290527E437F400EF0665 /* main.swift in Sources */,
 				BC9E8DDA27F0A9D800D65C41 /* Archery.swift in Sources */,
 				BC9E8DF427F1FE9700D65C41 /* ReshapetheMatrix.swift in Sources */,
+				BCC6640D27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */,
 				BCC663FF27F6D3320078C1E2 /* USADO.swift in Sources */,
 				BC9E8DD227EF070C00D65C41 /* mergeSort.swift in Sources */,
 				BCC6640627F815110078C1E2 /* potion.swift in Sources */,
@@ -269,6 +282,7 @@
 				BCC6640227F6D7790078C1E2 /* USADO.swift in Sources */,
 				BC9E8E1327F33BEA00D65C41 /* KakaoAlgorithmTests.swift in Sources */,
 				BC9E8DD327EF070C00D65C41 /* mergeSort.swift in Sources */,
+				BCC6640E27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */,
 				BC56291927E4419100EF0665 /* MaximumSubarray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +408,7 @@
 		BC56290927E437F400EF0665 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6HM92H898;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -405,6 +420,7 @@
 		BC56290A27E437F400EF0665 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6HM92H898;
 				ENABLE_HARDENED_RUNTIME = YES;

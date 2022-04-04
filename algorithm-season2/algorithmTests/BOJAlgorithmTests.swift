@@ -21,7 +21,7 @@ class BOJAlgorithmTests: XCTestCase {
         
         let n = Int(readLine()!)!
         
-        var prices = [0] + readLine()!.components(separatedBy: " ").map { Int($0)! }
+        let prices = [0] + readLine()!.components(separatedBy: " ").map { Int($0)! }
         
         var discounts = [Int: [[Int]]]()
         
@@ -92,5 +92,25 @@ class BOJAlgorithmTests: XCTestCase {
                 for i in 0..<roots.count {
                     print(paste(roots[i], sum: 0, target: targets[i], visited: visited) % 1000000007)
                 }
+    }
+    
+    
+    func testGraph() {
+        let graph = Graph<Int>()
+        let v1 = graph.createVertex(1)
+        let v2 = graph.createVertex(2)
+        let v3 = graph.createVertex(3)
+        let v4 = graph.createVertex(4)
+        let v5 = graph.createVertex(5)
+        
+        graph.addUndirectedEdge(vertex1: v1, to: v2)
+        graph.addUndirectedEdge(vertex1: v2, to: v3)
+        graph.addUndirectedEdge(vertex1: v3, to: v1)
+        graph.addUndirectedEdge(vertex1: v3, to: v2)
+        graph.addUndirectedEdge(vertex1: v3, to: v5)
+        graph.addUndirectedEdge(vertex1: v2, to: v4)
+        graph.addUndirectedEdge(vertex1: v5, to: v1)
+        
+        print(graph)
     }
 }
