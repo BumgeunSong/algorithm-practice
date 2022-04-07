@@ -11,7 +11,7 @@ func readInput() {
     
     let n = Int(readLine()!)!
     
-    var prices = [0] + readLine()!.components(separatedBy: " ").map { Int($0)! }
+    let prices = [0] + readLine()!.components(separatedBy: " ").map { Int($0)! }
     
     var discounts = [Int: [[Int]]]()
     
