@@ -557,8 +557,8 @@
             filePath = "Core/wordChange.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "isAdjascent(_:_:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -582,49 +582,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "67BF3B8C-1C36-486C-B29D-2288965BD2EF"
+            uuid = "3194F2FD-21E5-4B4C-8B01-C221A549DB61"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Core/wordChange.swift"
+            filePath = "Core/todayhouse2.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "unknown"
-            landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "67BF3B8C-1C36-486C-B29D-2288965BD2EF - 53885c27e5499cda"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "algorithmTests.wordChange(Swift.String, Swift.String, Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Int"
-                  moduleName = "algorithmTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/wordChange.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "752">
-               </Location>
-               <Location
-                  uuid = "67BF3B8C-1C36-486C-B29D-2288965BD2EF - 53885c27e5499cda"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "algorithmTests.wordChange(Swift.String, Swift.String, Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Int"
-                  moduleName = "algorithmTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/wordChange.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "1072">
-               </Location>
-            </Locations>
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "solution(_:_:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
