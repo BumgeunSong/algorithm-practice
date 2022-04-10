@@ -7,72 +7,94 @@
 
 import Foundation
 
-public class LinkedListNode<T> {
-  var value: T
+public class LinkedListNode {
+  var value: String
   var next: LinkedListNode?
 
-  public init(value: T) {
+  public init(value: String) {
     self.value = value
   }
 }
 
-func solution(_ tString: String, _ variables: [[String]]) -> String {
-    var dict = [String: LinkedListNode<String>]()
+func isTemplate(_ string: String) -> Bool {
+    return (string.first, string.last) == (Character("{"), Character("}"))
+}
+
+func unBracket(_ string: String) -> String {
+    return String(string.dropFirst().dropLast())
+}
+
+func todayHouse2(_ tString: String, _ variables: [[String]]) -> String {
+    var dict = [String: LinkedListNode]()
+    var tempDict = [String: LinkedListNode]()
     
-    let noTemplates = variables.filter { variable in
-        (variable[1].first, variable[1].last) != (Character("{"), Character("}"))
-    }
+    let simple = variables.filter { !isTemplate($0[1]) }
+    let linked = variables.filter { isTemplate($0[1]) }
     
-    
-    let yesTemplates = variables.filter { variable in
-        (variable[1].first, variable[1].last) == (Character("{"), Character("}"))
-    }
-    
-    for variable in noTemplates {
-        dict[variable[0]] = LinkedListNode(value: variable[0])
-        dict[variable[1]] = LinkedListNode(value: variable[1])
-        var newStr = String(variable[1].dropFirst().dropLast())
-    }
-    
-    for variable in yesTemplates {
+    simple.forEach { variable in
         let newNode = LinkedListNode(value: variable[0])
-        
-        if let nextNode = dict[variable[1]] {
-            newNode.next = nextNode
+        newNode.next = LinkedListNode(value: variable[1])
+        dict[variable[0]] = newNode
+    }
+    
+    func findNewNode(_ string: String) -> LinkedListNode {
+        if let node = dict[string] { return node }
+        else if let node = tempDict[string] { return node}
+        return LinkedListNode(value: string)
+    }
+    
+    func findNextNode(_ string: String) -> LinkedListNode {
+        if let nextNode = dict[string] {
+            return nextNode
         } else {
-            newNode.next = LinkedListNode(value: variable[1])
+            let nextNode = LinkedListNode(value: string)
+            tempDict[string] = nextNode
+            return nextNode
         }
+    }
+ 
+    
+    linked.forEach { variable in
+        let newNode = findNewNode(variable[0])
+        let nextNode = findNextNode(unBracket(variable[1]))
         
+        newNode.next = nextNode
         dict[variable[0]] = newNode
     }
     
     
-    
-    tString.components(separatedBy: " ").map { word in
-        if (word.first)
+    let split = tString.components(separatedBy: " ").map { word -> String in
+        guard isTemplate(word) else { return word }
+        
+        guard let list = dict[unBracket(word)] else { return word }
+        
+        if hasCycle(list) { return word }
+        
+        return getTailValue(list)
     }
     
-    func hasCycle(_ head: LinkedListNode<String>) -> Bool {
-        if head == nil { return false }
-        
-        var fast = head
-        var slow = head
-        
-        while fast.next != nil && fast.next?.next != nil {
-            fast = fast.next!.next!
-            slow = slow.next!
-            
-            if fast === slow { return true }
-        }
-        
-        return false
-    }
+    return split.joined(separator: " ")
+}
+
+
+
+func hasCycle(_ head: LinkedListNode) -> Bool {
+    var fast = head
+    var slow = head
     
-    func getTailValue(_ head: LinkedListNode<String>) -> String {
-        var pointer = head
-        while let next = pointer.next {
-            pointer = next
-        }
-        return pointer.value
+    while fast.next != nil, fast.next?.next != nil {
+        fast = fast.next!.next!
+        slow = slow.next!
+        if fast === slow { return true }
     }
+    return false
+}
+
+func getTailValue(_ head: LinkedListNode) -> String {
+    var pointer = head
+    
+    while let next = pointer.next {
+        pointer = next
+    }
+    return pointer.value
 }

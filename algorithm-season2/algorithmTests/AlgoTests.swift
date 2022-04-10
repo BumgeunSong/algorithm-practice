@@ -50,12 +50,29 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(wordChange(input1, input2, input3), answer)
     }
     
-    func test<#function#>() throws {
-        let input1 = <#input1#>
-        let input2 = <#input2#>
-        let answer = <#answer#>
+    func testWordChange2() throws {
+        let input1 = "hit"
+        let input2 = "cog"
+        let input3 = ["hot", "dot", "dog", "lot", "log"]
+        let answer = 0
         
-        XCTAssertEqual(<#function#>(input1, input2), answer)
+        XCTAssertEqual(wordChange(input1, input2, input3), answer)
+    }
+    
+    func testTodayHouse2() throws {
+        let input1 = "{a} {b} {c} {d} {i}"
+        let input2 = [
+            ["b", "{c}"],
+            ["a", "{b}"],
+            ["e", "{f}"],
+            ["h", "i"],
+            ["d", "{e}"],
+            ["f", "{d}"],
+            ["c", "d"]
+        ]
+        let answer = "d d d {d} {i}"
+        
+        XCTAssertEqual(todayHouse2(input1, input2), answer)
     }
     
 }
