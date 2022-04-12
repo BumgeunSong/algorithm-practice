@@ -75,4 +75,38 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(todayHouse2(input1, input2), answer)
     }
     
+    func testGeneric() throws {
+        func decodeFactory<T>(_ t: T, number: Int) {
+            print(type(of: T.self))
+            print(MemoryLayout.size(ofValue: t))
+        }
+        let decodable = CGRect(x: 1, y: 1, width: 1, height: 1) as! Decodable
+        print(MemoryLayout.size(ofValue: CGRect(x: 1, y: 1, width: 1, height: 1) as! Decodable))
+        print(MemoryLayout.size(ofValue: ["String", "2", "3", "4"]))
+    }
+    
+    func testEveryCity1() throws {
+        let input1 = [["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]
+        let answer = ["ICN", "JFK", "HND", "IAD"]
+        
+        XCTAssertEqual(everyCity(input1), answer)
+    }
+    
+    func testEveryCity2() throws {
+        let input1 = [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]
+        let answer = ["ICN", "ATL", "ICN", "SFO", "ATL", "SFO"]
+
+        
+        XCTAssertEqual(everyCity(input1), answer)
+    }
+    
+    func testConnectIslands() throws {
+        let input1 = 4
+        let input2 = [[0,1,1],[0,2,2],[1,2,5],[1,3,1],[2,3,8]]    
+        let answer = 4
+        
+        XCTAssertEqual(connectIslands(input1, input2), answer)
+    }
+    
+    
 }
