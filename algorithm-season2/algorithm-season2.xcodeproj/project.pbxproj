@@ -51,6 +51,8 @@
 		BCC6640A27F8311C0078C1E2 /* paste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6640827F8311C0078C1E2 /* paste.swift */; };
 		BCC6640D27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6640C27FA6E210078C1E2 /* CoreAlgorithm.swift */; };
 		BCC6640E27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6640C27FA6E210078C1E2 /* CoreAlgorithm.swift */; };
+		BCFE47DF280C5D5100F23DCE /* trainingSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE47DE280C5D5100F23DCE /* trainingSuit.swift */; };
+		BCFE47E0280C5D5100F23DCE /* trainingSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE47DE280C5D5100F23DCE /* trainingSuit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +93,7 @@
 		BCC6640527F815110078C1E2 /* potion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = potion.swift; sourceTree = "<group>"; };
 		BCC6640827F8311C0078C1E2 /* paste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paste.swift; sourceTree = "<group>"; };
 		BCC6640C27FA6E210078C1E2 /* CoreAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAlgorithm.swift; sourceTree = "<group>"; };
+		BCFE47DE280C5D5100F23DCE /* trainingSuit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trainingSuit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,7 @@
 				BC3D4A2727FECC4A009B37FB /* wordChange.swift */,
 				BCC3729E2803A81300774933 /* everyCity.swift */,
 				BC4060852805647500E03651 /* ConnectingIslands.swift */,
+				BCFE47DE280C5D5100F23DCE /* trainingSuit.swift */,
 				BCC37298280147A100774933 /* todayHouse.swift */,
 				BCC3729B2801570A00774933 /* todayhouse2.swift */,
 			);
@@ -275,6 +279,7 @@
 				BC9E8DD227EF070C00D65C41 /* mergeSort.swift in Sources */,
 				BC3D4A1B27FDB573009B37FB /* 양궁대회.swift in Sources */,
 				BCC6640627F815110078C1E2 /* potion.swift in Sources */,
+				BCFE47DF280C5D5100F23DCE /* trainingSuit.swift in Sources */,
 				BC4060862805647500E03651 /* ConnectingIslands.swift in Sources */,
 				BC56291B27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
 				BC9E8DB727EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */,
@@ -304,6 +309,7 @@
 				BC9E8DCD27ED5EA600D65C41 /* maxProfit.swift in Sources */,
 				BCAB10B427EA0565000064E2 /* twoSum.swift in Sources */,
 				BC3D4A1C27FDB573009B37FB /* 양궁대회.swift in Sources */,
+				BCFE47E0280C5D5100F23DCE /* trainingSuit.swift in Sources */,
 				BC4060872805647500E03651 /* ConnectingIslands.swift in Sources */,
 				BC56291C27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
 				BC9E8DB827EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */,

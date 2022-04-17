@@ -108,5 +108,13 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(connectIslands(input1, input2), answer)
     }
     
+    func testTrainingSuit() throws {
+        let input1 = 5
+        let input2 = [2,4]
+        let input3 = [3]
+        let answer = 4
+        
+        XCTAssertEqual(trainingSuit(input1, input2, input3), answer)
+    }
     
 }
