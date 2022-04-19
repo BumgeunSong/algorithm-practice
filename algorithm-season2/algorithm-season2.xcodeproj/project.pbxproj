@@ -53,6 +53,14 @@
 		BCC6640E27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6640C27FA6E210078C1E2 /* CoreAlgorithm.swift */; };
 		BCFE47DF280C5D5100F23DCE /* trainingSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE47DE280C5D5100F23DCE /* trainingSuit.swift */; };
 		BCFE47E0280C5D5100F23DCE /* trainingSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE47DE280C5D5100F23DCE /* trainingSuit.swift */; };
+		BCFE47E2280CE57900F23DCE /* getLargeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE47E1280CE57900F23DCE /* getLargeNumber.swift */; };
+		BCFE47E3280CE57900F23DCE /* getLargeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE47E1280CE57900F23DCE /* getLargeNumber.swift */; };
+		BCFE47E5280D242200F23DCE /* makePrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE47E4280D242200F23DCE /* makePrimeNumber.swift */; };
+		BCFE47E6280D242200F23DCE /* makePrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE47E4280D242200F23DCE /* makePrimeNumber.swift */; };
+		BCFE4889280D8AD300F23DCE /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE4888280D8AD300F23DCE /* HashTable.swift */; };
+		BCFE488A280D8AD300F23DCE /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE4888280D8AD300F23DCE /* HashTable.swift */; };
+		BCFE488C280E960E00F23DCE /* Subset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE488B280E960E00F23DCE /* Subset.swift */; };
+		BCFE488D280E960E00F23DCE /* Subset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE488B280E960E00F23DCE /* Subset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,6 +102,10 @@
 		BCC6640827F8311C0078C1E2 /* paste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paste.swift; sourceTree = "<group>"; };
 		BCC6640C27FA6E210078C1E2 /* CoreAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAlgorithm.swift; sourceTree = "<group>"; };
 		BCFE47DE280C5D5100F23DCE /* trainingSuit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trainingSuit.swift; sourceTree = "<group>"; };
+		BCFE47E1280CE57900F23DCE /* getLargeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getLargeNumber.swift; sourceTree = "<group>"; };
+		BCFE47E4280D242200F23DCE /* makePrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makePrimeNumber.swift; sourceTree = "<group>"; };
+		BCFE4888280D8AD300F23DCE /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
+		BCFE488B280E960E00F23DCE /* Subset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +186,10 @@
 				BCFE47DE280C5D5100F23DCE /* trainingSuit.swift */,
 				BCC37298280147A100774933 /* todayHouse.swift */,
 				BCC3729B2801570A00774933 /* todayhouse2.swift */,
+				BCFE47E1280CE57900F23DCE /* getLargeNumber.swift */,
+				BCFE47E4280D242200F23DCE /* makePrimeNumber.swift */,
+				BCFE4888280D8AD300F23DCE /* HashTable.swift */,
+				BCFE488B280E960E00F23DCE /* Subset.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -268,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC56290527E437F400EF0665 /* main.swift in Sources */,
+				BCFE47E5280D242200F23DCE /* makePrimeNumber.swift in Sources */,
 				BC9E8DDA27F0A9D800D65C41 /* Archery.swift in Sources */,
 				BCC37299280147A100774933 /* todayHouse.swift in Sources */,
 				BCC3729C2801570A00774933 /* todayhouse2.swift in Sources */,
@@ -278,7 +295,9 @@
 				BCC663FF27F6D3320078C1E2 /* USADO.swift in Sources */,
 				BC9E8DD227EF070C00D65C41 /* mergeSort.swift in Sources */,
 				BC3D4A1B27FDB573009B37FB /* 양궁대회.swift in Sources */,
+				BCFE47E2280CE57900F23DCE /* getLargeNumber.swift in Sources */,
 				BCC6640627F815110078C1E2 /* potion.swift in Sources */,
+				BCFE4889280D8AD300F23DCE /* HashTable.swift in Sources */,
 				BCFE47DF280C5D5100F23DCE /* trainingSuit.swift in Sources */,
 				BC4060862805647500E03651 /* ConnectingIslands.swift in Sources */,
 				BC56291B27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
@@ -286,6 +305,7 @@
 				BCAB10B327EA043E000064E2 /* twoSum.swift in Sources */,
 				BC9E8DCC27ED5EA600D65C41 /* maxProfit.swift in Sources */,
 				BCC6640927F8311C0078C1E2 /* paste.swift in Sources */,
+				BCFE488C280E960E00F23DCE /* Subset.swift in Sources */,
 				BC3D4A2227FEC134009B37FB /* targetNumber.swift in Sources */,
 				BC3D4A2827FECC4A009B37FB /* wordChange.swift in Sources */,
 				BC56291827E4395000EF0665 /* MaximumSubarray.swift in Sources */,
@@ -298,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3D4A1E27FDC01F009B37FB /* AlgoTests.swift in Sources */,
+				BCFE47E6280D242200F23DCE /* makePrimeNumber.swift in Sources */,
 				BCC6640727F815110078C1E2 /* potion.swift in Sources */,
 				BCC3729A280147A100774933 /* todayHouse.swift in Sources */,
 				BCC3729D2801570A00774933 /* todayhouse2.swift in Sources */,
@@ -308,7 +329,9 @@
 				BCC6640A27F8311C0078C1E2 /* paste.swift in Sources */,
 				BC9E8DCD27ED5EA600D65C41 /* maxProfit.swift in Sources */,
 				BCAB10B427EA0565000064E2 /* twoSum.swift in Sources */,
+				BCFE47E3280CE57900F23DCE /* getLargeNumber.swift in Sources */,
 				BC3D4A1C27FDB573009B37FB /* 양궁대회.swift in Sources */,
+				BCFE488A280D8AD300F23DCE /* HashTable.swift in Sources */,
 				BCFE47E0280C5D5100F23DCE /* trainingSuit.swift in Sources */,
 				BC4060872805647500E03651 /* ConnectingIslands.swift in Sources */,
 				BC56291C27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */,
@@ -316,6 +339,7 @@
 				BC9E8DF527F1FE9900D65C41 /* ReshapetheMatrix.swift in Sources */,
 				BCC6640227F6D7790078C1E2 /* USADO.swift in Sources */,
 				BC9E8DD327EF070C00D65C41 /* mergeSort.swift in Sources */,
+				BCFE488D280E960E00F23DCE /* Subset.swift in Sources */,
 				BC3D4A2327FEC134009B37FB /* targetNumber.swift in Sources */,
 				BC3D4A2927FECC4A009B37FB /* wordChange.swift in Sources */,
 				BCC6640E27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */,

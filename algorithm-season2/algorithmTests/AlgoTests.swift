@@ -117,4 +117,61 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(trainingSuit(input1, input2, input3), answer)
     }
     
+    func testLargeNumber() throws {
+        let input1 = "1924"
+        let input2 = 2
+        let answer = "94"
+        
+        XCTAssertEqual(getLargeNumber(input1, input2), answer)
+    }
+    
+    func testLargeNumber2() throws {
+        let input1 = "1231234"
+        let input2 = 3
+        let answer = "3234"
+        
+        XCTAssertEqual(getLargeNumber(input1, input2), answer)
+    }
+    
+    func testLargeNumber3() throws {
+        let input1 = "4177252841"
+        let input2 = 4
+        let answer = "775841"
+        
+        XCTAssertEqual(getLargeNumber(input1, input2), answer)
+    }
+    
+    func testMakePrimeNumber() throws {
+        let input1 = [1,2,3,4]
+        let answer = 1
+        
+        XCTAssertEqual(makePrimeNumber(input1), answer)
+    }
+    
+    func testMakePrimeNumber2() throws {
+        let input1 = [1,2,7,6,4]
+        let answer = 4
+        
+        XCTAssertEqual(makePrimeNumber(input1), answer)
+    }
+    
+    func testSubset() throws {
+        let input1 = [1,2,2]
+        print(subsetsWitDup(input1))
+        XCTAssertEqual([[],[1],[1,2],[1,2,2],[2],[2,2]], subsetsWitDup(input1))
+    }
+    
+    func testGetCombination() throws {
+        let input1 = [1,2,3]
+        let input2 = 2
+        let answer = [[1,2],[2,3],[3,1]]
+        
+        XCTAssertEqual(getCombination(input1, k: input2), answer)
+    }
+    
+    func testGetCombinationSum() throws {
+        let input1 = [1,2,3]
+        
+        print(getCombinationSum(input1, 2))
+    }
 }

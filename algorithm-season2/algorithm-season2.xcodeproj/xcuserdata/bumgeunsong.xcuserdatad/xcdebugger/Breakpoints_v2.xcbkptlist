@@ -691,5 +691,226 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9CA6AD43-9365-42A3-9216-058E081466A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Subset.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "subsetsWitDup(_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29CF3E48-C960-46A7-B2E7-BF40B700E963"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Subset.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "subsetsWitDup(_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "29CF3E48-C960-46A7-B2E7-BF40B700E963 - 54f88df145c1940"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "algorithmTests.subsetsWitDup(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;Swift.Array&lt;Swift.Int&gt;&gt;"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/Subset.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "29CF3E48-C960-46A7-B2E7-BF40B700E963 - 54f88df145c1940"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "algorithmTests.subsetsWitDup(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Array&lt;Swift.Array&lt;Swift.Int&gt;&gt;"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/Subset.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "134AECB8-C648-4573-A2F1-F0D6FE35A94C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithmTests/AlgoTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "AlgoTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A2BBDC6-3ABC-4E1D-93D0-A37C8692A916"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/makePrimeNumber.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "makePrimeNumber(_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "9A2BBDC6-3ABC-4E1D-93D0-A37C8692A916 - 357336044da6609e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "algorithmTests.makePrimeNumber(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/makePrimeNumber.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1376">
+               </Location>
+               <Location
+                  uuid = "9A2BBDC6-3ABC-4E1D-93D0-A37C8692A916 - 357336044da660bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "algorithmTests.makePrimeNumber(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/makePrimeNumber.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1288">
+               </Location>
+               <Location
+                  uuid = "9A2BBDC6-3ABC-4E1D-93D0-A37C8692A916 - 357336044da660bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "algorithmTests.makePrimeNumber(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/makePrimeNumber.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1284">
+               </Location>
+               <Location
+                  uuid = "9A2BBDC6-3ABC-4E1D-93D0-A37C8692A916 - 357336044da660bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "algorithmTests.makePrimeNumber(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/makePrimeNumber.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1320">
+               </Location>
+               <Location
+                  uuid = "9A2BBDC6-3ABC-4E1D-93D0-A37C8692A916 - 357336044da660bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "algorithmTests.makePrimeNumber(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/makePrimeNumber.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "880">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "283775D1-B68B-407D-AC5B-644870ADF44C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/makePrimeNumber.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "makePrimeNumber(_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "283775D1-B68B-407D-AC5B-644870ADF44C - 357336044da6637b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "algorithmTests.makePrimeNumber(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/makePrimeNumber.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "283775D1-B68B-407D-AC5B-644870ADF44C - 357336044da6637b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "algorithmTests.makePrimeNumber(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int"
+                  moduleName = "algorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/algorithm-season2/Core/makePrimeNumber.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "568">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
