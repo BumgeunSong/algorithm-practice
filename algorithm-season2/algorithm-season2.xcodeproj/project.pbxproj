@@ -61,6 +61,8 @@
 		BCFE488A280D8AD300F23DCE /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE4888280D8AD300F23DCE /* HashTable.swift */; };
 		BCFE488C280E960E00F23DCE /* Subset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE488B280E960E00F23DCE /* Subset.swift */; };
 		BCFE488D280E960E00F23DCE /* Subset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE488B280E960E00F23DCE /* Subset.swift */; };
+		BCFE48BD2810E08500F23DCE /* Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE48BC2810E08500F23DCE /* Permutation.swift */; };
+		BCFE48BE2810E08500F23DCE /* Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE48BC2810E08500F23DCE /* Permutation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -106,6 +108,7 @@
 		BCFE47E4280D242200F23DCE /* makePrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makePrimeNumber.swift; sourceTree = "<group>"; };
 		BCFE4888280D8AD300F23DCE /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
 		BCFE488B280E960E00F23DCE /* Subset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subset.swift; sourceTree = "<group>"; };
+		BCFE48BC2810E08500F23DCE /* Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +191,7 @@
 				BCC3729B2801570A00774933 /* todayhouse2.swift */,
 				BCFE47E1280CE57900F23DCE /* getLargeNumber.swift */,
 				BCFE47E4280D242200F23DCE /* makePrimeNumber.swift */,
+				BCFE48BC2810E08500F23DCE /* Permutation.swift */,
 				BCFE4888280D8AD300F23DCE /* HashTable.swift */,
 				BCFE488B280E960E00F23DCE /* Subset.swift */,
 			);
@@ -283,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFE48BD2810E08500F23DCE /* Permutation.swift in Sources */,
 				BC56290527E437F400EF0665 /* main.swift in Sources */,
 				BCFE47E5280D242200F23DCE /* makePrimeNumber.swift in Sources */,
 				BC9E8DDA27F0A9D800D65C41 /* Archery.swift in Sources */,
@@ -317,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFE48BE2810E08500F23DCE /* Permutation.swift in Sources */,
 				BC3D4A1E27FDC01F009B37FB /* AlgoTests.swift in Sources */,
 				BCFE47E6280D242200F23DCE /* makePrimeNumber.swift in Sources */,
 				BCC6640727F815110078C1E2 /* potion.swift in Sources */,

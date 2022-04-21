@@ -174,4 +174,18 @@ class AlgoTests: XCTestCase {
         
         print(getCombinationSum(input1, 2))
     }
+    
+    func testPermute() throws {
+        let input1 = [1,2,3]
+        let answer = [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+        
+        XCTAssertEqual(permute(input1), answer)
+    }
+    
+    func testPermute2() throws {
+        let input1 = [2,2,1,1]
+        let answer = [[1,1,2,2],[1,2,1,2],[1,2,2,1],[2,1,1,2],[2,1,2,1],[2,2,1,1]]
+        
+        XCTAssertEqual(permute2(input1), answer)
+    }
 }
