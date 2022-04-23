@@ -12,7 +12,6 @@ class AlgoTests: XCTestCase {
     func testTargetNumber1() throws {
         let input1 = [1,1,1,1,1]
         let input2 = 3
-        let answer =
         
         XCTAssertEqual(targetNumber(input1, input2), 5)
     }
@@ -187,5 +186,33 @@ class AlgoTests: XCTestCase {
         let answer = [[1,1,2,2],[1,2,1,2],[1,2,2,1],[2,1,1,2],[2,1,2,1],[2,2,1,1]]
         
         XCTAssertEqual(permute2(input1), answer)
+    }
+    
+    func testGetMaxRepeat() throws {
+        let input1 = ["abca","bcab","cabc", "dede", "dede" , "dede"]
+        
+        let result = compressString(input1)
+        XCTAssertEqual(result, "abcabcabcabc3dede")
+    }
+    
+    func testStringCompression() throws {
+        let input1 = "aabbaccc"
+        let answer = 7
+        
+        XCTAssertEqual(stringCompression(input1), answer)
+    }
+    
+    func testStringCompression2() throws {
+        let input1 = "xababcdcdababcdcd"
+        let answer = 17
+        
+        XCTAssertEqual(stringCompression(input1), answer)
+    }
+    
+    func testStringCompression3() throws {
+        let input1 = "abcabcabcabcdededededede"
+        let answer = 14
+        
+        XCTAssertEqual(stringCompression(input1), answer)
     }
 }
