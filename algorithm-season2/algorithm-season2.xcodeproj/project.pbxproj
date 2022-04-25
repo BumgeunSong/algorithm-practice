@@ -26,6 +26,10 @@
 		BC56291C27E75EBD00EF0665 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC56291A27E75EBD00EF0665 /* MergeSortedArray.swift */; };
 		BC7371D828142ADA0082C5DB /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371D728142ADA0082C5DB /* StringCompression.swift */; };
 		BC7371D928142ADA0082C5DB /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371D728142ADA0082C5DB /* StringCompression.swift */; };
+		BC7371DB2815680C0082C5DB /* ProtocolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371DA2815680C0082C5DB /* ProtocolType.swift */; };
+		BC7371DC281568270082C5DB /* ProtocolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371DA2815680C0082C5DB /* ProtocolType.swift */; };
+		BC7371DE2816836F0082C5DB /* OpenChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371DD2816836F0082C5DB /* OpenChat.swift */; };
+		BC7371DF2816836F0082C5DB /* OpenChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371DD2816836F0082C5DB /* OpenChat.swift */; };
 		BC9E8DB727EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */; };
 		BC9E8DB827EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */; };
 		BC9E8DCC27ED5EA600D65C41 /* maxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DCB27ED5EA600D65C41 /* maxProfit.swift */; };
@@ -92,6 +96,8 @@
 		BC56291727E4395000EF0665 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		BC56291A27E75EBD00EF0665 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		BC7371D728142ADA0082C5DB /* StringCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCompression.swift; sourceTree = "<group>"; };
+		BC7371DA2815680C0082C5DB /* ProtocolType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolType.swift; sourceTree = "<group>"; };
+		BC7371DD2816836F0082C5DB /* OpenChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenChat.swift; sourceTree = "<group>"; };
 		BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionofTwoArrays2.swift; sourceTree = "<group>"; };
 		BC9E8DCB27ED5EA600D65C41 /* maxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxProfit.swift; sourceTree = "<group>"; };
 		BC9E8DD127EF070C00D65C41 /* mergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeSort.swift; sourceTree = "<group>"; };
@@ -182,6 +188,7 @@
 		BCC6640B27FA672E0078C1E2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				BC7371DA2815680C0082C5DB /* ProtocolType.swift */,
 				BCC6640C27FA6E210078C1E2 /* CoreAlgorithm.swift */,
 				BC3D4A1A27FDB573009B37FB /* 양궁대회.swift */,
 				BC3D4A2127FEC134009B37FB /* targetNumber.swift */,
@@ -198,6 +205,7 @@
 				BC7371D728142ADA0082C5DB /* StringCompression.swift */,
 				BCFE4888280D8AD300F23DCE /* HashTable.swift */,
 				BCFE488B280E960E00F23DCE /* Subset.swift */,
+				BC7371DD2816836F0082C5DB /* OpenChat.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -300,6 +308,7 @@
 				BC3D4A2527FEC47A009B37FB /* numOfNetwork.swift in Sources */,
 				BC9E8DF427F1FE9700D65C41 /* ReshapetheMatrix.swift in Sources */,
 				BCC6640D27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */,
+				BC7371DB2815680C0082C5DB /* ProtocolType.swift in Sources */,
 				BCC3729F2803A81300774933 /* everyCity.swift in Sources */,
 				BCC663FF27F6D3320078C1E2 /* USADO.swift in Sources */,
 				BC9E8DD227EF070C00D65C41 /* mergeSort.swift in Sources */,
@@ -316,6 +325,7 @@
 				BC7371D828142ADA0082C5DB /* StringCompression.swift in Sources */,
 				BCC6640927F8311C0078C1E2 /* paste.swift in Sources */,
 				BCFE488C280E960E00F23DCE /* Subset.swift in Sources */,
+				BC7371DE2816836F0082C5DB /* OpenChat.swift in Sources */,
 				BC3D4A2227FEC134009B37FB /* targetNumber.swift in Sources */,
 				BC3D4A2827FECC4A009B37FB /* wordChange.swift in Sources */,
 				BC56291827E4395000EF0665 /* MaximumSubarray.swift in Sources */,
@@ -336,6 +346,7 @@
 				BC3D4A2627FEC47A009B37FB /* numOfNetwork.swift in Sources */,
 				BC9E8E1427F33BFC00D65C41 /* Archery.swift in Sources */,
 				BC56291627E438B600EF0665 /* main.swift in Sources */,
+				BC7371DC281568270082C5DB /* ProtocolType.swift in Sources */,
 				BCC372A02803A81300774933 /* everyCity.swift in Sources */,
 				BCC6640A27F8311C0078C1E2 /* paste.swift in Sources */,
 				BC9E8DCD27ED5EA600D65C41 /* maxProfit.swift in Sources */,
@@ -352,6 +363,7 @@
 				BC7371D928142ADA0082C5DB /* StringCompression.swift in Sources */,
 				BC9E8DD327EF070C00D65C41 /* mergeSort.swift in Sources */,
 				BCFE488D280E960E00F23DCE /* Subset.swift in Sources */,
+				BC7371DF2816836F0082C5DB /* OpenChat.swift in Sources */,
 				BC3D4A2327FEC134009B37FB /* targetNumber.swift in Sources */,
 				BC3D4A2927FECC4A009B37FB /* wordChange.swift in Sources */,
 				BCC6640E27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */,

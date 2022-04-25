@@ -215,4 +215,23 @@ class AlgoTests: XCTestCase {
         
         XCTAssertEqual(stringCompression(input1), answer)
     }
+    
+    func testSlice() throws {
+        
+    }
+    
+    func testPT() throws {
+        testProtocolType()
+        testProtocolType2()
+    }
+    
+    func testOpenChat() throws {
+        let input1 = ["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]
+        let answer = ["Prodo님이 들어왔습니다.", "Ryan님이 들어왔습니다.", "Prodo님이 나갔습니다.", "Prodo님이 들어왔습니다."]
+        
+        
+        XCTAssertEqual(openChat(input1), answer)
+    }
+    
+    
 }

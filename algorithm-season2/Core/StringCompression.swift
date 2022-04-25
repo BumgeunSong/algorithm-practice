@@ -45,3 +45,4 @@ func compressString(_ array: [String]) -> String {
     
     return result
 }
+
