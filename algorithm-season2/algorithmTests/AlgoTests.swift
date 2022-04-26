@@ -233,5 +233,8 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(openChat(input1), answer)
     }
     
+    func testRectangle() throws {
+        XCTAssertEqual(rectangle(8, 12), 80)
+    }
     
 }

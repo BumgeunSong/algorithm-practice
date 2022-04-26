@@ -25,7 +25,7 @@ struct HashTable<Key: Hashable, Value> {
     
     func index(for key: Key) -> Int {
         return abs(key.hashValue) % buckets.count
-    }
+    }	
     
     // Search
     subscript(key: Key) -> Value? {
