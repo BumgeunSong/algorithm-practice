@@ -237,4 +237,20 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(rectangle(8, 12), 80)
     }
     
+    func testFeature() throws {
+        let input1 = [93, 30, 55]
+        let input2 = [1, 30, 5]
+        let answer = [2, 1]
+        
+        XCTAssertEqual(feature(input1, input2), answer)
+    }
+    
+    func testFeature2() throws {
+        let input1 = [95, 90, 99, 99, 80, 99]
+        let input2 = [1, 1, 1, 1, 1, 1]
+        let answer = [1, 3, 2]
+        
+        XCTAssertEqual(feature(input1, input2), answer)
+    }
+    
 }

@@ -32,6 +32,8 @@
 		BC7371DF2816836F0082C5DB /* OpenChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371DD2816836F0082C5DB /* OpenChat.swift */; };
 		BC7371F1281828F80082C5DB /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371F0281828F80082C5DB /* Rectangle.swift */; };
 		BC7371F2281828F80082C5DB /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371F0281828F80082C5DB /* Rectangle.swift */; };
+		BC7371F42818ECF00082C5DB /* feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371F32818ECF00082C5DB /* feature.swift */; };
+		BC7371F52818ECF00082C5DB /* feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7371F32818ECF00082C5DB /* feature.swift */; };
 		BC9E8DB727EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */; };
 		BC9E8DB827EB06C900D65C41 /* IntersectionofTwoArrays2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */; };
 		BC9E8DCC27ED5EA600D65C41 /* maxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E8DCB27ED5EA600D65C41 /* maxProfit.swift */; };
@@ -101,6 +103,7 @@
 		BC7371DA2815680C0082C5DB /* ProtocolType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolType.swift; sourceTree = "<group>"; };
 		BC7371DD2816836F0082C5DB /* OpenChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenChat.swift; sourceTree = "<group>"; };
 		BC7371F0281828F80082C5DB /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		BC7371F32818ECF00082C5DB /* feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feature.swift; sourceTree = "<group>"; };
 		BC9E8DB627EB06C900D65C41 /* IntersectionofTwoArrays2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionofTwoArrays2.swift; sourceTree = "<group>"; };
 		BC9E8DCB27ED5EA600D65C41 /* maxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxProfit.swift; sourceTree = "<group>"; };
 		BC9E8DD127EF070C00D65C41 /* mergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeSort.swift; sourceTree = "<group>"; };
@@ -208,6 +211,7 @@
 				BC7371D728142ADA0082C5DB /* StringCompression.swift */,
 				BCFE4888280D8AD300F23DCE /* HashTable.swift */,
 				BC7371F0281828F80082C5DB /* Rectangle.swift */,
+				BC7371F32818ECF00082C5DB /* feature.swift */,
 				BCFE488B280E960E00F23DCE /* Subset.swift */,
 				BC7371DD2816836F0082C5DB /* OpenChat.swift */,
 			);
@@ -332,6 +336,7 @@
 				BC7371DE2816836F0082C5DB /* OpenChat.swift in Sources */,
 				BC3D4A2227FEC134009B37FB /* targetNumber.swift in Sources */,
 				BC3D4A2827FECC4A009B37FB /* wordChange.swift in Sources */,
+				BC7371F42818ECF00082C5DB /* feature.swift in Sources */,
 				BC56291827E4395000EF0665 /* MaximumSubarray.swift in Sources */,
 				BCC6640427F6E88C0078C1E2 /* bojTemplate.swift in Sources */,
 				BC7371F1281828F80082C5DB /* Rectangle.swift in Sources */,
@@ -371,6 +376,7 @@
 				BC7371DF2816836F0082C5DB /* OpenChat.swift in Sources */,
 				BC3D4A2327FEC134009B37FB /* targetNumber.swift in Sources */,
 				BC3D4A2927FECC4A009B37FB /* wordChange.swift in Sources */,
+				BC7371F52818ECF00082C5DB /* feature.swift in Sources */,
 				BCC6640E27FA6E210078C1E2 /* CoreAlgorithm.swift in Sources */,
 				BC56291927E4419100EF0665 /* MaximumSubarray.swift in Sources */,
 				BC7371F2281828F80082C5DB /* Rectangle.swift in Sources */,
