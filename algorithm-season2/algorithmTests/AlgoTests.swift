@@ -253,4 +253,87 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(feature(input1, input2), answer)
     }
     
+    func testBrace() throws {
+        let input1 = "(()())()"
+        let answer = "(()())()"
+        
+        XCTAssertEqual(makeRightBrace(input1), answer)
+    }
+    func testBrace2() throws {
+        let input1 = ")("
+        let answer = "()"
+        
+        XCTAssertEqual(makeRightBrace(input1), answer)
+    }
+    func testBrace3() throws {
+        let input1 = "()))((()"
+        let answer = "()(())()"
+        
+        XCTAssertEqual(makeRightBrace(input1), answer)
+    }
+    
+    func testBrace4() throws {
+        let input1 = "()"
+        let answer = ""
+        
+        XCTAssertEqual(reverseBrace(input1), answer)
+    }
+    
+    func testBrace5() throws {
+        let input1 = ""
+        let answer = ""
+        
+        XCTAssertEqual(makeRightBrace(input1), answer)
+    }
+    
+    func testBrace6() throws {
+        let input1 = "(())"
+        let answer = true
+        
+        XCTAssertEqual(isRightBrace(input1), answer)
+    }
+    
+    func testBinaryToDecimal() {
+        print(binaryToDecimal(binary: "111"))
+        print(binaryToDecimal(binary: "1011"))
+    }
+    
+    func testDecimalToBinary() {
+        print(decimalToBinary(int: 11))
+        print(decimalToBinary(int: 7))
+        
+        print(0..<4 ~= 5)
+    }
+    
+    func testGetSubset() {
+        print(getSubset(str: "ABCFG", r: 3))
+    }
+    
+    func testFrequentCombo() {
+        let input1 = ["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"]
+        let input2 = 2
+        let answer = ["AC"]
+        XCTAssertEqual(getMostFrequentCombo(orders: input1, r: input2), answer)
+    }
+    
+    func testFrequentCombo2() {
+        let input1 = ["ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"]
+        let input2 = 2
+        let answer = ["AD", "CD"]
+        XCTAssertEqual(getMostFrequentCombo(orders: input1, r: input2), answer)
+    }
+    
+    func testFrequentCombo3() {
+        let input1 = ["XYZ", "XWY", "WXA"]
+        let input2 = 3
+        let answer = [String]()
+        XCTAssertEqual(getMostFrequentCombo(orders: input1, r: input2), answer)
+    }
+    
+    func testGetMenu() {
+        let input1 = ["XYZ", "XWY", "WXA"]
+        let input2 = [2,3,4]
+        let answer = ["WX", "XY"]
+        XCTAssertEqual(getMenu(input1, input2), answer)
+    }
 }
