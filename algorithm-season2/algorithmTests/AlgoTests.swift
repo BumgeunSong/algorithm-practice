@@ -336,4 +336,25 @@ class AlgoTests: XCTestCase {
         let answer = ["WX", "XY"]
         XCTAssertEqual(getMenu(input1, input2), answer)
     }
+    
+    func testCheckAround() {
+        let input1 = ["POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"].map { Array($0) }
+        let answer = false
+        
+        XCTAssertEqual(checkAround((0, 0, 0), place: input1), answer)
+    }
+    
+    func testCheckAround2() {
+        let input1 = ["POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"].map { Array($0) }
+        let answer = true
+        
+        XCTAssertEqual(checkAround((0, 0, 0), place: input1), answer)
+    }
+    
+    func testDistanceKeeping() {
+        let input1 = [["POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"], ["POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"], ["PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX"], ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"], ["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]]
+        let answer = [1, 0, 1, 1, 1]
+        
+        XCTAssertEqual(distanceKeeping(input1), answer)
+    }
 }

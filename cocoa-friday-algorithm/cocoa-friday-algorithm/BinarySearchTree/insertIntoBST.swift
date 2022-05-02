@@ -17,3 +17,4 @@ func insertIntoBST(_ root: TreeNode?, _ val: Int) -> TreeNode? {
         return root
     }
 }
+

@@ -18,9 +18,7 @@ public class ListNode {
 }
 
 func hasCycle(_ head: ListNode?) -> Bool {
-    if head == nil {
-        return false
-    }
+    if head == nil { return false }
     
     var fast = head
     var slow = head
@@ -29,10 +27,7 @@ func hasCycle(_ head: ListNode?) -> Bool {
         fast = fast?.next?.next!
         slow = slow?.next!
         
-        if fast === slow {
-            return true
-        }
-        
+        if fast === slow { return true }
     }
     return false
 }
