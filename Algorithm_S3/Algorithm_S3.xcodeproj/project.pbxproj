@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0B745728224224007AE2B6 /* FindKthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B745628224224007AE2B6 /* FindKthLargest.swift */; };
+		BC0B745828224224007AE2B6 /* FindKthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B745628224224007AE2B6 /* FindKthLargest.swift */; };
+		BC0B745A282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B7459282249D7007AE2B6 /* LCAofBinaryTree.swift */; };
+		BC0B745B282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B7459282249D7007AE2B6 /* LCAofBinaryTree.swift */; };
 		BC7C3C32281F56F8003F4833 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C31281F56F8003F4833 /* main.swift */; };
 		BC7C3C3F281F5715003F4833 /* AlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C3E281F5715003F4833 /* AlgorithmTests.swift */; };
 		BC7C3C44281F573C003F4833 /* EditTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C43281F573C003F4833 /* EditTable.swift */; };
@@ -26,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BC0B745628224224007AE2B6 /* FindKthLargest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKthLargest.swift; sourceTree = "<group>"; };
+		BC0B7459282249D7007AE2B6 /* LCAofBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCAofBinaryTree.swift; sourceTree = "<group>"; };
 		BC7C3C2E281F56F8003F4833 /* Algorithm_S3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_S3; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7C3C31281F56F8003F4833 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BC7C3C3C281F5715003F4833 /* AlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +80,8 @@
 			children = (
 				BC7C3C31281F56F8003F4833 /* main.swift */,
 				BC7C3C43281F573C003F4833 /* EditTable.swift */,
+				BC0B745628224224007AE2B6 /* FindKthLargest.swift */,
+				BC0B7459282249D7007AE2B6 /* LCAofBinaryTree.swift */,
 			);
 			path = Algorithm_S3;
 			sourceTree = "<group>";
@@ -175,7 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0B745728224224007AE2B6 /* FindKthLargest.swift in Sources */,
 				BC7C3C44281F573C003F4833 /* EditTable.swift in Sources */,
+				BC0B745A282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */,
 				BC7C3C32281F56F8003F4833 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,7 +194,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0B745828224224007AE2B6 /* FindKthLargest.swift in Sources */,
 				BC7C3C45281F573D003F4833 /* EditTable.swift in Sources */,
+				BC0B745B282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */,
 				BC7C3C3F281F5715003F4833 /* AlgorithmTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

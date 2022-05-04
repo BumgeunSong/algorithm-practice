@@ -8,7 +8,9 @@
 import Foundation
 
 func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
-    guard let rootVal = root?.val, let pVal = p?.val, let qVal = q?.val else {
+    guard let rootVal = root?.val,
+            let pVal = p?.val,
+            let qVal = q?.val else {
         return nil
     }
     
