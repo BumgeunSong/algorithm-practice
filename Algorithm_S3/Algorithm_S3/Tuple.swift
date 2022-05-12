@@ -12,8 +12,9 @@ func tuple(_ s: String) -> [Int] {
     var prev = 0
     var result = [Int]()
     for i in 1...dict.count {
-        result.append(dict[i]! - prev)
-        prev = dict[i]!
+        let current = dict[i]!
+        result.append(current - prev)
+        prev = current
     }
     return result
 }
