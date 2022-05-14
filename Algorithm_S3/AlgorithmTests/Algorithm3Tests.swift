@@ -120,5 +120,17 @@ class Algorithm3Tests: XCTestCase {
         let input2 = [["100","ryan","music","2"],["200","apeach","math","2"],["300","tube","computer","3"],["400","con","computer","4"],["500","muzi","music","3"],["600","apeach","music","2"]]
         XCTAssertEqual(isMinimalKey(input1, input2), true)
     }
+    
+    func testHashMap() throws {
+        let myHashMap = MyHashMap()
+        myHashMap.put(1, 1)
+        myHashMap.put(2, 2)
+        XCTAssertEqual(myHashMap.get(1), 1)
+        XCTAssertEqual(myHashMap.get(3), -1)
+        myHashMap.put(2, 1)
+        XCTAssertEqual(myHashMap.get(2), 1)
+        myHashMap.remove(2)
+        XCTAssertEqual(myHashMap.get(2), -1)
+    }
 
 }
