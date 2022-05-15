@@ -10,8 +10,8 @@ import Foundation
 struct HashTable<Key: Hashable, Value> {
     typealias Element = (key: Key, value: Value)
     typealias Bucket = [Element]
-    private var buckets: [Bucket]
     
+    private var buckets: [Bucket]
     public var count = 0
     
     var isEmpty: Bool {
@@ -21,7 +21,6 @@ struct HashTable<Key: Hashable, Value> {
     init(capacity: Int) {
         buckets = Array<Bucket>(repeating: [], count: capacity)
     }
-    
     
     func index(for key: Key) -> Int {
         return abs(key.hashValue) % buckets.count

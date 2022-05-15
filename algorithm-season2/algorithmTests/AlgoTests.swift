@@ -357,4 +357,22 @@ class AlgoTests: XCTestCase {
         
         XCTAssertEqual(distanceKeeping(input1), answer)
     }
+    
+    func testBST() {
+        var bst = BinarySearchTree<Int>()
+        
+        bst.insert(0)
+        bst.insert(5)
+        bst.insert(2)
+        bst.insert(6)
+        bst.insert(9)
+        bst.insert(1)
+        bst.insert(3)
+        
+        print(bst)
+        
+        bst.remove(5)
+        print(bst)
+        
+    }
 }
