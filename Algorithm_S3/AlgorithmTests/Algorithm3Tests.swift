@@ -110,15 +110,9 @@ class Algorithm3Tests: XCTestCase {
     }
     
     func testIsUnique() throws {
-        let input1 = [1,2]
+        let input1 = [1,2,3]
         let input2 = [["100","ryan","music","2"],["200","apeach","math","2"],["300","tube","computer","3"],["400","con","computer","4"],["500","muzi","music","3"],["600","apeach","music","2"]]
         XCTAssertEqual(isUniqueKey(input1, input2), true)
-    }
-    
-    func testIsMinimal() throws {
-        let input1 = [0,1,2,3]
-        let input2 = [["100","ryan","music","2"],["200","apeach","math","2"],["300","tube","computer","3"],["400","con","computer","4"],["500","muzi","music","3"],["600","apeach","music","2"]]
-        XCTAssertEqual(isMinimalKey(input1, input2), true)
     }
     
     func testHashMap() throws {

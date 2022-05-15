@@ -8,16 +8,35 @@
 import Foundation
 
 func 후보키(_ relation:[[String]]) -> Int {
-    let subsets = subsets(Array(0..<relation[0].count))
-    print(subsets)
-    print("unique & minmal", subsets.filter { isMinimalKey($0, relation) })
-    return subsets.filter { isMinimalKey($0, relation) }.count
+    var subsets = makeSubsets(Array(0..<relation[0].count)).sorted {
+        $0.count < $1.count
+    }
+    
+    var candidateKeyCount = 0
+    var i = 0
+
+    while i < subsets.count {
+        if isUniqueKey(subsets[i], relation) {
+            subsets = subsets.filter { !Set(subsets[i]).isSubset(of: Set($0)) }
+            candidateKeyCount += 1
+        } else {
+            subsets.remove(at: i)
+        }
+    }
+    
+    return candidateKeyCount
 }
 
-func subsets(_ nums: [Int]) -> [[Int]] {
+func countCandidateKey() -> Int {
+    var count = 0
+    
+}
+
+
+func makeSubsets(_ nums: [Int]) -> [[Int]] {
     if nums.isEmpty { return [[]] }
     let pick = nums[0]
-    let subsetsOfRemain = subsets(Array(nums.dropFirst()))
+    let subsetsOfRemain = makeSubsets(Array(nums.dropFirst()))
     return subsetsOfRemain.map { $0 + [pick] } + subsetsOfRemain
 }
 
@@ -32,15 +51,5 @@ func isUniqueKey(_ indicies: [Int], _ relation: [[String]]) -> Bool {
     return relation.count == set.count
 }
 
-func isMinimalKey(_ indicies: [Int], _ relation: [[String]]) -> Bool {
-    if indicies.isEmpty { return false }
-    let remain = Array(indicies.dropFirst())
-    
-    return isUniqueKey(indicies, relation) && !isMinimalKey(remain, relation)
-}
-
-func filterSuperSet(_ indicies: [[Int]]) {
-    
-}
 
 
