@@ -27,10 +27,6 @@ func 후보키(_ relation:[[String]]) -> Int {
     return candidateKeyCount
 }
 
-func countCandidateKey() -> Int {
-    var count = 0
-    
-}
 
 
 func makeSubsets(_ nums: [Int]) -> [[Int]] {

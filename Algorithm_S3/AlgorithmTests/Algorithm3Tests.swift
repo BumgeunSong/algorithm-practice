@@ -127,4 +127,47 @@ class Algorithm3Tests: XCTestCase {
         XCTAssertEqual(myHashMap.get(2), -1)
     }
 
+    func testHeap() throws {
+        var heap = Heap<Int>(sort: >)
+        heap.insert(1)
+        heap.insert(5)
+        heap.insert(9)
+        heap.insert(7)
+        heap.insert(6)
+        heap.insert(2)
+        
+        print(heap.elements)
+        heap.insert(10)
+        heap.insert(4)
+        print(heap.elements)
+    }
+    
+    func testParseString() throws {
+        let input1 = "{{2}, {2, 1}, {2, 1, 3}, {2, 1, 3, 4}}"
+        let answer = [[2], [2,1], [2,1,3], [2,1,3,4]]
+        
+        XCTAssertEqual(parseString(input1), answer)
+    }
+    
+    func testGetDiff() throws {
+        let input1 = [1, 3, 6, 10]
+        let answer = [2,3,4]
+        
+        XCTAssertEqual(getDiff(input1), answer)
+    }
+    
+    func test튜플1() throws {
+        let input1 = "{{1,2,3},{2,1},{1,2,4,3},{2}}"
+        let answer = [2, 1, 3, 4]
+        
+        XCTAssertEqual(튜플(input1), answer)
+    }
+    
+    func test튜플2() throws {
+        let input1 = "{{123}}"
+        let answer = [123]
+        
+        XCTAssertEqual(튜플(input1), answer)
+    }
+    
 }
