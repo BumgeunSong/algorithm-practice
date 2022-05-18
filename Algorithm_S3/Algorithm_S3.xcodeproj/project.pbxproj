@@ -22,6 +22,8 @@
 		BC7C3C3F281F5715003F4833 /* AlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C3E281F5715003F4833 /* AlgorithmTests.swift */; };
 		BC7C3C44281F573C003F4833 /* EditTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C43281F573C003F4833 /* EditTable.swift */; };
 		BC7C3C45281F573D003F4833 /* EditTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C43281F573C003F4833 /* EditTable.swift */; };
+		BC9259152834B55400E496F6 /* 캐시.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9259142834B55400E496F6 /* 캐시.swift */; };
+		BC9259162834B55400E496F6 /* 캐시.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9259142834B55400E496F6 /* 캐시.swift */; };
 		BCCFC22B28322326003D0AA5 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCFC22A28322326003D0AA5 /* Heap.swift */; };
 		BCCFC22C28322326003D0AA5 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCFC22A28322326003D0AA5 /* Heap.swift */; };
 		BCCFC22F28336404003D0AA5 /* 튜플.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCFC22E28336404003D0AA5 /* 튜플.swift */; };
@@ -61,6 +63,7 @@
 		BC7C3C3C281F5715003F4833 /* AlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7C3C3E281F5715003F4833 /* AlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmTests.swift; sourceTree = "<group>"; };
 		BC7C3C43281F573C003F4833 /* EditTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTable.swift; sourceTree = "<group>"; };
+		BC9259142834B55400E496F6 /* 캐시.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "캐시.swift"; sourceTree = "<group>"; };
 		BCCFC22A28322326003D0AA5 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		BCCFC22E28336404003D0AA5 /* 튜플.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "튜플.swift"; sourceTree = "<group>"; };
 		BCD835122825089C001273C8 /* rankSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rankSearch.swift; sourceTree = "<group>"; };
@@ -112,6 +115,7 @@
 				BC7C3C31281F56F8003F4833 /* main.swift */,
 				BC7C3C43281F573C003F4833 /* EditTable.swift */,
 				BCCFC22E28336404003D0AA5 /* 튜플.swift */,
+				BC9259142834B55400E496F6 /* 캐시.swift */,
 				BC0B745628224224007AE2B6 /* FindKthLargest.swift */,
 				BC0B7460282295AC007AE2B6 /* maximizeEquation.swift */,
 				BC22097B28238ED200159AC0 /* Tuple.swift */,
@@ -235,6 +239,7 @@
 				BCCFC22F28336404003D0AA5 /* 튜플.swift in Sources */,
 				BCD835132825089C001273C8 /* rankSearch.swift in Sources */,
 				BCD8351828263283001273C8 /* Kakao.swift in Sources */,
+				BC9259152834B55400E496F6 /* 캐시.swift in Sources */,
 				BC22097C28238ED200159AC0 /* Tuple.swift in Sources */,
 				BC7C3C32281F56F8003F4833 /* main.swift in Sources */,
 				BCDB11EE282CD10B00A90202 /* 후보키.swift in Sources */,
@@ -249,6 +254,7 @@
 				BC7C3C45281F573D003F4833 /* EditTable.swift in Sources */,
 				BC0B746428229C0B007AE2B6 /* Algorithm2Tests.swift in Sources */,
 				BCDB11EF282CD10B00A90202 /* 후보키.swift in Sources */,
+				BC9259162834B55400E496F6 /* 캐시.swift in Sources */,
 				BC0B745B282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */,
 				BC0B7462282295AC007AE2B6 /* maximizeEquation.swift in Sources */,
 				BC6EA96D282F93650015FB96 /* 해시맵.swift in Sources */,

@@ -169,5 +169,65 @@ class Algorithm3Tests: XCTestCase {
         
         XCTAssertEqual(튜플(input1), answer)
     }
+
+    func test캐시() throws {
+        let input1 = ["Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul"]
+        let input2 = 3
+        let answer = 21
+
+        XCTAssertEqual(캐시(input2, input1), answer)
+    }
+
+    func test캐시2() throws {
+        let input1 = ["Jeju", "Pangyo", "NewYork", "newyork"]
+        let input2 = 2
+        let answer = 16
+
+        XCTAssertEqual(캐시(input2, input1), answer)
+    }
     
+    func test캐시3() throws {
+        let input1 = ["Jeju", "Pangyo", "Seoul", "NewYork", "LA", "SanFrancisco", "Seoul", "Rome", "Paris", "Jeju", "NewYork", "Rome"]
+        let input2 = 2
+        let answer = 60
+
+        XCTAssertEqual(캐시(input2, input1), answer)
+    }
+    
+    func test캐시4() throws {
+        let input1 = ["Jeju", "Pangyo", "Seoul", "NewYork", "LA", "SanFrancisco", "Seoul", "Rome", "Paris", "Jeju", "NewYork", "Rome"]
+        let input2 = 2
+        let answer = 60
+
+        XCTAssertEqual(캐시(input2, input1), answer)
+    }
+    
+    func testNode() throws {
+        var list = LinkedList<String>()
+        list.append("A")
+        XCTAssertEqual(list.head?.val, "A")
+        XCTAssertEqual(list.tail?.val, "A")
+        XCTAssertEqual(list.remove(node: list.head!), "A")
+        XCTAssertNil(list.head)
+        XCTAssertNil(list.tail)
+        list.append("B")
+        list.append("C")
+        XCTAssertEqual(list.head?.val, "B")
+        XCTAssertEqual(list.tail?.val, "C")
+        XCTAssertEqual(list.remove(node: list.head!), "B")
+        XCTAssertNotNil(list.head)
+        XCTAssertNotNil(list.tail)
+//        list.addAtTail(ListNode(value: "A"))
+//        XCTAssertEqual(list.head?.value, "A")
+//        XCTAssertEqual(list.tail?.value, "A")
+//        XCTAssertEqual(list.deleteAtHead()!.value, "A")
+//        XCTAssertNil(list.head)
+//        XCTAssertNil(list.tail)
+//        let b = ListNode(value: "B")
+//        list.addAtTail(b)
+//        list.delete(b)
+//        XCTAssertNil(list.head)
+//        XCTAssertNil(list.tail)
+    
+    }
 }
