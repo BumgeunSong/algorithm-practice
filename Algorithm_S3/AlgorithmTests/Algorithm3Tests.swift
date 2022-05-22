@@ -218,4 +218,56 @@ class Algorithm3Tests: XCTestCase {
         XCTAssertNotNil(list.head)
         XCTAssertNotNil(list.tail)
     }
+    
+    func testTimeInterval() throws {
+        let input1 = "15:59"
+        let input2 = "16:4"
+        let answer = 5
+        
+        XCTAssertEqual(getTimeInterval(start: input1, end: input2), answer)
+    }
+    
+    func testPlayedNote() throws {
+        let input1 = ["C","C#","B"]
+        let input2 = 10
+        let answer = ["C","C#","B","C","C#","B","C","C#","B","C"]
+        
+        XCTAssertEqual(getPlayedNote(input1, input2), answer)
+    }
+    
+    func testParseNote() throws {
+        let input1 = "CC#BCC#BCC#B"
+        let answer = ["C","C#","B","C","C#","B","C","C#","B"]
+        
+        XCTAssertEqual(parseNote(input1), answer)
+    }
+    
+    func testInclude() throws {
+        let input1 = ["B","C"]
+        let input2 = ["C","C#","B","C","C#","B","C","C#","B"]
+        let answer = true
+        
+        XCTAssertEqual(include(input1, input2), answer)
+    }
+    
+    func test방금그곡() throws {
+        let input1 = "ABCDEFG"
+        let input2 = ["12:00,12:14,HELLO,CDEFGAB", "13:00,13:05,WORLD,ABCDEF"]
+        let answer = "HELLO"
+        XCTAssertEqual(방금그곡(input1, input2), answer)
+    }
+    
+    func test방금그곡2() throws {
+        let input1 = "CC#BCC#BCC#BCC#B"
+        let input2 = ["03:00,03:30,FOO,CC#B", "04:00,04:08,BAR,CC#BCC#BCC#B"]
+        let answer = "FOO"
+        XCTAssertEqual(방금그곡(input1, input2), answer)
+    }
+    
+    func test방금그곡3() throws {
+        let input1 = "DDD"
+        let input2 = ["12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"]
+        let answer = "(None)"
+        XCTAssertEqual(방금그곡(input1, input2), answer)
+    }
 }
