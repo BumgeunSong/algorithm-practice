@@ -8,18 +8,60 @@
 import Foundation
 
 func 캐시(_ cacheSize: Int, _ cities: [String]) -> Int {
+    
+    /*
+     먼저 Cache가 Hit인지 Miss인지 확인한다.
+     
+     캐시가 Hit인 경우
+     - 실행 시간이 1 걸린다.
+     - Hit한 캐시를 삭제하고, 맨 뒤에 추가한다.
+     
+     캐시가 Miss인 경우
+     - 실행 시간이 5걸린다.
+     - Miss한 캐시를 맨 뒤에 추가한다.
+     - 이 때 캐시가 캐시 사이즈 이상으로 넘어간 경우, 맨 앞의 캐시를 삭제해준다.
+     
+     캐시 사이즈가 0인 경우
+     - *5를 return한다.
+    */
+    
     if cacheSize == 0 { return cities.count * 5 }
-
-    var cache = LRUCache<String>(size: cacheSize)
-
-    return cities.reduce(0) { partialResult, city in
-        let city = city.lowercased()
-        if cache.find(city) {
-            return partialResult+1
-        } else {
-            return partialResult+5
-        }
+    
+    var cache = Cache<String>(maxSize: cacheSize)
+    
+    return cities.map{ $0.lowercased() }.reduce(0) { partialResult, city in
+        defer { cache = updateCache(city, cache: cache) }
+        return partialResult + searchCache(city, cache: cache)
     }
+}
+
+struct Cache<T: Hashable> {
+    var queue: [T] = []
+    var set: Set<T> = []
+    let maxSize: Int
+}
+
+
+func searchCache<T: Hashable>(_ data: T, cache: Cache<T>) -> Int {
+    return cache.set.contains(data) ? 1 : 5
+}
+
+func updateCache<T: Hashable>(_ data: T, cache: Cache<T>) -> Cache<T> {
+    var cache = cache
+    
+    if cache.set.contains(data) {
+        cache.queue.removeAll { $0 == data }
+        cache.queue.append(data)
+    } else {
+        cache.queue.append(data)
+        cache.set.insert(data)
+    }
+    
+    if cache.queue.count > cache.maxSize {
+        cache.set.remove(cache.queue.removeFirst())
+    }
+    
+     return cache
 }
 
 struct LRUCache<T: Hashable> {

@@ -217,17 +217,5 @@ class Algorithm3Tests: XCTestCase {
         XCTAssertEqual(list.remove(node: list.head!), "B")
         XCTAssertNotNil(list.head)
         XCTAssertNotNil(list.tail)
-//        list.addAtTail(ListNode(value: "A"))
-//        XCTAssertEqual(list.head?.value, "A")
-//        XCTAssertEqual(list.tail?.value, "A")
-//        XCTAssertEqual(list.deleteAtHead()!.value, "A")
-//        XCTAssertNil(list.head)
-//        XCTAssertNil(list.tail)
-//        let b = ListNode(value: "B")
-//        list.addAtTail(b)
-//        list.delete(b)
-//        XCTAssertNil(list.head)
-//        XCTAssertNil(list.tail)
-    
     }
 }

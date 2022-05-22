@@ -16,6 +16,8 @@
 		BC0B746428229C0B007AE2B6 /* Algorithm2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B746328229C0B007AE2B6 /* Algorithm2Tests.swift */; };
 		BC22097C28238ED200159AC0 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22097B28238ED200159AC0 /* Tuple.swift */; };
 		BC22097D28238ED200159AC0 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22097B28238ED200159AC0 /* Tuple.swift */; };
+		BC45EE3B2839273A008239E1 /* Dijkstras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE3A2839273A008239E1 /* Dijkstras.swift */; };
+		BC45EE3C2839273A008239E1 /* Dijkstras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE3A2839273A008239E1 /* Dijkstras.swift */; };
 		BC6EA96C282F91CE0015FB96 /* 해시맵.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EA96B282F91CE0015FB96 /* 해시맵.swift */; };
 		BC6EA96D282F93650015FB96 /* 해시맵.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EA96B282F91CE0015FB96 /* 해시맵.swift */; };
 		BC7C3C32281F56F8003F4833 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C31281F56F8003F4833 /* main.swift */; };
@@ -57,6 +59,7 @@
 		BC0B7460282295AC007AE2B6 /* maximizeEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maximizeEquation.swift; sourceTree = "<group>"; };
 		BC0B746328229C0B007AE2B6 /* Algorithm2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm2Tests.swift; sourceTree = "<group>"; };
 		BC22097B28238ED200159AC0 /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
+		BC45EE3A2839273A008239E1 /* Dijkstras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstras.swift; sourceTree = "<group>"; };
 		BC6EA96B282F91CE0015FB96 /* 해시맵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "해시맵.swift"; sourceTree = "<group>"; };
 		BC7C3C2E281F56F8003F4833 /* Algorithm_S3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_S3; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7C3C31281F56F8003F4833 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -126,6 +129,7 @@
 				BCDB11ED282CD10B00A90202 /* 후보키.swift */,
 				BCCFC22A28322326003D0AA5 /* Heap.swift */,
 				BC6EA96B282F91CE0015FB96 /* 해시맵.swift */,
+				BC45EE3A2839273A008239E1 /* Dijkstras.swift */,
 			);
 			path = Algorithm_S3;
 			sourceTree = "<group>";
@@ -229,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC45EE3B2839273A008239E1 /* Dijkstras.swift in Sources */,
 				BCD835222829E82D001273C8 /* twoSum.swift in Sources */,
 				BC6EA96C282F91CE0015FB96 /* 해시맵.swift in Sources */,
 				BC0B745728224224007AE2B6 /* FindKthLargest.swift in Sources */,
@@ -265,6 +270,7 @@
 				BCD8351B282632CC001273C8 /* Algorithm3Tests.swift in Sources */,
 				BCD835232829E82D001273C8 /* twoSum.swift in Sources */,
 				BCCFC22C28322326003D0AA5 /* Heap.swift in Sources */,
+				BC45EE3C2839273A008239E1 /* Dijkstras.swift in Sources */,
 				BCCFC23028336404003D0AA5 /* 튜플.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
