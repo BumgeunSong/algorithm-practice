@@ -270,4 +270,72 @@ class Algorithm3Tests: XCTestCase {
         let answer = "(None)"
         XCTAssertEqual(방금그곡(input1, input2), answer)
     }
+    
+    func testGenerateSequence() throws {
+        let input1 = 2
+        let input2 = 3
+        let answer = ["000","001",
+                      "010","011","100","101","110","111"]
+        let digiString = makeDigitString(digit: 2)
+        let sequence = sequence(digiString, toLength: input2)
+        let array = makeCharArray(sequence)
+        print(array)
+        
+        XCTAssertEqual(sequence, answer)
+    }
+    
+    func testDigitString() throws {
+        
+        
+//        XCTAssertEqual(makeDigitString(digit: input1), answer)
+    }
+    
+    func test이진수게임() throws {
+        let input1 = 2
+        let input2 = 4
+        let input3 = 2
+        let input4 = 1
+        let answer = "0111"
+        
+        XCTAssertEqual(이진수게임(input1, input2, input3, input4), answer)
+    }
+    func test이진수게임2() throws {
+        let input1 = 16
+        let input2 = 16
+        let input3 = 2
+        let input4 = 1
+        let answer = "02468ACE11111111"
+        
+        XCTAssertEqual(이진수게임(input1, input2, input3, input4), answer)
+    }
+    
+    func test이진수게임3() throws {
+        let input1 = 16
+        let input2 = 16
+        let input3 = 2
+        let input4 = 2
+        let answer = "13579BDF01234567"
+        
+        XCTAssertEqual(이진수게임(input1, input2, input3, input4), answer)
+    }
+    
+    func test이진수게임4() throws {
+        let input1 = 2
+        let input2 = 4
+        let input3 = 2
+        let input4 = 1
+        let answer = "0111"
+        
+        XCTAssertEqual(이진수게임(input1, input2, input3, input4), answer)
+    }
+    
+    func testMultiple() {
+        print(2.isMultiple(of: 3))
+    }
+    
+    func testTruckTour() {
+        let input1 = [[1,5],[10,3], [3,4]]
+        
+        XCTAssertEqual(truckTour(petrolpumps: input1), 1)
+    }
 }
