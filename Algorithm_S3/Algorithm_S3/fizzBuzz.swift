@@ -10,27 +10,26 @@ import Foundation
 func truckTour(petrolpumps: [[Int]]) -> Int {
     
     let diff = petrolpumps.map { $0[0] - $0[1] }
+    let count = petrolpumps.count
     
-    var start = 0
     
-    while start < petrolpumps.count {
-        var total = diff[start]
+    for start in 0..<count {
         var end = start
+        var total = 0
+        var length = 0
         
-        while start != increment(end, length: petrolpumps.count) {
+        while length < petrolpumps.count {
             total += diff[end]
-            if total >= 0 {
-                end = increment(end, length: petrolpumps.count)
+            if total > 0 {
+                end = end+1 < petrolpumps.count ? end+1 : end+1-petrolpumps.count
+                length += 1
+                
+                if length >= petrolpumps.count { return start }
             } else {
                 break
             }
         }
-        start += 1
     }
     
-    return start
-}
-
-func increment(_ end: Int, length: Int) -> Int {
-    return end+1 >= length ? end+1-length : end+1
+    return 0
 }

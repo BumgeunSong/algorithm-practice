@@ -334,7 +334,7 @@ class Algorithm3Tests: XCTestCase {
     }
     
     func testTruckTour() {
-        let input1 = [[1,5],[10,3], [3,4]]
+        let input1 = [[1,5],[10,3],[3,4]]
         
         XCTAssertEqual(truckTour(petrolpumps: input1), 1)
     }
