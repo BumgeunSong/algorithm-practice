@@ -338,4 +338,23 @@ class Algorithm3Tests: XCTestCase {
         
         XCTAssertEqual(truckTour(petrolpumps: input1), 1)
     }
+    
+    func testParse() {
+        print(parseOperation())
+    }
+    
+    func testPairs() throws {
+        let input1 = [1,5,3,4,2]
+        let input2 = 2
+        let answer = 3
+        
+        XCTAssertEqual(pairs(k: input2, arr: input1), answer)
+    }
+    
+    func testfindHole() throws {
+        var input1 = [1, 3, 6, 4, 1, 2]
+        let answer = 5
+        
+        XCTAssertEqual(findHole(&input1), answer)
+    }
 }
