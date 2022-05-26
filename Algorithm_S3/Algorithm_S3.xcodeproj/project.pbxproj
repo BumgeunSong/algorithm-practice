@@ -32,6 +32,14 @@
 		BC45EE4E283B0D27008239E1 /* N-digit Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE4C283B0D27008239E1 /* N-digit Game.swift */; };
 		BC45EE50283BBE51008239E1 /* fizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE4F283BBE51008239E1 /* fizzBuzz.swift */; };
 		BC45EE51283BBE51008239E1 /* fizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE4F283BBE51008239E1 /* fizzBuzz.swift */; };
+		BC45EE7C283E005A008239E1 /* QueueTwoStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE7B283E005A008239E1 /* QueueTwoStacks.swift */; };
+		BC45EE7D283E005A008239E1 /* QueueTwoStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE7B283E005A008239E1 /* QueueTwoStacks.swift */; };
+		BC45EE7F283E18D9008239E1 /* Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE7E283E18D9008239E1 /* Pairs.swift */; };
+		BC45EE80283E18D9008239E1 /* Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE7E283E18D9008239E1 /* Pairs.swift */; };
+		BC45EE82283E1D3E008239E1 /* balancedBracket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE81283E1D3E008239E1 /* balancedBracket.swift */; };
+		BC45EE83283E1D3E008239E1 /* balancedBracket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE81283E1D3E008239E1 /* balancedBracket.swift */; };
+		BC45EE85283F0B25008239E1 /* codility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE84283F0B25008239E1 /* codility.swift */; };
+		BC45EE86283F0D48008239E1 /* codility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EE84283F0B25008239E1 /* codility.swift */; };
 		BC6EA96C282F91CE0015FB96 /* 해시맵.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EA96B282F91CE0015FB96 /* 해시맵.swift */; };
 		BC6EA96D282F93650015FB96 /* 해시맵.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EA96B282F91CE0015FB96 /* 해시맵.swift */; };
 		BC7C3C32281F56F8003F4833 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C31281F56F8003F4833 /* main.swift */; };
@@ -81,6 +89,10 @@
 		BC45EE49283A5F39008239E1 /* plusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plusOne.swift; sourceTree = "<group>"; };
 		BC45EE4C283B0D27008239E1 /* N-digit Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N-digit Game.swift"; sourceTree = "<group>"; };
 		BC45EE4F283BBE51008239E1 /* fizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fizzBuzz.swift; sourceTree = "<group>"; };
+		BC45EE7B283E005A008239E1 /* QueueTwoStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTwoStacks.swift; sourceTree = "<group>"; };
+		BC45EE7E283E18D9008239E1 /* Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairs.swift; sourceTree = "<group>"; };
+		BC45EE81283E1D3E008239E1 /* balancedBracket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balancedBracket.swift; sourceTree = "<group>"; };
+		BC45EE84283F0B25008239E1 /* codility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codility.swift; sourceTree = "<group>"; };
 		BC6EA96B282F91CE0015FB96 /* 해시맵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "해시맵.swift"; sourceTree = "<group>"; };
 		BC7C3C2E281F56F8003F4833 /* Algorithm_S3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_S3; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7C3C31281F56F8003F4833 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -136,10 +148,12 @@
 		BC7C3C30281F56F8003F4833 /* Algorithm_S3 */ = {
 			isa = PBXGroup;
 			children = (
+				BC45EE81283E1D3E008239E1 /* balancedBracket.swift */,
 				BC7C3C31281F56F8003F4833 /* main.swift */,
 				BC7C3C43281F573C003F4833 /* EditTable.swift */,
 				BCCFC22E28336404003D0AA5 /* 튜플.swift */,
 				BC9259142834B55400E496F6 /* 캐시.swift */,
+				BC45EE84283F0B25008239E1 /* codility.swift */,
 				BC45EE3D283A1092008239E1 /* 방금그곡.swift */,
 				BC0B745628224224007AE2B6 /* FindKthLargest.swift */,
 				BC0B7460282295AC007AE2B6 /* maximizeEquation.swift */,
@@ -156,6 +170,8 @@
 				BC45EE46283A5B4F008239E1 /* randomizedSet-O1.swift */,
 				BC45EE49283A5F39008239E1 /* plusOne.swift */,
 				BC45EE4C283B0D27008239E1 /* N-digit Game.swift */,
+				BC45EE7B283E005A008239E1 /* QueueTwoStacks.swift */,
+				BC45EE7E283E18D9008239E1 /* Pairs.swift */,
 				BC45EE4F283BBE51008239E1 /* fizzBuzz.swift */,
 				BC45EE3A2839273A008239E1 /* Dijkstras.swift */,
 			);
@@ -268,11 +284,14 @@
 				BC6EA96C282F91CE0015FB96 /* 해시맵.swift in Sources */,
 				BC0B745728224224007AE2B6 /* FindKthLargest.swift in Sources */,
 				BCCFC22B28322326003D0AA5 /* Heap.swift in Sources */,
+				BC45EE7C283E005A008239E1 /* QueueTwoStacks.swift in Sources */,
+				BC45EE82283E1D3E008239E1 /* balancedBracket.swift in Sources */,
 				BC7C3C44281F573C003F4833 /* EditTable.swift in Sources */,
 				BC0B745A282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */,
 				BC0B7461282295AC007AE2B6 /* maximizeEquation.swift in Sources */,
 				BC45EE47283A5B4F008239E1 /* randomizedSet-O1.swift in Sources */,
 				BCCFC22F28336404003D0AA5 /* 튜플.swift in Sources */,
+				BC45EE7F283E18D9008239E1 /* Pairs.swift in Sources */,
 				BCD835132825089C001273C8 /* rankSearch.swift in Sources */,
 				BCD8351828263283001273C8 /* Kakao.swift in Sources */,
 				BC9259152834B55400E496F6 /* 캐시.swift in Sources */,
@@ -280,6 +299,7 @@
 				BC45EE4A283A5F39008239E1 /* plusOne.swift in Sources */,
 				BC45EE44283A54CF008239E1 /* groupAnagrams.swift in Sources */,
 				BC7C3C32281F56F8003F4833 /* main.swift in Sources */,
+				BC45EE85283F0B25008239E1 /* codility.swift in Sources */,
 				BC45EE3E283A1092008239E1 /* 방금그곡.swift in Sources */,
 				BCDB11EE282CD10B00A90202 /* 후보키.swift in Sources */,
 				BC45EE41283A4775008239E1 /* PriorityQueue.swift in Sources */,
@@ -293,9 +313,11 @@
 				BC0B745828224224007AE2B6 /* FindKthLargest.swift in Sources */,
 				BC45EE48283A5B4F008239E1 /* randomizedSet-O1.swift in Sources */,
 				BC7C3C45281F573D003F4833 /* EditTable.swift in Sources */,
+				BC45EE80283E18D9008239E1 /* Pairs.swift in Sources */,
 				BC0B746428229C0B007AE2B6 /* Algorithm2Tests.swift in Sources */,
 				BCDB11EF282CD10B00A90202 /* 후보키.swift in Sources */,
 				BC45EE42283A4775008239E1 /* PriorityQueue.swift in Sources */,
+				BC45EE83283E1D3E008239E1 /* balancedBracket.swift in Sources */,
 				BC9259162834B55400E496F6 /* 캐시.swift in Sources */,
 				BC45EE51283BBE51008239E1 /* fizzBuzz.swift in Sources */,
 				BC0B745B282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */,
@@ -308,7 +330,9 @@
 				BC7C3C3F281F5715003F4833 /* AlgorithmTests.swift in Sources */,
 				BCD8351B282632CC001273C8 /* Algorithm3Tests.swift in Sources */,
 				BCD835232829E82D001273C8 /* twoSum.swift in Sources */,
+				BC45EE7D283E005A008239E1 /* QueueTwoStacks.swift in Sources */,
 				BCCFC22C28322326003D0AA5 /* Heap.swift in Sources */,
+				BC45EE86283F0D48008239E1 /* codility.swift in Sources */,
 				BC45EE3C2839273A008239E1 /* Dijkstras.swift in Sources */,
 				BC45EE45283A54CF008239E1 /* groupAnagrams.swift in Sources */,
 				BC45EE3F283A1092008239E1 /* 방금그곡.swift in Sources */,
