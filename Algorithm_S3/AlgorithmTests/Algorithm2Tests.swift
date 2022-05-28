@@ -9,10 +9,6 @@ import XCTest
 
 class Algorithm2Tests: XCTestCase {
     
-    func testExample() throws {
-        maximizeEquation("100-200*300-500+20")
-    }
-    
     func testMaximize() throws {
         let input1 = "100-200*300-500+20"
         let answer = Int64(60420)
@@ -23,13 +19,7 @@ class Algorithm2Tests: XCTestCase {
     func testCalculate() throws {
         XCTAssertEqual(calculate(40, 50, "+"), 90)
     }
-//    
-//    func testResolveAll() {
-//        let result = resolveAll(["*", "+", "-"], [(100,"-"),(200,"*"),(300,"-"),(500, "+"),(20, "+")])
-//        let answer = Int64(60420)
-//        XCTAssertEqual(result, answer)
-//    }
-//    
+
     func testTupleDict() throws {
         let input1 = "{{123}}"
         print(tupleDict(input1))

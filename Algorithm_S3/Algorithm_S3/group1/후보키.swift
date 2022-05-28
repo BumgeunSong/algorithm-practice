@@ -13,7 +13,7 @@ func 후보키(_ relation:[[String]]) -> Int {
     }
     
     var candidateKeyCount = 0
-    var i = 0
+    let i = 0
 
     while i < subsets.count {
         if isUniqueKey(subsets[i], relation) {

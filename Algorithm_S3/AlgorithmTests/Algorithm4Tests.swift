@@ -29,4 +29,29 @@ class Algorithm4Tests: XCTestCase {
         }
         print(totalCases)
     }
+    
+    func testBalancedSum() throws {
+        let input1 = [1,2,3,3]
+        let answer = 2
+        
+        XCTAssertEqual(balancedSum(arr: input1), answer)
+    }
+    
+    func testisPossible() throws {
+        
+        let answer = "NO"
+        
+        XCTAssertEqual(isPossible(a: 1, b: 2, c: 3, d: 6), answer)
+    }
+    
+    func testisPossible2() throws {
+        
+        let answer = "YES"
+        
+        XCTAssertEqual(isPossible(a: 1, b: 4, c: 5, d: 9), answer)
+    }
+    func testMinimumBribes() throws {
+        let input1 = [1, 2, 5, 3, 7, 8, 6, 4]
+        print(minimumBribes(q: input1))
+    }
 }

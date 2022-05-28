@@ -202,22 +202,6 @@ class Algorithm3Tests: XCTestCase {
         XCTAssertEqual(캐시(input2, input1), answer)
     }
     
-    func testNode() throws {
-        var list = LinkedList<String>()
-        list.append("A")
-        XCTAssertEqual(list.head?.val, "A")
-        XCTAssertEqual(list.tail?.val, "A")
-        XCTAssertEqual(list.remove(node: list.head!), "A")
-        XCTAssertNil(list.head)
-        XCTAssertNil(list.tail)
-        list.append("B")
-        list.append("C")
-        XCTAssertEqual(list.head?.val, "B")
-        XCTAssertEqual(list.tail?.val, "C")
-        XCTAssertEqual(list.remove(node: list.head!), "B")
-        XCTAssertNotNil(list.head)
-        XCTAssertNotNil(list.tail)
-    }
     
     func testTimeInterval() throws {
         let input1 = "15:59"
@@ -272,7 +256,7 @@ class Algorithm3Tests: XCTestCase {
     }
     
     func testGenerateSequence() throws {
-        let input1 = 2
+        
         let input2 = 3
         let answer = ["000","001",
                       "010","011","100","101","110","111"]
