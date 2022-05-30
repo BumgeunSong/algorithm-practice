@@ -8,21 +8,31 @@
 import Foundation
 
 func minimumBribes(q: [Int]) -> Void {
+    let q = q.map { $0-1 }
     
     var bribe = 0
-    for i in 0..<q.count {
-        let originalPos = q[i]-1, currentPos = i
+    for (curIndex, originIndex) in q.enumerated() {
         
-        if originalPos-currentPos > 2 {
+        if curIndex < originIndex-2 {
             print("Too chaotic")
             return
         }
         
-        if originalPos-currentPos < 0 {
-            for candidate in q[min(0,originalPos-1)..<currentPos] {
-                if candidate > originalPos { bribe += 1 }
-            }
+        if curIndex > originIndex {
+            bribe += countBribes(q: q, range: max(0,originIndex-1)..<curIndex)
         }
+        
+        
     }
     print("\(bribe)")
+}
+
+func countBribes(q: [Int], range: Range<Int>) -> Int {
+    var count = 0
+    
+    for i in range {
+        if q[i] > i { count += 1 }
+    }
+    
+    return count
 }

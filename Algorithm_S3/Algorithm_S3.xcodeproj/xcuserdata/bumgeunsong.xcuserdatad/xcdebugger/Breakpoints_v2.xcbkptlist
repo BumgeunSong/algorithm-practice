@@ -1248,5 +1248,162 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B128D0F7-1CCF-4BC9-A411-633E7108331A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S3/group2/NewYearChaos.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "minimumBribes(q:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "B128D0F7-1CCF-4BC9-A411-633E7108331A - a3d52a9944c8566b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.minimumBribes(q: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group2/NewYearChaos.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "712">
+               </Location>
+               <Location
+                  uuid = "B128D0F7-1CCF-4BC9-A411-633E7108331A - a3d52a9944c8566b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.minimumBribes(q: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group2/NewYearChaos.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "700">
+               </Location>
+               <Location
+                  uuid = "B128D0F7-1CCF-4BC9-A411-633E7108331A - a3d52a9944c85648"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.minimumBribes(q: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group2/NewYearChaos.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "B128D0F7-1CCF-4BC9-A411-633E7108331A - a3d52a9944c8566b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.minimumBribes(q: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group2/NewYearChaos.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  uuid = "B128D0F7-1CCF-4BC9-A411-633E7108331A - a3d52a9944c85648"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.minimumBribes(q: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group2/NewYearChaos.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "676">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A014CC49-632C-486A-B61A-086A21C5A0AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S3/group2/NewYearChaos.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "countBribes(q:range:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C232980F-3923-4EA9-BA33-92EF7510D9FC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S3/group2/NewYearChaos.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "minimumBribes(q:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C232980F-3923-4EA9-BA33-92EF7510D9FC - a3d52a9944c85629"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.minimumBribes(q: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group2/NewYearChaos.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "848">
+               </Location>
+               <Location
+                  uuid = "C232980F-3923-4EA9-BA33-92EF7510D9FC - a3d52a9944c85629"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.minimumBribes(q: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group2/NewYearChaos.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "872">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

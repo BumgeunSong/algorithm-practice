@@ -51,7 +51,40 @@ class Algorithm4Tests: XCTestCase {
         XCTAssertEqual(isPossible(a: 1, b: 4, c: 5, d: 9), answer)
     }
     func testMinimumBribes() throws {
-        let input1 = [1, 2, 5, 3, 7, 8, 6, 4]
+        let input1 = [1, 2, 5, 3, 4, 7, 8, 6]
         print(minimumBribes(q: input1))
+    }
+    func testCountBribes() throws {
+        let input1 = [1, 2, 5, 3, 7, 8, 6, 4]
+        let input2 = input1.map { $0-1 }
+        XCTAssertEqual(countBribes(q: input2, range: 3..<7), 2)
+    }
+    
+    func testDigitSum() throws {
+        let input1 = "9875"
+        let answer = "29"
+        
+        XCTAssertEqual(digitSum(input1), answer)
+    }
+    
+    func testSuperDigit() throws {
+        let input1 = "9875"
+        let input2 = 4
+        let answer = 8
+        
+        XCTAssertEqual(superDigit(n: input1, k: input2), answer)
+    }
+    
+    func testEditor() throws {
+        var editor = Editor()
+        editor.append("abc")
+        editor.printChar(3)
+        editor.delete(3)
+        editor.append("xy")
+        editor.append("zw")
+        editor.undo()
+        editor.printChar(2)
+        
+        
     }
 }
