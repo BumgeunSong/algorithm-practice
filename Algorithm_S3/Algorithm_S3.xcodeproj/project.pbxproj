@@ -82,6 +82,8 @@
 		BCDB11EF282CD10B00A90202 /* 후보키.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDB11ED282CD10B00A90202 /* 후보키.swift */; };
 		BCEFF43A2845974500585324 /* lengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */; };
 		BCEFF43B2845974500585324 /* lengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */; };
+		BCEFF43D28459E3900585324 /* Longest Palindromic Substring  .swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFF43C28459E3900585324 /* Longest Palindromic Substring  .swift */; };
+		BCEFF43E28459E3900585324 /* Longest Palindromic Substring  .swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFF43C28459E3900585324 /* Longest Palindromic Substring  .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -139,6 +141,7 @@
 		BCD835212829E82D001273C8 /* twoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum.swift; sourceTree = "<group>"; };
 		BCDB11ED282CD10B00A90202 /* 후보키.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "후보키.swift"; sourceTree = "<group>"; };
 		BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lengthOfLongestSubstring.swift; sourceTree = "<group>"; };
+		BCEFF43C28459E3900585324 /* Longest Palindromic Substring  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Palindromic Substring  .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +208,7 @@
 				BCCC14D028438B13007A7F25 /* SuperDigit.swift */,
 				BCCC14D328444B3F007A7F25 /* TextEditor.swift */,
 				BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */,
+				BCEFF43C28459E3900585324 /* Longest Palindromic Substring  .swift */,
 			);
 			path = group2;
 			sourceTree = "<group>";
@@ -353,6 +357,7 @@
 				BC45EE97284052E2008239E1 /* brickPermutation.swift in Sources */,
 				BC45EEB22841C419008239E1 /* RESTAPI.swift in Sources */,
 				BC45EE47283A5B4F008239E1 /* randomizedSet-O1.swift in Sources */,
+				BCEFF43D28459E3900585324 /* Longest Palindromic Substring  .swift in Sources */,
 				BC45EE94283FA49B008239E1 /* bulb.swift in Sources */,
 				BCCFC22F28336404003D0AA5 /* 튜플.swift in Sources */,
 				BC45EE7F283E18D9008239E1 /* Pairs.swift in Sources */,
@@ -402,6 +407,7 @@
 				BC45EE98284052E2008239E1 /* brickPermutation.swift in Sources */,
 				BCD8351B282632CC001273C8 /* Algorithm3Tests.swift in Sources */,
 				BC45EEB628423FC7008239E1 /* gridChallenge.swift in Sources */,
+				BCEFF43E28459E3900585324 /* Longest Palindromic Substring  .swift in Sources */,
 				BCD835232829E82D001273C8 /* twoSum.swift in Sources */,
 				BCCC14D228438BA3007A7F25 /* SuperDigit.swift in Sources */,
 				BC45EE7D283E005A008239E1 /* QueueTwoStacks.swift in Sources */,

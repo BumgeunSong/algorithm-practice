@@ -93,4 +93,26 @@ class Algorithm4Tests: XCTestCase {
         
         XCTAssertEqual(lengthOfLongestSubstring(input1), answer)
     }
+    
+    func test_longestPalindrome() throws {
+        let input1 = "babad"
+        let answer = "bab"
+                
+        XCTAssertEqual(longestPalindrome(input1), answer)
+    }
+    
+    func test_longestPalindrome_2() throws {
+        let input1 = "adam"
+        let answer = "ada"
+        
+        XCTAssertEqual(longestPalindrome(input1), answer)
+    }
+    
+    func test_longestPalindrome_3() throws {
+        let input1 = "bacabab"
+        
+        let answer = "bacab"
+        
+        XCTAssertEqual(longestPalindrome(input1), answer)
+    }
 }
