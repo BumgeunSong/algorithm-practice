@@ -87,4 +87,10 @@ class Algorithm4Tests: XCTestCase {
         
         
     }
+    func testLongestSubstring() throws {
+        let input1 = "pwwkew"
+        let answer = 3
+        
+        XCTAssertEqual(lengthOfLongestSubstring(input1), answer)
+    }
 }

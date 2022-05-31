@@ -80,6 +80,8 @@
 		BCD835232829E82D001273C8 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD835212829E82D001273C8 /* twoSum.swift */; };
 		BCDB11EE282CD10B00A90202 /* 후보키.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDB11ED282CD10B00A90202 /* 후보키.swift */; };
 		BCDB11EF282CD10B00A90202 /* 후보키.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDB11ED282CD10B00A90202 /* 후보키.swift */; };
+		BCEFF43A2845974500585324 /* lengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */; };
+		BCEFF43B2845974500585324 /* lengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -136,6 +138,7 @@
 		BCD8351A282632CC001273C8 /* Algorithm3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm3Tests.swift; sourceTree = "<group>"; };
 		BCD835212829E82D001273C8 /* twoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum.swift; sourceTree = "<group>"; };
 		BCDB11ED282CD10B00A90202 /* 후보키.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "후보키.swift"; sourceTree = "<group>"; };
+		BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +204,7 @@
 				BC45EEB728424E32008239E1 /* NewYearChaos.swift */,
 				BCCC14D028438B13007A7F25 /* SuperDigit.swift */,
 				BCCC14D328444B3F007A7F25 /* TextEditor.swift */,
+				BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */,
 			);
 			path = group2;
 			sourceTree = "<group>";
@@ -357,6 +361,7 @@
 				BCCC14D428444B3F007A7F25 /* TextEditor.swift in Sources */,
 				BC9259152834B55400E496F6 /* 캐시.swift in Sources */,
 				BC22097C28238ED200159AC0 /* Tuple.swift in Sources */,
+				BCEFF43A2845974500585324 /* lengthOfLongestSubstring.swift in Sources */,
 				BC45EEB528423FC7008239E1 /* gridChallenge.swift in Sources */,
 				BC45EE4A283A5F39008239E1 /* plusOne.swift in Sources */,
 				BC45EE44283A54CF008239E1 /* groupAnagrams.swift in Sources */,
@@ -408,6 +413,7 @@
 				BC45EE3C2839273A008239E1 /* Dijkstras.swift in Sources */,
 				BC45EE45283A54CF008239E1 /* groupAnagrams.swift in Sources */,
 				BC45EE92283F9A6F008239E1 /* Algorithm4Tests.swift in Sources */,
+				BCEFF43B2845974500585324 /* lengthOfLongestSubstring.swift in Sources */,
 				BC45EE3F283A1092008239E1 /* 방금그곡.swift in Sources */,
 				BCCFC23028336404003D0AA5 /* 튜플.swift in Sources */,
 				BC45EE95283FA49B008239E1 /* bulb.swift in Sources */,
