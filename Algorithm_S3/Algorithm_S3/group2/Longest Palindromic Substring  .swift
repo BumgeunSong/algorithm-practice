@@ -8,30 +8,38 @@
 import Foundation
 
 func longestPalindrome(_ s: String) -> String {
-    let arr = Array(s)
-    if isPalindrome(ArraySlice(arr)) { return s }
+    if s.count <= 1 { return s }
     
-    var start = 0
-    var end = 1
-    var longest = [arr[0]]
+    let arr = s.map { "\($0)" }
+    var maxLength: (i:Int, j: Int) = (0,0)
+    var table = Array(repeating: Array(repeating: false, count: s.count), count: s.count)
     
-    while end < s.count {
-        if isPalindrome(arr[start...end]) {
-            longest = Array(arr[start...end])
-            end += 1
-            start = 0
-        } else {
-            if (end + 1 - start) > longest.count+1 {
-                start += 1
-            } else {
-                end += 1
+    
+    
+    
+    
+    for length in 0..<s.count {
+        for i in 0..<s.count where i+length < s.count {
+            let j = i+length
+            // length가 0인 경우는 무조건 대칭
+            if length == 0 {
+                table[i][j] = true
+            }
+            
+            // length가 1인 경우는 맨 앞, 맨 뒤 체크
+            if length == 1 && arr[i] == arr[j] {
+                table[i][j] = true
+                maxLength = (i,j)
+            }
+            
+            // length가 2 이상인 경우는 맨 앞, 맨 뒤 체크 + 안쪽 string의 대칭 체크
+            if length >= 2 && arr[i] == arr[j] && table[i+1][j-1] {
+                table[i][j] = true
+                maxLength = (i,j)
             }
         }
     }
-    return String(longest)
+    
+    return arr[maxLength.i...maxLength.j].joined(separator: "")
 }
 
-func isPalindrome(_ s: ArraySlice<Character>) -> Bool {
-    if s.count <= 1 { return true }
-    return s.first == s.last && isPalindrome(s.dropFirst().dropLast())
-}

@@ -102,8 +102,8 @@ class Algorithm4Tests: XCTestCase {
     }
     
     func test_longestPalindrome_2() throws {
-        let input1 = "adam"
-        let answer = "ada"
+        let input1 = "aaaa"
+        let answer = "aaaa"
         
         XCTAssertEqual(longestPalindrome(input1), answer)
     }
@@ -115,4 +115,13 @@ class Algorithm4Tests: XCTestCase {
         
         XCTAssertEqual(longestPalindrome(input1), answer)
     }
+    
+    func test_longestPalindrome_4() throws {
+        let input1 = "civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"
+        
+        let answer = "bacab"
+        
+        print(input1.count)
+    }
+    
 }
