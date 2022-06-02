@@ -116,12 +116,54 @@ class Algorithm4Tests: XCTestCase {
         XCTAssertEqual(longestPalindrome(input1), answer)
     }
     
-    func test_longestPalindrome_4() throws {
-        let input1 = "civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"
+    func test_Parsefile() {
+        let file = parseFile(index: 2, "F-15")
+        print(file)
+    }
+    
+    func test_filesort_1() throws {
+        let input1 =  ["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]
+
+        let answer = ["img1.png", "IMG01.GIF", "img02.png", "img2.JPG", "img10.png", "img12.png"]
         
-        let answer = "bacab"
+        XCTAssertEqual(fileSort(input1), answer)
+    }
+    
+    func test_filesort_2() throws {
+        let input1 =  ["F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat"]
+
+        let answer =  ["A-10 Thunderbolt II", "B-50 Superfortress", "F-5 Freedom Fighter", "F-14 Tomcat"]
         
-        print(input1.count)
+        XCTAssertEqual(fileSort(input1), answer)
+    }
+    
+    func test_parseRecord_1() throws {
+        let input1 = "06:00 0000 IN"
+        print(parseRecord(input1))
+    }
+    
+    func test_parkingFee_1() throws {
+        let input1 = ["05:34 5961 IN", "06:00 0000 IN", "06:34 0000 OUT", "07:59 5961 OUT", "07:59 0148 IN", "18:59 0000 IN", "19:09 0148 OUT", "22:59 5961 IN", "23:00 5961 OUT"]
+        let input2 = [180, 5000, 10, 600]
+        let answer = [14600, 34400, 5000]
+        
+        XCTAssertEqual(parking_fee(input2, input1), answer)
+    }
+    
+    func test_parkingFee_2() throws {
+        let input1 = ["00:00 1234 IN"]
+        let input2 = [1, 461, 1, 10]
+        let answer = [14841]
+        
+        XCTAssertEqual(parking_fee(input2, input1), answer)
+    }
+    
+    func test_parkingFee_3() throws {
+        let input1 = ["16:00 3961 IN","16:00 0202 IN","18:00 3961 OUT","18:00 0202 OUT","23:58 3961 IN"]
+        let input2 = [120, 0, 60, 591]
+        let answer = [0, 591]
+        
+        XCTAssertEqual(parking_fee(input2, input1), answer)
     }
     
 }

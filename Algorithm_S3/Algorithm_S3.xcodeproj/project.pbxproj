@@ -55,6 +55,10 @@
 		BC45EEB628423FC7008239E1 /* gridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EEB428423FC7008239E1 /* gridChallenge.swift */; };
 		BC45EEB828424E32008239E1 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EEB728424E32008239E1 /* NewYearChaos.swift */; };
 		BC45EEB928424E32008239E1 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45EEB728424E32008239E1 /* NewYearChaos.swift */; };
+		BC63751D2848363900BF444B /* 파일명_정렬.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63751C2848363900BF444B /* 파일명_정렬.swift */; };
+		BC63751E2848363900BF444B /* 파일명_정렬.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63751C2848363900BF444B /* 파일명_정렬.swift */; };
+		BC637520284841FF00BF444B /* Parking_fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63751F284841FF00BF444B /* Parking_fee.swift */; };
+		BC637521284841FF00BF444B /* Parking_fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63751F284841FF00BF444B /* Parking_fee.swift */; };
 		BC6EA96C282F91CE0015FB96 /* 해시맵.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EA96B282F91CE0015FB96 /* 해시맵.swift */; };
 		BC6EA96D282F93650015FB96 /* 해시맵.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EA96B282F91CE0015FB96 /* 해시맵.swift */; };
 		BC7C3C32281F56F8003F4833 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C31281F56F8003F4833 /* main.swift */; };
@@ -124,6 +128,8 @@
 		BC45EEB12841C419008239E1 /* RESTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTAPI.swift; sourceTree = "<group>"; };
 		BC45EEB428423FC7008239E1 /* gridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridChallenge.swift; sourceTree = "<group>"; };
 		BC45EEB728424E32008239E1 /* NewYearChaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
+		BC63751C2848363900BF444B /* 파일명_정렬.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "파일명_정렬.swift"; sourceTree = "<group>"; };
+		BC63751F284841FF00BF444B /* Parking_fee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_fee.swift; sourceTree = "<group>"; };
 		BC6EA96B282F91CE0015FB96 /* 해시맵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "해시맵.swift"; sourceTree = "<group>"; };
 		BC7C3C2E281F56F8003F4833 /* Algorithm_S3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_S3; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7C3C31281F56F8003F4833 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -209,6 +215,8 @@
 				BCCC14D328444B3F007A7F25 /* TextEditor.swift */,
 				BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */,
 				BCEFF43C28459E3900585324 /* Longest Palindromic Substring  .swift */,
+				BC63751C2848363900BF444B /* 파일명_정렬.swift */,
+				BC63751F284841FF00BF444B /* Parking_fee.swift */,
 			);
 			path = group2;
 			sourceTree = "<group>";
@@ -351,6 +359,7 @@
 				BC45EE7C283E005A008239E1 /* QueueTwoStacks.swift in Sources */,
 				BC45EE82283E1D3E008239E1 /* balancedBracket.swift in Sources */,
 				BC45EEAC2841B38F008239E1 /* pivot.swift in Sources */,
+				BC63751D2848363900BF444B /* 파일명_정렬.swift in Sources */,
 				BC7C3C44281F573C003F4833 /* EditTable.swift in Sources */,
 				BC0B745A282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */,
 				BC0B7461282295AC007AE2B6 /* maximizeEquation.swift in Sources */,
@@ -362,6 +371,7 @@
 				BCCFC22F28336404003D0AA5 /* 튜플.swift in Sources */,
 				BC45EE7F283E18D9008239E1 /* Pairs.swift in Sources */,
 				BCD835132825089C001273C8 /* rankSearch.swift in Sources */,
+				BC637520284841FF00BF444B /* Parking_fee.swift in Sources */,
 				BCD8351828263283001273C8 /* Kakao.swift in Sources */,
 				BCCC14D428444B3F007A7F25 /* TextEditor.swift in Sources */,
 				BC9259152834B55400E496F6 /* 캐시.swift in Sources */,
@@ -401,6 +411,7 @@
 				BC0B7462282295AC007AE2B6 /* maximizeEquation.swift in Sources */,
 				BC6EA96D282F93650015FB96 /* 해시맵.swift in Sources */,
 				BCD8351928263283001273C8 /* Kakao.swift in Sources */,
+				BC637521284841FF00BF444B /* Parking_fee.swift in Sources */,
 				BCD83514282508F2001273C8 /* rankSearch.swift in Sources */,
 				BC22097D28238ED200159AC0 /* Tuple.swift in Sources */,
 				BC7C3C3F281F5715003F4833 /* AlgorithmTests.swift in Sources */,
@@ -418,6 +429,7 @@
 				BC45EEB32841C419008239E1 /* RESTAPI.swift in Sources */,
 				BC45EE3C2839273A008239E1 /* Dijkstras.swift in Sources */,
 				BC45EE45283A54CF008239E1 /* groupAnagrams.swift in Sources */,
+				BC63751E2848363900BF444B /* 파일명_정렬.swift in Sources */,
 				BC45EE92283F9A6F008239E1 /* Algorithm4Tests.swift in Sources */,
 				BCEFF43B2845974500585324 /* lengthOfLongestSubstring.swift in Sources */,
 				BC45EE3F283A1092008239E1 /* 방금그곡.swift in Sources */,
