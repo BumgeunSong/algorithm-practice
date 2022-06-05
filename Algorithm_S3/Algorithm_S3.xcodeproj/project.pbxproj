@@ -59,6 +59,10 @@
 		BC63751E2848363900BF444B /* 파일명_정렬.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63751C2848363900BF444B /* 파일명_정렬.swift */; };
 		BC637520284841FF00BF444B /* Parking_fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63751F284841FF00BF444B /* Parking_fee.swift */; };
 		BC637521284841FF00BF444B /* Parking_fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63751F284841FF00BF444B /* Parking_fee.swift */; };
+		BC6375232849944100BF444B /* increasingTriplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6375222849944100BF444B /* increasingTriplet.swift */; };
+		BC6375242849944100BF444B /* increasingTriplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6375222849944100BF444B /* increasingTriplet.swift */; };
+		BC637526284C81E200BF444B /* Count Special Quadruplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC637525284C81E200BF444B /* Count Special Quadruplets.swift */; };
+		BC637527284C81E200BF444B /* Count Special Quadruplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC637525284C81E200BF444B /* Count Special Quadruplets.swift */; };
 		BC6EA96C282F91CE0015FB96 /* 해시맵.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EA96B282F91CE0015FB96 /* 해시맵.swift */; };
 		BC6EA96D282F93650015FB96 /* 해시맵.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EA96B282F91CE0015FB96 /* 해시맵.swift */; };
 		BC7C3C32281F56F8003F4833 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C31281F56F8003F4833 /* main.swift */; };
@@ -130,6 +134,8 @@
 		BC45EEB728424E32008239E1 /* NewYearChaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
 		BC63751C2848363900BF444B /* 파일명_정렬.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "파일명_정렬.swift"; sourceTree = "<group>"; };
 		BC63751F284841FF00BF444B /* Parking_fee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_fee.swift; sourceTree = "<group>"; };
+		BC6375222849944100BF444B /* increasingTriplet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = increasingTriplet.swift; sourceTree = "<group>"; };
+		BC637525284C81E200BF444B /* Count Special Quadruplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Count Special Quadruplets.swift"; sourceTree = "<group>"; };
 		BC6EA96B282F91CE0015FB96 /* 해시맵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "해시맵.swift"; sourceTree = "<group>"; };
 		BC7C3C2E281F56F8003F4833 /* Algorithm_S3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_S3; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7C3C31281F56F8003F4833 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -217,6 +223,7 @@
 				BCEFF43C28459E3900585324 /* Longest Palindromic Substring  .swift */,
 				BC63751C2848363900BF444B /* 파일명_정렬.swift */,
 				BC63751F284841FF00BF444B /* Parking_fee.swift */,
+				BC6375222849944100BF444B /* increasingTriplet.swift */,
 			);
 			path = group2;
 			sourceTree = "<group>";
@@ -224,6 +231,7 @@
 		BC7C3C25281F56F8003F4833 = {
 			isa = PBXGroup;
 			children = (
+				BC637525284C81E200BF444B /* Count Special Quadruplets.swift */,
 				BC7C3C30281F56F8003F4833 /* Algorithm_S3 */,
 				BC7C3C3D281F5715003F4833 /* AlgorithmTests */,
 				BC7C3C2F281F56F8003F4833 /* Products */,
@@ -357,6 +365,7 @@
 				BC45EEB828424E32008239E1 /* NewYearChaos.swift in Sources */,
 				BCCFC22B28322326003D0AA5 /* Heap.swift in Sources */,
 				BC45EE7C283E005A008239E1 /* QueueTwoStacks.swift in Sources */,
+				BC6375232849944100BF444B /* increasingTriplet.swift in Sources */,
 				BC45EE82283E1D3E008239E1 /* balancedBracket.swift in Sources */,
 				BC45EEAC2841B38F008239E1 /* pivot.swift in Sources */,
 				BC63751D2848363900BF444B /* 파일명_정렬.swift in Sources */,
@@ -384,6 +393,7 @@
 				BC45EE85283F0B25008239E1 /* codility.swift in Sources */,
 				BC45EEAF2841B7C4008239E1 /* isPossible.swift in Sources */,
 				BC45EE3E283A1092008239E1 /* 방금그곡.swift in Sources */,
+				BC637526284C81E200BF444B /* Count Special Quadruplets.swift in Sources */,
 				BCDB11EE282CD10B00A90202 /* 후보키.swift in Sources */,
 				BC45EE41283A4775008239E1 /* PriorityQueue.swift in Sources */,
 				BCCC14D128438B13007A7F25 /* SuperDigit.swift in Sources */,
@@ -424,6 +434,7 @@
 				BC45EE7D283E005A008239E1 /* QueueTwoStacks.swift in Sources */,
 				BCCFC22C28322326003D0AA5 /* Heap.swift in Sources */,
 				BC45EEB02841B95C008239E1 /* isPossible.swift in Sources */,
+				BC637527284C81E200BF444B /* Count Special Quadruplets.swift in Sources */,
 				BC45EE86283F0D48008239E1 /* codility.swift in Sources */,
 				BC45EEAD2841B46E008239E1 /* pivot.swift in Sources */,
 				BC45EEB32841C419008239E1 /* RESTAPI.swift in Sources */,
@@ -431,6 +442,7 @@
 				BC45EE45283A54CF008239E1 /* groupAnagrams.swift in Sources */,
 				BC63751E2848363900BF444B /* 파일명_정렬.swift in Sources */,
 				BC45EE92283F9A6F008239E1 /* Algorithm4Tests.swift in Sources */,
+				BC6375242849944100BF444B /* increasingTriplet.swift in Sources */,
 				BCEFF43B2845974500585324 /* lengthOfLongestSubstring.swift in Sources */,
 				BC45EE3F283A1092008239E1 /* 방금그곡.swift in Sources */,
 				BCCFC23028336404003D0AA5 /* 튜플.swift in Sources */,

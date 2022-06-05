@@ -166,4 +166,25 @@ class Algorithm4Tests: XCTestCase {
         XCTAssertEqual(parking_fee(input2, input1), answer)
     }
     
+    func test_increasingTriplet_1() throws {
+        let input1 = [6,7,1,2]
+        let answer = false
+        
+        XCTAssertEqual(increasingTriplet(input1), answer)
+    }
+    
+    func test_increasingTriplet_2() throws {
+        let input1 = [1,2,1,3]
+        let answer = true
+        
+        XCTAssertEqual(increasingTriplet(input1), answer)
+    }
+    
+    func test_countQuadruplets_dfs() throws {
+        let input1 = [1,1,1,3,5]
+        let answer = 3
+        
+        XCTAssertEqual(countQuadruplets(input1), answer)
+    }
+    
 }
