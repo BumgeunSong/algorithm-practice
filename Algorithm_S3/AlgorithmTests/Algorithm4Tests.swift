@@ -214,11 +214,20 @@ class Algorithm4Tests: XCTestCase {
         XCTAssertEqual(addTwoNumbers(input1, input2), answer)
     }
     
-    func test_oddEvenList_1() throws {
-        let input1 = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
- 
-        oddEvenList(input1)
-//
-//        XCTAssertEqual(<#function#>, answer)
+    func test_zigzagLevelOrder_1() throws {
+        let node1 = TreeNode(3)
+        let node2 = TreeNode(9)
+        let node3 = TreeNode(20)
+        let node4 = TreeNode(15)
+        let node5 = TreeNode(7)
+        
+        node1.left = node2
+        node1.right = node3
+        node3.left = node4
+        node3.right = node5
+        
+        let answer = [[3],[20,9],[15,7]]
+        
+        XCTAssertEqual(zigzagLevelOrder(node1), answer)
     }
 }
