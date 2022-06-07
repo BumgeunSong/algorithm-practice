@@ -6,85 +6,161 @@
 //
 
 import Foundation
-//
-//func topArticles(limit: Int) -> [String] {
-//    let url = URL(string: "https://jsonmock.hackerrank.com/api/articles")!
-//    let request = URLRequest(url: url)
-//    
-//    URLSession.shared.dataTask(with: request) { data, response, error in
-//        guard let data = data else {
-//            return
-//        }
-//        
-//        guard let response = try? JSONDecoder().decode(Response.self, from: data) else {
-//            return
-//        }
-//        
-//        let totalPages = response.total_pages
-//        
-//        getEveryPages(totalPages: totalPages) { articles in
-//            articles.filter {
-//                $0.title == nil && $0.story_title
-//            }.map { article in
-//                if article.title == nil {
-//                    return
-//                } else {
-//                    return article
-//                }
-//            }
-//            articles.sorted {
-//                if $0.num_comments == $1.num_comments {  }
-//                $0.num_comments > $1.num_comments
-//                
-//            }
-//        }
-//    
-//    }.resume()
-//}
 
-func getEveryPages(totalPages: Int, completion: @escaping ([Article]) -> Void) {
-    var components = URLComponents(string: "https://jsonmock.hackerrank.com/api/articles")!
-
-    let group = DispatchGroup()
+func topArticles(limit: Int, completion: @escaping ([String]?) -> Void)  {
+    let session = URLSession.shared
     
-    let result = Container()
+    let urlComponents = URLComponents(string: "https://jsonmock.hackerrank.com/api/articles")!
+    let url = urlComponents.url!
+    let request = URLRequest(url: url)
     
-    for i in 1...totalPages {
-        components.query = "/page=\(i)"
-        guard let requestURL = components.url else { return }
-        group.enter()
-        URLSession.shared.dataTask(with: requestURL) { data, response, error in
-            guard let data = data else { return }
-            
-            guard let response = try? JSONDecoder().decode(Response.self, from: data) else {
-                return
+    var totalPages = 0
+    let getTotalPage = DispatchGroup()
+    
+    getTotalPage.enter()
+    session.dataTask(with: request) { data, response, error in
+        guard let data = data else { return }
+        
+        guard let wrapper = try? JSONDecoder().decode(Response.self, from: data) else {
+            return
+        }
+        
+        totalPages = wrapper.totalPages
+        getTotalPage.leave()
+    }.resume()
+    
+    
+    let getTotalArticle = DispatchGroup()
+    var totalArticle = [Article]()
+    
+    
+    let getEveryArticle = DispatchWorkItem {
+        let urls: [URL] = (0..<totalPages).map { pageNumber in
+            var urlComponents = urlComponents
+            urlComponents.queryItems = [URLQueryItem(name: "page", value: "\(pageNumber)")]
+            return urlComponents.url!
+        }
+        
+        for url in urls {
+            let request = URLRequest(url: url)
+            getTotalArticle.enter()
+            session.dataTask(with: request) { data, response, error in
+                guard let data = data else {
+                    
+                    return
+                }
+                guard let wrapper = try? JSONDecoder().decode(Response.self, from: data) else {
+                    return
+                }
+                totalArticle += wrapper.data
+                getTotalArticle.leave()
+            }.resume()
+        }
+        
+        
+        getTotalArticle.notify(queue: .global(), work: DispatchWorkItem {
+            let totalArticleWithNumComments = totalArticle.filter {
+                return $0.numComments != nil
             }
             
-            result.articles += response.data
-            group.leave()
-        }.resume()
+            let sortedArticles = totalArticleWithNumComments.sorted {
+                guard let leftNumComments = $0.numComments, let rightNumComments = $1.numComments else {
+                    return true
+                }
+                
+                if leftNumComments == rightNumComments {
+                    let leftTitle = $0.title != nil ? $0.title! : $0.storyTitle!
+                    let rightTitle = $1.title != nil ? $1.title! : $1.storyTitle!
+                    return leftTitle > rightTitle
+                }
+                
+                return leftNumComments > rightNumComments
+            }
+            
+            let topArticles = sortedArticles[0..<limit]
+            completion(topArticles.compactMap { $0.title })
+        })
+    }
+    getTotalPage.notify(queue: .global(), work: getEveryArticle)
+   
+}
+
+
+// This file was generated from JSON Schema using quicktype, do not modify it directly.
+// To parse the JSON, add this file to your project and do:
+//
+//   let welcome = try? newJSONDecoder().decode(Welcome.self, from: jsonData)
+
+import Foundation
+
+// MARK: - Welcome
+struct Response: Codable {
+    let page, perPage, total, totalPages: Int
+    let data: [Article]
+    
+    enum CodingKeys: String, CodingKey {
+        case page
+        case perPage = "per_page"
+        case total
+        case totalPages = "total_pages"
+        case data
+    }
+}
+
+// MARK: - Datum
+struct Article: Codable, CustomStringConvertible {
+    let title: String?
+    let url: String?
+    let author: String
+    let numComments: Int?
+    let storyID: JSONNull?
+    let storyTitle: String?
+    let storyURL: String?
+    let parentID: Int?
+    let createdAt: Int
+    
+    enum CodingKeys: String, CodingKey {
+        case title, url, author
+        case numComments = "num_comments"
+        case storyID = "story_id"
+        case storyTitle = "story_title"
+        case storyURL = "story_url"
+        case parentID = "parent_id"
+        case createdAt = "created_at"
     }
     
-    group.notify(queue: .main) {
-        completion(result.articles)
+    var description: String {
+        """
+        title: \(title)\n
+        storyTitle: \(storyTitle)\n
+        numComments: \(numComments)\n
+        """
     }
 }
 
-class Container {
-    var articles = [Article]()
-}
+// MARK: - Encode/decode helpers
 
-
-struct Response: Decodable {
-    let page: Int
-    let per_page: Int
-    let total: Int
-    let total_pages: Int
-    let data: [Article]
-}
-
-struct Article: Decodable {
-    let title: String?
-    let story_title: String?
-    let num_comments: Int
+class JSONNull: Codable, Hashable {
+    
+    public static func == (lhs: JSONNull, rhs: JSONNull) -> Bool {
+        return true
+    }
+    
+    public var hashValue: Int {
+        return 0
+    }
+    
+    public init() {}
+    
+    public required init(from decoder: Decoder) throws {
+        let container = try decoder.singleValueContainer()
+        if !container.decodeNil() {
+            throw DecodingError.typeMismatch(JSONNull.self, DecodingError.Context(codingPath: decoder.codingPath, debugDescription: "Wrong type for JSONNull"))
+        }
+    }
+    
+    public func encode(to encoder: Encoder) throws {
+        var container = encoder.singleValueContainer()
+        try container.encodeNil()
+    }
 }

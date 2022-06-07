@@ -187,4 +187,38 @@ class Algorithm4Tests: XCTestCase {
         XCTAssertEqual(countQuadruplets(input1), answer)
     }
     
+    
+    func test_topArticles_1() throws {
+        let input1 = 5
+        
+        let expectation = XCTestExpectation()
+        
+        topArticles(limit: input1) { articles in
+            guard let articles = articles else {
+                XCTFail("should not be nil")
+                return
+            }
+            print(articles)
+            expectation.fulfill()
+        }
+        
+        wait(for: [expectation], timeout: 2)
+        
+    }
+    
+    func test_addTwoNumbers_1() throws {
+        let input1 = ListNode(9, ListNode(9, ListNode(9)))
+        let input2 = ListNode(9, ListNode(9, ListNode(9)))
+        let answer = ListNode(8, ListNode(9, ListNode(9, ListNode(1))))
+        
+        XCTAssertEqual(addTwoNumbers(input1, input2), answer)
+    }
+    
+    func test_oddEvenList_1() throws {
+        let input1 = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
+ 
+        oddEvenList(input1)
+//
+//        XCTAssertEqual(<#function#>, answer)
+    }
 }
