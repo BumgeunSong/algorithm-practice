@@ -103,6 +103,8 @@
 		BCF57B2E284ECD0D0059E61D /* inorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B2C284ECD0D0059E61D /* inorderTraversal.swift */; };
 		BCF57B30284ECE1B0059E61D /* zigzagLevelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B2F284ECE1B0059E61D /* zigzagLevelOrder.swift */; };
 		BCF57B31284ECE1B0059E61D /* zigzagLevelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B2F284ECE1B0059E61D /* zigzagLevelOrder.swift */; };
+		BCF57B33284ED8250059E61D /* buildTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B32284ED8250059E61D /* buildTree.swift */; };
+		BCF57B34284ED8250059E61D /* buildTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B32284ED8250059E61D /* buildTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -171,6 +173,7 @@
 		BCF57B29284DFE650059E61D /* OddEvenList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenList.swift; sourceTree = "<group>"; };
 		BCF57B2C284ECD0D0059E61D /* inorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inorderTraversal.swift; sourceTree = "<group>"; };
 		BCF57B2F284ECE1B0059E61D /* zigzagLevelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zigzagLevelOrder.swift; sourceTree = "<group>"; };
+		BCF57B32284ED8250059E61D /* buildTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +240,7 @@
 				BCF57B29284DFE650059E61D /* OddEvenList.swift */,
 				BCF57B2C284ECD0D0059E61D /* inorderTraversal.swift */,
 				BCF57B2F284ECE1B0059E61D /* zigzagLevelOrder.swift */,
+				BCF57B32284ED8250059E61D /* buildTree.swift */,
 				BCF57B26284DF82D0059E61D /* ListNode.swift */,
 				BC45EEB428423FC7008239E1 /* gridChallenge.swift */,
 				BC45EEB728424E32008239E1 /* NewYearChaos.swift */,
@@ -421,6 +425,7 @@
 				BC45EE3E283A1092008239E1 /* 방금그곡.swift in Sources */,
 				BC637526284C81E200BF444B /* Count Special Quadruplets.swift in Sources */,
 				BCDB11EE282CD10B00A90202 /* 후보키.swift in Sources */,
+				BCF57B33284ED8250059E61D /* buildTree.swift in Sources */,
 				BC45EE41283A4775008239E1 /* PriorityQueue.swift in Sources */,
 				BCF57B2D284ECD0D0059E61D /* inorderTraversal.swift in Sources */,
 				BCF57B2A284DFE650059E61D /* OddEvenList.swift in Sources */,
@@ -451,6 +456,7 @@
 				BCF57B28284DF82D0059E61D /* ListNode.swift in Sources */,
 				BC0B745B282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */,
 				BC45EE4B283A5F39008239E1 /* plusOne.swift in Sources */,
+				BCF57B34284ED8250059E61D /* buildTree.swift in Sources */,
 				BC0B7462282295AC007AE2B6 /* maximizeEquation.swift in Sources */,
 				BC6EA96D282F93650015FB96 /* 해시맵.swift in Sources */,
 				BCD8351928263283001273C8 /* Kakao.swift in Sources */,
