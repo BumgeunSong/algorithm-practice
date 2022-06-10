@@ -231,5 +231,28 @@ class Algorithm4Tests: XCTestCase {
         XCTAssertEqual(zigzagLevelOrder(node1), answer)
     }
     
-    
+    func test_LRUcache_1() throws {
+        
+        let cache = LRUCache_2(2)
+        cache.put(1, 0)
+        print(cache)
+        cache.put(2, 2)
+        print(cache)
+        XCTAssertEqual(cache.get(1), 0)
+        print(cache)
+        cache.put(3, 3)
+        print(cache)
+        XCTAssertEqual(cache.get(2), -1)
+        print(cache)
+        cache.put(4, 4)
+        print(cache)
+        print("dict", cache.dict)
+        XCTAssertEqual(cache.get(1), -1)
+        
+        print(cache)
+        XCTAssertEqual(cache.get(3), 3)
+        print(cache)
+        XCTAssertEqual(cache.get(4), 4)
+        print(cache)
+    }
 }

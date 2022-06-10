@@ -107,6 +107,8 @@
 		BCF57B34284ED8250059E61D /* buildTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B32284ED8250059E61D /* buildTree.swift */; };
 		BCF57B3C28503CD60059E61D /* kthSmallest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B3B28503CD60059E61D /* kthSmallest.swift */; };
 		BCF57B3D28503CD60059E61D /* kthSmallest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B3B28503CD60059E61D /* kthSmallest.swift */; };
+		BCF57B9928537E0E0059E61D /* LRUcache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B9828537E0E0059E61D /* LRUcache.swift */; };
+		BCF57B9A2853819D0059E61D /* LRUcache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B9828537E0E0059E61D /* LRUcache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -177,6 +179,7 @@
 		BCF57B2F284ECE1B0059E61D /* zigzagLevelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zigzagLevelOrder.swift; sourceTree = "<group>"; };
 		BCF57B32284ED8250059E61D /* buildTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildTree.swift; sourceTree = "<group>"; };
 		BCF57B3B28503CD60059E61D /* kthSmallest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kthSmallest.swift; sourceTree = "<group>"; };
+		BCF57B9828537E0E0059E61D /* LRUcache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUcache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +247,7 @@
 				BCF57B2C284ECD0D0059E61D /* inorderTraversal.swift */,
 				BCF57B2F284ECE1B0059E61D /* zigzagLevelOrder.swift */,
 				BCF57B32284ED8250059E61D /* buildTree.swift */,
+				BCF57B9828537E0E0059E61D /* LRUcache.swift */,
 				BCF57B3B28503CD60059E61D /* kthSmallest.swift */,
 				BCF57B26284DF82D0059E61D /* ListNode.swift */,
 				BC45EEB428423FC7008239E1 /* gridChallenge.swift */,
@@ -389,6 +393,7 @@
 			files = (
 				BC45EE3B2839273A008239E1 /* Dijkstras.swift in Sources */,
 				BC45EE4D283B0D27008239E1 /* N-digit Game.swift in Sources */,
+				BCF57B9928537E0E0059E61D /* LRUcache.swift in Sources */,
 				BCF57B22284DF5DE0059E61D /* Deallochooker.swift in Sources */,
 				BCD835222829E82D001273C8 /* twoSum.swift in Sources */,
 				BC45EE50283BBE51008239E1 /* fizzBuzz.swift in Sources */,
@@ -471,6 +476,7 @@
 				BC22097D28238ED200159AC0 /* Tuple.swift in Sources */,
 				BC7C3C3F281F5715003F4833 /* AlgorithmTests.swift in Sources */,
 				BC45EE98284052E2008239E1 /* brickPermutation.swift in Sources */,
+				BCF57B9A2853819D0059E61D /* LRUcache.swift in Sources */,
 				BCD8351B282632CC001273C8 /* Algorithm3Tests.swift in Sources */,
 				BC45EEB628423FC7008239E1 /* gridChallenge.swift in Sources */,
 				BCEFF43E28459E3900585324 /* Longest Palindromic Substring  .swift in Sources */,
