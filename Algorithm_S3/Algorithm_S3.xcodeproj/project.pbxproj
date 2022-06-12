@@ -109,6 +109,11 @@
 		BCF57B3D28503CD60059E61D /* kthSmallest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B3B28503CD60059E61D /* kthSmallest.swift */; };
 		BCF57B9928537E0E0059E61D /* LRUcache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B9828537E0E0059E61D /* LRUcache.swift */; };
 		BCF57B9A2853819D0059E61D /* LRUcache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B9828537E0E0059E61D /* LRUcache.swift */; };
+		BCF57B9C2854413E0059E61D /* numIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B9B2854413E0059E61D /* numIslands.swift */; };
+		BCF57B9D2854413E0059E61D /* numIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57B9B2854413E0059E61D /* numIslands.swift */; };
+		BCF57BAE28556F9C0059E61D /* test_0612.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57BAD28556F9C0059E61D /* test_0612.swift */; };
+		BCF57BB0285574820059E61D /* Algorithm5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57BAF285574820059E61D /* Algorithm5Tests.swift */; };
+		BCF57BB1285574BA0059E61D /* test_0612.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57BAD28556F9C0059E61D /* test_0612.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -180,6 +185,9 @@
 		BCF57B32284ED8250059E61D /* buildTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildTree.swift; sourceTree = "<group>"; };
 		BCF57B3B28503CD60059E61D /* kthSmallest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kthSmallest.swift; sourceTree = "<group>"; };
 		BCF57B9828537E0E0059E61D /* LRUcache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUcache.swift; sourceTree = "<group>"; };
+		BCF57B9B2854413E0059E61D /* numIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numIslands.swift; sourceTree = "<group>"; };
+		BCF57BAD28556F9C0059E61D /* test_0612.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_0612.swift; sourceTree = "<group>"; };
+		BCF57BAF285574820059E61D /* Algorithm5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm5Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +256,7 @@
 				BCF57B2F284ECE1B0059E61D /* zigzagLevelOrder.swift */,
 				BCF57B32284ED8250059E61D /* buildTree.swift */,
 				BCF57B9828537E0E0059E61D /* LRUcache.swift */,
+				BCF57B9B2854413E0059E61D /* numIslands.swift */,
 				BCF57B3B28503CD60059E61D /* kthSmallest.swift */,
 				BCF57B26284DF82D0059E61D /* ListNode.swift */,
 				BC45EEB428423FC7008239E1 /* gridChallenge.swift */,
@@ -287,6 +296,7 @@
 			children = (
 				BC45EE8C283F9A3B008239E1 /* group1 */,
 				BC45EE8D283F9A41008239E1 /* group2 */,
+				BCF57BAA28556F720059E61D /* group3 */,
 			);
 			path = Algorithm_S3;
 			sourceTree = "<group>";
@@ -298,8 +308,17 @@
 				BC0B746328229C0B007AE2B6 /* Algorithm2Tests.swift */,
 				BCD8351A282632CC001273C8 /* Algorithm3Tests.swift */,
 				BC45EE91283F9A6F008239E1 /* Algorithm4Tests.swift */,
+				BCF57BAF285574820059E61D /* Algorithm5Tests.swift */,
 			);
 			path = AlgorithmTests;
+			sourceTree = "<group>";
+		};
+		BCF57BAA28556F720059E61D /* group3 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF57BAD28556F9C0059E61D /* test_0612.swift */,
+			);
+			path = group3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,9 +420,11 @@
 				BC0B745728224224007AE2B6 /* FindKthLargest.swift in Sources */,
 				BC45EEB828424E32008239E1 /* NewYearChaos.swift in Sources */,
 				BCCFC22B28322326003D0AA5 /* Heap.swift in Sources */,
+				BCF57B9C2854413E0059E61D /* numIslands.swift in Sources */,
 				BC45EE7C283E005A008239E1 /* QueueTwoStacks.swift in Sources */,
 				BC6375232849944100BF444B /* increasingTriplet.swift in Sources */,
 				BC45EE82283E1D3E008239E1 /* balancedBracket.swift in Sources */,
+				BCF57BAE28556F9C0059E61D /* test_0612.swift in Sources */,
 				BC45EEAC2841B38F008239E1 /* pivot.swift in Sources */,
 				BC63751D2848363900BF444B /* 파일명_정렬.swift in Sources */,
 				BC7C3C44281F573C003F4833 /* EditTable.swift in Sources */,
@@ -463,6 +484,7 @@
 				BC45EE42283A4775008239E1 /* PriorityQueue.swift in Sources */,
 				BC45EE83283E1D3E008239E1 /* balancedBracket.swift in Sources */,
 				BC9259162834B55400E496F6 /* 캐시.swift in Sources */,
+				BCF57BB1285574BA0059E61D /* test_0612.swift in Sources */,
 				BC45EE51283BBE51008239E1 /* fizzBuzz.swift in Sources */,
 				BCF57B28284DF82D0059E61D /* ListNode.swift in Sources */,
 				BC0B745B282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */,
@@ -475,9 +497,11 @@
 				BCD83514282508F2001273C8 /* rankSearch.swift in Sources */,
 				BC22097D28238ED200159AC0 /* Tuple.swift in Sources */,
 				BC7C3C3F281F5715003F4833 /* AlgorithmTests.swift in Sources */,
+				BCF57B9D2854413E0059E61D /* numIslands.swift in Sources */,
 				BC45EE98284052E2008239E1 /* brickPermutation.swift in Sources */,
 				BCF57B9A2853819D0059E61D /* LRUcache.swift in Sources */,
 				BCD8351B282632CC001273C8 /* Algorithm3Tests.swift in Sources */,
+				BCF57BB0285574820059E61D /* Algorithm5Tests.swift in Sources */,
 				BC45EEB628423FC7008239E1 /* gridChallenge.swift in Sources */,
 				BCEFF43E28459E3900585324 /* Longest Palindromic Substring  .swift in Sources */,
 				BCD835232829E82D001273C8 /* twoSum.swift in Sources */,

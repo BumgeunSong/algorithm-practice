@@ -26,15 +26,15 @@ func 후보키(_ relation:[[String]]) -> Int {
     
     return candidateKeyCount
 }
-
-
-
-func makeSubsets(_ nums: [Int]) -> [[Int]] {
-    if nums.isEmpty { return [[]] }
-    let pick = nums[0]
-    let subsetsOfRemain = makeSubsets(Array(nums.dropFirst()))
-    return subsetsOfRemain.map { $0 + [pick] } + subsetsOfRemain
-}
+//
+//
+//
+//func makeSubsets(_ nums: [Int]) -> [[Int]] {
+//    if nums.isEmpty { return [[]] }
+//    let pick = nums[0]
+//    let subsetsOfRemain = makeSubsets(Array(nums.dropFirst()))
+//    return subsetsOfRemain.map { $0 + [pick] } + subsetsOfRemain
+//}
 
 
 func isUniqueKey(_ indicies: [Int], _ relation: [[String]]) -> Bool {

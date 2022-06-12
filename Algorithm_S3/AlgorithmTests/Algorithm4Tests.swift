@@ -255,4 +255,16 @@ class Algorithm4Tests: XCTestCase {
         XCTAssertEqual(cache.get(4), 4)
         print(cache)
     }
+    
+    func test_numIslands_1() throws {
+        let input1: [[Character]] = [
+            ["1","1","1","1","0"],
+            ["1","1","0","1","0"],
+            ["1","1","0","0","0"],
+            ["0","0","0","0","0"]
+          ]
+        let answer = 1
+        
+        XCTAssertEqual(numIslands(input1), answer)
+    }
 }
