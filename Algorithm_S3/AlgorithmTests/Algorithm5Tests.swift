@@ -8,8 +8,8 @@
 import XCTest
 
 class Algorithm5Tests: XCTestCase {
-
-
+    
+    
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
@@ -28,15 +28,15 @@ class Algorithm5Tests: XCTestCase {
     func test_vip_1() throws {
         let input1 = [20,23,24]
         let input2 = [
-        [100_000, 100_000, 100_000, 100_000,
-         100_000, 100_000, 100_000, 100_000,
-         100_000, 100_000,100_000, 100_000],
-        [100_000, 100_000,100_000, 100_000,
-         100_000, 100_000,100_000, 100_000,
-         100_000, 100_000,100_000, 100_000],
-        [350_000, 50_000, 50_000, 50_000,
-         50_000, 50_000, 50_000, 50_000,
-         50_000, 50_000, 50_000, 50_000,],
+            [100_000, 100_000, 100_000, 100_000,
+             100_000, 100_000, 100_000, 100_000,
+             100_000, 100_000,100_000, 100_000],
+            [100_000, 100_000,100_000, 100_000,
+             100_000, 100_000,100_000, 100_000,
+             100_000, 100_000,100_000, 100_000],
+            [350_000, 50_000, 50_000, 50_000,
+             50_000, 50_000, 50_000, 50_000,
+             50_000, 50_000, 50_000, 50_000,],
         ]
         let estimates = [
             100_000,
@@ -83,5 +83,11 @@ class Algorithm5Tests: XCTestCase {
         
         XCTAssertEqual(야영(input1, input2), answer)
     }
-
+    
+    func test_letterCombination_1() throws {
+        let input1 = "23"
+        let answer = ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+        
+        XCTAssertEqual(letterCombinations(input1), answer)
+    }
 }

@@ -71,6 +71,8 @@
 		BC7C3C45281F573D003F4833 /* EditTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3C43281F573C003F4833 /* EditTable.swift */; };
 		BC9259152834B55400E496F6 /* 캐시.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9259142834B55400E496F6 /* 캐시.swift */; };
 		BC9259162834B55400E496F6 /* 캐시.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9259142834B55400E496F6 /* 캐시.swift */; };
+		BC9709352858131C00E54F93 /* getPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9709342858131C00E54F93 /* getPermutations.swift */; };
+		BC9709362858131C00E54F93 /* getPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9709342858131C00E54F93 /* getPermutations.swift */; };
 		BCCC14D128438B13007A7F25 /* SuperDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC14D028438B13007A7F25 /* SuperDigit.swift */; };
 		BCCC14D228438BA3007A7F25 /* SuperDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC14D028438B13007A7F25 /* SuperDigit.swift */; };
 		BCCC14D428444B3F007A7F25 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC14D328444B3F007A7F25 /* TextEditor.swift */; };
@@ -114,6 +116,8 @@
 		BCF57BAE28556F9C0059E61D /* test_0612.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57BAD28556F9C0059E61D /* test_0612.swift */; };
 		BCF57BB0285574820059E61D /* Algorithm5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57BAF285574820059E61D /* Algorithm5Tests.swift */; };
 		BCF57BB1285574BA0059E61D /* test_0612.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57BAD28556F9C0059E61D /* test_0612.swift */; };
+		BCF57BB32856B7F50059E61D /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57BB22856B7F50059E61D /* LetterCombinations.swift */; };
+		BCF57BB42856B7F50059E61D /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF57BB22856B7F50059E61D /* LetterCombinations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -165,6 +169,7 @@
 		BC7C3C3E281F5715003F4833 /* AlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmTests.swift; sourceTree = "<group>"; };
 		BC7C3C43281F573C003F4833 /* EditTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTable.swift; sourceTree = "<group>"; };
 		BC9259142834B55400E496F6 /* 캐시.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "캐시.swift"; sourceTree = "<group>"; };
+		BC9709342858131C00E54F93 /* getPermutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getPermutations.swift; sourceTree = "<group>"; };
 		BCCC14D028438B13007A7F25 /* SuperDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDigit.swift; sourceTree = "<group>"; };
 		BCCC14D328444B3F007A7F25 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
 		BCCFC22A28322326003D0AA5 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -188,6 +193,7 @@
 		BCF57B9B2854413E0059E61D /* numIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numIslands.swift; sourceTree = "<group>"; };
 		BCF57BAD28556F9C0059E61D /* test_0612.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_0612.swift; sourceTree = "<group>"; };
 		BCF57BAF285574820059E61D /* Algorithm5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm5Tests.swift; sourceTree = "<group>"; };
+		BCF57BB22856B7F50059E61D /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +323,8 @@
 			isa = PBXGroup;
 			children = (
 				BCF57BAD28556F9C0059E61D /* test_0612.swift */,
+				BCF57BB22856B7F50059E61D /* LetterCombinations.swift */,
+				BC9709342858131C00E54F93 /* getPermutations.swift */,
 			);
 			path = group3;
 			sourceTree = "<group>";
@@ -413,6 +421,7 @@
 				BC45EE3B2839273A008239E1 /* Dijkstras.swift in Sources */,
 				BC45EE4D283B0D27008239E1 /* N-digit Game.swift in Sources */,
 				BCF57B9928537E0E0059E61D /* LRUcache.swift in Sources */,
+				BCF57BB32856B7F50059E61D /* LetterCombinations.swift in Sources */,
 				BCF57B22284DF5DE0059E61D /* Deallochooker.swift in Sources */,
 				BCD835222829E82D001273C8 /* twoSum.swift in Sources */,
 				BC45EE50283BBE51008239E1 /* fizzBuzz.swift in Sources */,
@@ -452,6 +461,7 @@
 				BC45EE44283A54CF008239E1 /* groupAnagrams.swift in Sources */,
 				BC7C3C32281F56F8003F4833 /* main.swift in Sources */,
 				BC45EE85283F0B25008239E1 /* codility.swift in Sources */,
+				BC9709352858131C00E54F93 /* getPermutations.swift in Sources */,
 				BC45EEAF2841B7C4008239E1 /* isPossible.swift in Sources */,
 				BC45EE3E283A1092008239E1 /* 방금그곡.swift in Sources */,
 				BC637526284C81E200BF444B /* Count Special Quadruplets.swift in Sources */,
@@ -515,9 +525,11 @@
 				BC45EEB32841C419008239E1 /* RESTAPI.swift in Sources */,
 				BC45EE3C2839273A008239E1 /* Dijkstras.swift in Sources */,
 				BC45EE45283A54CF008239E1 /* groupAnagrams.swift in Sources */,
+				BC9709362858131C00E54F93 /* getPermutations.swift in Sources */,
 				BC63751E2848363900BF444B /* 파일명_정렬.swift in Sources */,
 				BC45EE92283F9A6F008239E1 /* Algorithm4Tests.swift in Sources */,
 				BC6375242849944100BF444B /* increasingTriplet.swift in Sources */,
+				BCF57BB42856B7F50059E61D /* LetterCombinations.swift in Sources */,
 				BCEFF43B2845974500585324 /* lengthOfLongestSubstring.swift in Sources */,
 				BC45EE3F283A1092008239E1 /* 방금그곡.swift in Sources */,
 				BCCFC23028336404003D0AA5 /* 튜플.swift in Sources */,
