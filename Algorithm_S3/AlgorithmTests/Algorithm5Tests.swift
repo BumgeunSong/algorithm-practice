@@ -90,4 +90,37 @@ class Algorithm5Tests: XCTestCase {
         
         XCTAssertEqual(letterCombinations(input1), answer)
     }
+    
+    func test_wordSearch_1() throws {
+        let input1: [[Character]] = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
+        let input2 = Array("ABCCED")
+        let visited = Array(repeating: Array(repeating: false, count: input1[0].count), count: input1.count)
+        let answer = true
+        
+        XCTAssertEqual(dfs((0,0), input2, input1, visited), answer)
+    }
+    
+    func test_wordSearch_2() throws {
+        let input1: [[Character]] = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
+        let input2 = "SEE"
+        let answer = true
+        
+        XCTAssertEqual(exist(input1, input2), answer)
+    }
+    
+    func test_wordSearch_3() throws {
+        let input1: [[Character]]  = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
+        let input2 = "ABCB"
+        let answer = false
+        
+        XCTAssertEqual(exist(input1, input2), answer)
+    }
+    
+    func test_wordSearch_4() throws {
+        let input1: [[Character]] = [["a","b"],["c","d"]]
+        let input2 = "acdb"
+        let answer = true
+        
+        XCTAssertEqual(exist(input1, input2), answer)
+    }
 }

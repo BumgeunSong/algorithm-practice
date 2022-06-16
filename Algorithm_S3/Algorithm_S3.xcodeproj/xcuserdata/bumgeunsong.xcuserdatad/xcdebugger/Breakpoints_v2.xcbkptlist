@@ -164,5 +164,116 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7864C79B-6FAB-4424-91E6-E5B099EB25BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S3/group3/wordSearch.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "dfs(_:_:_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94E58CE0-8D3C-466F-81C7-BE9BC7956B87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S3/group3/wordSearch.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "exist(_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C1C7DCD-7E97-4363-B164-65829058A017"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S3/group3/wordSearch.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "dfs(_:_:_:_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "0C1C7DCD-7E97-4363-B164-65829058A017 - 6c9278d90d46f838"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.dfs((x: Swift.Int, y: Swift.Int), Swift.Array&lt;Swift.Character&gt;, Swift.Array&lt;Swift.Array&lt;Swift.Character&gt;&gt;, Swift.Array&lt;Swift.Array&lt;Swift.Bool&gt;&gt;) -&gt; Swift.Bool"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/wordSearch.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1476">
+               </Location>
+               <Location
+                  uuid = "0C1C7DCD-7E97-4363-B164-65829058A017 - 6c9278d90d46e7d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.dfs((x: Swift.Int, y: Swift.Int), Swift.Array&lt;Swift.Character&gt;, Swift.Array&lt;Swift.Array&lt;Swift.Character&gt;&gt;, Swift.Array&lt;Swift.Array&lt;Swift.Bool&gt;&gt;) -&gt; Swift.Bool"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/wordSearch.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1348">
+               </Location>
+               <Location
+                  uuid = "0C1C7DCD-7E97-4363-B164-65829058A017 - 6c9278d90d46e7d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.dfs((x: Swift.Int, y: Swift.Int), Swift.Array&lt;Swift.Character&gt;, Swift.Array&lt;Swift.Array&lt;Swift.Character&gt;&gt;, Swift.Array&lt;Swift.Array&lt;Swift.Bool&gt;&gt;) -&gt; Swift.Bool"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/wordSearch.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1496">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "556ABC68-5BB1-435A-A9DA-1A17F4BEF7A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S3/group3/wordSearch.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "dfs(_:_:_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
