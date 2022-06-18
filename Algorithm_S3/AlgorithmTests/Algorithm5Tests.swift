@@ -123,4 +123,28 @@ class Algorithm5Tests: XCTestCase {
         
         XCTAssertEqual(exist(input1, input2), answer)
     }
+    
+    func test_topKFrequent_1() throws {
+        let input1 = [1,1,1,2,2,3]
+        let input2 = 2
+        let answer = [1,2]
+        
+        XCTAssertEqual(topKFrequent(input1, input2), answer)
+    }
+    
+    func test_quickSelect_2() throws {
+        let input1 = [3,5,7,1,2,4,6]
+        let input2 = 5
+        let answer = 5
+        
+        XCTAssertEqual(quickSelect_smallest(input1, input2), answer)
+    }
+    
+    func test_quickSelect_3() throws {
+        let input1 = [3,5,7,1,2,4,6]
+        let input2 = 6
+        let answer = 2
+        
+        XCTAssertEqual(quickSelect_largest(input1, input2), answer)
+    }
 }
