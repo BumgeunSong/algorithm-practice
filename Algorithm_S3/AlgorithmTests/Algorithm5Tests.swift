@@ -132,6 +132,14 @@ class Algorithm5Tests: XCTestCase {
         XCTAssertEqual(topKFrequent(input1, input2), answer)
     }
     
+    func test_topKFrequent_2() throws {
+        let input1 = [1]
+        let input2 = 1
+        let answer = [1]
+        
+        XCTAssertEqual(topKFrequent(input1, input2), answer)
+    }
+    
     func test_quickSelect_2() throws {
         let input1 = [3,5,7,1,2,4,6]
         let input2 = 5
@@ -146,5 +154,45 @@ class Algorithm5Tests: XCTestCase {
         let answer = 2
         
         XCTAssertEqual(quickSelect_largest(input1, input2), answer)
+    }
+    
+    func test_searchRange_1() throws {
+        let input1 = [5,7,7,8,8,10]
+        let input2 = 8
+        let answer = [3,4]
+        
+        XCTAssertEqual(searchRange(input1, input2), answer)
+    }
+    
+    func test_searchRange_2() throws {
+        let input1 = [5,7,7,8,8,10]
+        let input2 = 6
+        let answer = [-1, -1]
+        
+        XCTAssertEqual(searchRange(input1, input2), answer)
+    }
+    
+    func test_searchRange_3() throws {
+        let input1 = [Int]()
+        let input2 = 0
+        let answer = [-1, -1]
+        
+        XCTAssertEqual(searchRange(input1, input2), answer)
+    }
+    
+    func test_searchRange_4() throws {
+        let input1 = [2,2]
+        let input2 = 2
+        let answer = [0, 1]
+        
+        XCTAssertEqual(searchRange(input1, input2), answer)
+    }
+    
+    func test_searchRange_5() throws {
+        let input1 = [2,2]
+        let input2 = 1
+        let answer = [-1, -1]
+        
+        XCTAssertEqual(searchRange(input1, input2), answer)
     }
 }

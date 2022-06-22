@@ -278,16 +278,230 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0EFA1495-1E2A-4240-8721-0346529035E8"
-            shouldBeEnabled = "Yes"
+            uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Algorithm_S3/group3/topKFrequent.swift"
+            filePath = "Algorithm_S3/group3/SearchForARange.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "topKFrequent(_:_:)"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "searchUpperBound(_:_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - ea604527f047cedd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchLastTarget(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "560">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - ea604527f047cedd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchLastTarget(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - 8c6b491e08a98ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchUpperBound(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - 8c6b491e08a98ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchUpperBound(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - 8c6b491e08a98ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchUpperBound(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - 8c6b491e08a98ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchUpperBound(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "576">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - 8c6b491e08a98ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchUpperBound(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - 8c6b491e08a98e96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchUpperBound(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - 8c6b491e08a98e96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchUpperBound(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - 8c6b491e08a98e96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchUpperBound(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - 8c6b491e08a98e28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchUpperBound(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "1FF1CE62-15E6-4962-BB64-534E73036E9B - 8c6b491e08a98e77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmTests.searchUpperBound(Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgorithmTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S3/Algorithm_S3/group3/SearchForARange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A2B491D-1C63-4292-8322-EF2060EB27CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S3/group3/SearchForARange.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "searchUpperBound(_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49077DFC-D494-4E99-A38D-0CDF8A0EDFA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S3/group3/SearchForARange.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "searchUpperBound(_:_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

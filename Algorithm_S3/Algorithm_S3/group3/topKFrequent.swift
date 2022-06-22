@@ -8,16 +8,24 @@
 import Foundation
 
 func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
-    let count = nums.reduce(into: [Int: Int]()) { partialResult, num in
+    let frequency = nums.reduce(into: [Int: Int]()) { partialResult, num in
         partialResult[num, default: 0] += 1
     }
     
-    let tuples: [(key: Int, value: Int)] = count.map { ($0.key, $0.value) }
+    var bucket = Array(repeating: [Int](), count: nums.count+1)
     
-    return moreThanK.map { $0.0 }
+    for (key, value) in frequency {
+        bucket[value].append(key)
+    }
+    
+    var mostFrequent = [Int]()
+    for i in bucket.indices.reversed() where mostFrequent.count < k {
+        mostFrequent += bucket[i]
+    }
+    return mostFrequent
 }
 
-func quickSelectIndex(_ nums: [(Int: Int)], _ k: Int) -> Int {
+func quickSelectIndex(_ nums: [(Int, Int)], _ k: Int) -> Int {
     let pivot = nums[Int.random(in: nums.indices)]
     let less = nums.filter { $0.1 < pivot.1 }
     let same = nums.filter { $0.1 == pivot.1 }
@@ -38,10 +46,6 @@ func quickSelectIndex(_ nums: [(Int: Int)], _ k: Int) -> Int {
         return pivot.0
     }
 }
-
-
-
-
 
 func quickSelect_smallest(_ nums: [Int], _ k: Int) -> Int {
     let pivot = nums[Int.random(in: nums.indices)]
