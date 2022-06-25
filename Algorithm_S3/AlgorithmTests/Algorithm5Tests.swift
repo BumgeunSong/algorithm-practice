@@ -195,4 +195,20 @@ class Algorithm5Tests: XCTestCase {
         
         XCTAssertEqual(searchRange(input1, input2), answer)
     }
+    
+    func test_searchMatrix_1() throws {
+        let input1 = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]]
+        let input2 = 5
+        let answer = true
+        
+        XCTAssertEqual(searchMatrix(input1, input2), answer)
+    }
+    
+    func test_searchMatrix_2() throws {
+        let input1 = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]]
+        let input2 = 20
+        let answer = false
+        
+        XCTAssertEqual(searchMatrix(input1, input2), answer)
+    }
 }

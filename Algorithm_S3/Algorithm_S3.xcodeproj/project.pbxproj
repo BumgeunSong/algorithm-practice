@@ -18,6 +18,8 @@
 		BC0DAF7D286332FD00FAA8E5 /* SearchForARange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DAF7B286332FD00FAA8E5 /* SearchForARange.swift */; };
 		BC0DAF7F286346EE00FAA8E5 /* SearchBound(Sample).swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DAF7E286346EE00FAA8E5 /* SearchBound(Sample).swift */; };
 		BC0DAF80286346EE00FAA8E5 /* SearchBound(Sample).swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DAF7E286346EE00FAA8E5 /* SearchBound(Sample).swift */; };
+		BC0DAF822863EAED00FAA8E5 /* searchMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DAF812863EAED00FAA8E5 /* searchMatrix.swift */; };
+		BC0DAF832863EAED00FAA8E5 /* searchMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DAF812863EAED00FAA8E5 /* searchMatrix.swift */; };
 		BC22097C28238ED200159AC0 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22097B28238ED200159AC0 /* Tuple.swift */; };
 		BC22097D28238ED200159AC0 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22097B28238ED200159AC0 /* Tuple.swift */; };
 		BC2F595D285AAF5B0012D18C /* topKFrequent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F595C285AAF5B0012D18C /* topKFrequent.swift */; };
@@ -147,6 +149,7 @@
 		BC0B746328229C0B007AE2B6 /* Algorithm2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm2Tests.swift; sourceTree = "<group>"; };
 		BC0DAF7B286332FD00FAA8E5 /* SearchForARange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForARange.swift; sourceTree = "<group>"; };
 		BC0DAF7E286346EE00FAA8E5 /* SearchBound(Sample).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchBound(Sample).swift"; sourceTree = "<group>"; };
+		BC0DAF812863EAED00FAA8E5 /* searchMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchMatrix.swift; sourceTree = "<group>"; };
 		BC22097B28238ED200159AC0 /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
 		BC2F595C285AAF5B0012D18C /* topKFrequent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topKFrequent.swift; sourceTree = "<group>"; };
 		BC45EE3A2839273A008239E1 /* Dijkstras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstras.swift; sourceTree = "<group>"; };
@@ -293,8 +296,6 @@
 		BC7C3C25281F56F8003F4833 = {
 			isa = PBXGroup;
 			children = (
-				BC0DAF7E286346EE00FAA8E5 /* SearchBound(Sample).swift */,
-				BC637525284C81E200BF444B /* Count Special Quadruplets.swift */,
 				BC7C3C30281F56F8003F4833 /* Algorithm_S3 */,
 				BC7C3C3D281F5715003F4833 /* AlgorithmTests */,
 				BC7C3C2F281F56F8003F4833 /* Products */,
@@ -313,6 +314,8 @@
 		BC7C3C30281F56F8003F4833 /* Algorithm_S3 */ = {
 			isa = PBXGroup;
 			children = (
+				BC637525284C81E200BF444B /* Count Special Quadruplets.swift */,
+				BC0DAF7E286346EE00FAA8E5 /* SearchBound(Sample).swift */,
 				BC45EE8C283F9A3B008239E1 /* group1 */,
 				BC45EE8D283F9A41008239E1 /* group2 */,
 				BCF57BAA28556F720059E61D /* group3 */,
@@ -341,6 +344,7 @@
 				BCF57BB22856B7F50059E61D /* LetterCombinations.swift */,
 				BC97093728599B2A00E54F93 /* wordSearch.swift */,
 				BC9709342858131C00E54F93 /* getPermutations.swift */,
+				BC0DAF812863EAED00FAA8E5 /* searchMatrix.swift */,
 			);
 			path = group3;
 			sourceTree = "<group>";
@@ -449,6 +453,7 @@
 				BCF57B9C2854413E0059E61D /* numIslands.swift in Sources */,
 				BC45EE7C283E005A008239E1 /* QueueTwoStacks.swift in Sources */,
 				BC2F595D285AAF5B0012D18C /* topKFrequent.swift in Sources */,
+				BC0DAF822863EAED00FAA8E5 /* searchMatrix.swift in Sources */,
 				BC6375232849944100BF444B /* increasingTriplet.swift in Sources */,
 				BC45EE82283E1D3E008239E1 /* balancedBracket.swift in Sources */,
 				BCF57BAE28556F9C0059E61D /* test_0612.swift in Sources */,
@@ -545,6 +550,7 @@
 				BC637527284C81E200BF444B /* Count Special Quadruplets.swift in Sources */,
 				BC45EE86283F0D48008239E1 /* codility.swift in Sources */,
 				BC45EEAD2841B46E008239E1 /* pivot.swift in Sources */,
+				BC0DAF832863EAED00FAA8E5 /* searchMatrix.swift in Sources */,
 				BC45EEB32841C419008239E1 /* RESTAPI.swift in Sources */,
 				BC45EE3C2839273A008239E1 /* Dijkstras.swift in Sources */,
 				BC45EE45283A54CF008239E1 /* groupAnagrams.swift in Sources */,
