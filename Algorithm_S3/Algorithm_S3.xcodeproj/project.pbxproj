@@ -20,6 +20,8 @@
 		BC0DAF80286346EE00FAA8E5 /* SearchBound(Sample).swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DAF7E286346EE00FAA8E5 /* SearchBound(Sample).swift */; };
 		BC0DAF822863EAED00FAA8E5 /* searchMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DAF812863EAED00FAA8E5 /* searchMatrix.swift */; };
 		BC0DAF832863EAED00FAA8E5 /* searchMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DAF812863EAED00FAA8E5 /* searchMatrix.swift */; };
+		BC0DAF8A2869348100FAA8E5 /* FindPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DAF892869348100FAA8E5 /* FindPeakElement.swift */; };
+		BC0DAF8B2869348100FAA8E5 /* FindPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DAF892869348100FAA8E5 /* FindPeakElement.swift */; };
 		BC22097C28238ED200159AC0 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22097B28238ED200159AC0 /* Tuple.swift */; };
 		BC22097D28238ED200159AC0 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22097B28238ED200159AC0 /* Tuple.swift */; };
 		BC2F595D285AAF5B0012D18C /* topKFrequent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F595C285AAF5B0012D18C /* topKFrequent.swift */; };
@@ -150,6 +152,7 @@
 		BC0DAF7B286332FD00FAA8E5 /* SearchForARange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForARange.swift; sourceTree = "<group>"; };
 		BC0DAF7E286346EE00FAA8E5 /* SearchBound(Sample).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchBound(Sample).swift"; sourceTree = "<group>"; };
 		BC0DAF812863EAED00FAA8E5 /* searchMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchMatrix.swift; sourceTree = "<group>"; };
+		BC0DAF892869348100FAA8E5 /* FindPeakElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPeakElement.swift; sourceTree = "<group>"; };
 		BC22097B28238ED200159AC0 /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
 		BC2F595C285AAF5B0012D18C /* topKFrequent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topKFrequent.swift; sourceTree = "<group>"; };
 		BC45EE3A2839273A008239E1 /* Dijkstras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstras.swift; sourceTree = "<group>"; };
@@ -345,6 +348,7 @@
 				BC97093728599B2A00E54F93 /* wordSearch.swift */,
 				BC9709342858131C00E54F93 /* getPermutations.swift */,
 				BC0DAF812863EAED00FAA8E5 /* searchMatrix.swift */,
+				BC0DAF892869348100FAA8E5 /* FindPeakElement.swift */,
 			);
 			path = group3;
 			sourceTree = "<group>";
@@ -462,6 +466,7 @@
 				BC0DAF7C286332FD00FAA8E5 /* SearchForARange.swift in Sources */,
 				BC7C3C44281F573C003F4833 /* EditTable.swift in Sources */,
 				BC0B745A282249D7007AE2B6 /* LCAofBinaryTree.swift in Sources */,
+				BC0DAF8A2869348100FAA8E5 /* FindPeakElement.swift in Sources */,
 				BCF57B3C28503CD60059E61D /* kthSmallest.swift in Sources */,
 				BC0B7461282295AC007AE2B6 /* maximizeEquation.swift in Sources */,
 				BC45EE97284052E2008239E1 /* brickPermutation.swift in Sources */,
@@ -534,6 +539,7 @@
 				BC22097D28238ED200159AC0 /* Tuple.swift in Sources */,
 				BC7C3C3F281F5715003F4833 /* AlgorithmTests.swift in Sources */,
 				BCF57B9D2854413E0059E61D /* numIslands.swift in Sources */,
+				BC0DAF8B2869348100FAA8E5 /* FindPeakElement.swift in Sources */,
 				BC45EE98284052E2008239E1 /* brickPermutation.swift in Sources */,
 				BCF57B9A2853819D0059E61D /* LRUcache.swift in Sources */,
 				BCD8351B282632CC001273C8 /* Algorithm3Tests.swift in Sources */,

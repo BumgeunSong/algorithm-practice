@@ -211,4 +211,32 @@ class Algorithm5Tests: XCTestCase {
         
         XCTAssertEqual(searchMatrix(input1, input2), answer)
     }
+    
+    func test_peak_1() throws {
+        let input1 = [1,2,1,3,5,6,4]
+        let answer = 1
+        
+        XCTAssertEqual(findPeakElement(input1), answer)
+    }
+    
+    func test_peak_2() throws {
+        let input1 = [1,2,3,1]
+        let answer = 2
+        
+        XCTAssertEqual(findPeakElement(input1), answer)
+    }
+    
+    func test_peak_3() throws {
+        let input1 = [1]
+        let answer = 0
+        
+        XCTAssertEqual(findPeakElement(input1), answer)
+    }
+    
+    func test_peak_4() throws {
+        let input1 = [2,1]
+        let answer = 0
+        
+        XCTAssertEqual(findPeakElement(input1), answer)
+    }
 }
