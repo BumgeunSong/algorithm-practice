@@ -70,4 +70,18 @@ class AlgoTests: XCTestCase {
         
         XCTAssertEqual(mergeTwoLists(input1, input2)?.values, answer.values)
     }
+    
+    func test_maxProfit_1() throws {
+        let input1 = [7,1,5,3,6,4]
+        let answer = 5
+        
+        XCTAssertEqual(maxProfit(input1), answer)
+    }
+    
+    func test_maxProfit_2() throws {
+        let input1 = [7,6,4,3,1]
+        let answer = 0
+        
+        XCTAssertEqual(maxProfit(input1), answer)
+    }
 }
