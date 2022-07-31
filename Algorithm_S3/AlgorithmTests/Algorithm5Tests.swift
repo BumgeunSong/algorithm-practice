@@ -239,4 +239,27 @@ class Algorithm5Tests: XCTestCase {
         
         XCTAssertEqual(findPeakElement(input1), answer)
     }
+    
+    func test_myPow_1() throws {
+        let input1 = 2.10000
+        let input2 = 3
+        let answer = 9.26100
+        
+        XCTAssertEqual(myPow(input1, input2), answer)
+    }
+    
+    func test_myPow_2() throws {
+        let input1 = 2.00000
+        let input2 = -2
+        let answer = 0.25000
+        
+        XCTAssertEqual(myPow(input1, input2), answer)
+    }
+    
+    func test_count_Primes() throws {
+        let input1 = 10
+        let answer = 4
+        
+        XCTAssertEqual(countPrimes(input1), answer)
+    }
 }

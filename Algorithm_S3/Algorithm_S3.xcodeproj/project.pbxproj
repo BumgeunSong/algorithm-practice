@@ -104,6 +104,12 @@
 		BCD835232829E82D001273C8 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD835212829E82D001273C8 /* twoSum.swift */; };
 		BCDB11EE282CD10B00A90202 /* 후보키.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDB11ED282CD10B00A90202 /* 후보키.swift */; };
 		BCDB11EF282CD10B00A90202 /* 후보키.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDB11ED282CD10B00A90202 /* 후보키.swift */; };
+		BCEC2D0428910439002B1F74 /* setZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D0328910439002B1F74 /* setZeroes.swift */; };
+		BCEC2D0528910439002B1F74 /* setZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D0328910439002B1F74 /* setZeroes.swift */; };
+		BCEC2D0728926AAF002B1F74 /* myPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D0628926AAF002B1F74 /* myPow.swift */; };
+		BCEC2D0828926BE0002B1F74 /* myPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D0628926AAF002B1F74 /* myPow.swift */; };
+		BCEC2D0A2893A5B2002B1F74 /* countPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D092893A5B2002B1F74 /* countPrimes.swift */; };
+		BCEC2D0B2893A5B2002B1F74 /* countPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D092893A5B2002B1F74 /* countPrimes.swift */; };
 		BCEFF43A2845974500585324 /* lengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */; };
 		BCEFF43B2845974500585324 /* lengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */; };
 		BCEFF43D28459E3900585324 /* Longest Palindromic Substring  .swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFF43C28459E3900585324 /* Longest Palindromic Substring  .swift */; };
@@ -200,6 +206,9 @@
 		BCD8351A282632CC001273C8 /* Algorithm3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm3Tests.swift; sourceTree = "<group>"; };
 		BCD835212829E82D001273C8 /* twoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum.swift; sourceTree = "<group>"; };
 		BCDB11ED282CD10B00A90202 /* 후보키.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "후보키.swift"; sourceTree = "<group>"; };
+		BCEC2D0328910439002B1F74 /* setZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setZeroes.swift; sourceTree = "<group>"; };
+		BCEC2D0628926AAF002B1F74 /* myPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPow.swift; sourceTree = "<group>"; };
+		BCEC2D092893A5B2002B1F74 /* countPrimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countPrimes.swift; sourceTree = "<group>"; };
 		BCEFF4392845974500585324 /* lengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		BCEFF43C28459E3900585324 /* Longest Palindromic Substring  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Palindromic Substring  .swift"; sourceTree = "<group>"; };
 		BCF57B21284DF5DE0059E61D /* Deallochooker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deallochooker.swift; sourceTree = "<group>"; };
@@ -324,6 +333,7 @@
 				BC0DAF7E286346EE00FAA8E5 /* SearchBound(Sample).swift */,
 				BC45EE8C283F9A3B008239E1 /* group1 */,
 				BC45EE8D283F9A41008239E1 /* group2 */,
+				BCEC2D0228910421002B1F74 /* group4 */,
 				BCF57BAA28556F720059E61D /* group3 */,
 			);
 			path = Algorithm_S3;
@@ -339,6 +349,16 @@
 				BCF57BAF285574820059E61D /* Algorithm5Tests.swift */,
 			);
 			path = AlgorithmTests;
+			sourceTree = "<group>";
+		};
+		BCEC2D0228910421002B1F74 /* group4 */ = {
+			isa = PBXGroup;
+			children = (
+				BCEC2D0328910439002B1F74 /* setZeroes.swift */,
+				BCEC2D0628926AAF002B1F74 /* myPow.swift */,
+				BCEC2D092893A5B2002B1F74 /* countPrimes.swift */,
+			);
+			path = group4;
 			sourceTree = "<group>";
 		};
 		BCF57BAA28556F720059E61D /* group3 */ = {
@@ -447,9 +467,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC45EE3B2839273A008239E1 /* Dijkstras.swift in Sources */,
+				BCEC2D0728926AAF002B1F74 /* myPow.swift in Sources */,
 				BC45EE4D283B0D27008239E1 /* N-digit Game.swift in Sources */,
 				BCF57B9928537E0E0059E61D /* LRUcache.swift in Sources */,
 				BCF57BB32856B7F50059E61D /* LetterCombinations.swift in Sources */,
+				BCEC2D0A2893A5B2002B1F74 /* countPrimes.swift in Sources */,
 				BCF57B22284DF5DE0059E61D /* Deallochooker.swift in Sources */,
 				BCD835222829E82D001273C8 /* twoSum.swift in Sources */,
 				BC45EE50283BBE51008239E1 /* fizzBuzz.swift in Sources */,
@@ -484,6 +506,7 @@
 				BC45EE7F283E18D9008239E1 /* Pairs.swift in Sources */,
 				BCD835132825089C001273C8 /* rankSearch.swift in Sources */,
 				BC637520284841FF00BF444B /* Parking_fee.swift in Sources */,
+				BCEC2D0428910439002B1F74 /* setZeroes.swift in Sources */,
 				BCF57B30284ECE1B0059E61D /* zigzagLevelOrder.swift in Sources */,
 				BCD8351828263283001273C8 /* Kakao.swift in Sources */,
 				BCCC14D428444B3F007A7F25 /* TextEditor.swift in Sources */,
@@ -548,6 +571,7 @@
 				BC0DAF8B2869348100FAA8E5 /* FindPeakElement.swift in Sources */,
 				BC45EE98284052E2008239E1 /* brickPermutation.swift in Sources */,
 				BCF57B9A2853819D0059E61D /* LRUcache.swift in Sources */,
+				BCEC2D0B2893A5B2002B1F74 /* countPrimes.swift in Sources */,
 				BCD8351B282632CC001273C8 /* Algorithm3Tests.swift in Sources */,
 				BCF57BB0285574820059E61D /* Algorithm5Tests.swift in Sources */,
 				BC45EEB628423FC7008239E1 /* gridChallenge.swift in Sources */,
@@ -562,9 +586,11 @@
 				BC637527284C81E200BF444B /* Count Special Quadruplets.swift in Sources */,
 				BC45EE86283F0D48008239E1 /* codility.swift in Sources */,
 				BC45EEAD2841B46E008239E1 /* pivot.swift in Sources */,
+				BCEC2D0528910439002B1F74 /* setZeroes.swift in Sources */,
 				BC0DAF832863EAED00FAA8E5 /* searchMatrix.swift in Sources */,
 				BC45EEB32841C419008239E1 /* RESTAPI.swift in Sources */,
 				BC45EE3C2839273A008239E1 /* Dijkstras.swift in Sources */,
+				BCEC2D0828926BE0002B1F74 /* myPow.swift in Sources */,
 				BC45EE45283A54CF008239E1 /* groupAnagrams.swift in Sources */,
 				BC9709362858131C00E54F93 /* getPermutations.swift in Sources */,
 				BC63751E2848363900BF444B /* 파일명_정렬.swift in Sources */,
