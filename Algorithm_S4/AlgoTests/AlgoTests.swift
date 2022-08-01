@@ -84,4 +84,90 @@ class AlgoTests: XCTestCase {
         
         XCTAssertEqual(maxProfit(input1), answer)
     }
+    
+    func test_LongestPalindrome_1() throws {
+        let input1 = "abccccdd"
+        let answer = 7
+        
+        XCTAssertEqual(longestPalindrome(input1), answer)
+    }
+    
+    func test_LongestPalindrome_2() throws {
+        let input1 = "a"
+        let answer = 1
+        
+        XCTAssertEqual(longestPalindrome(input1), answer)
+    }
+    
+    func test_leastInterval_1() throws {
+        let input1: [Character] = ["A","A","A","B","B","B"]
+        let input2 = 2
+        let answer = 8
+        
+        XCTAssertEqual(leastInterval(input1, input2), answer)
+    }
+    
+    func test_leastInterval_2() throws {
+        let input1: [Character] = ["A","A","A","B","B","B"]
+        let input2 = 0
+        let answer = 6
+        
+        XCTAssertEqual(leastInterval(input1, input2), answer)
+    }
+    
+    func test_leastInterval_3() throws {
+        let input1: [Character] = ["A","A","A","A","A","A","B","C","D","E","F","G"]
+        let input2 = 2
+        let answer = 16
+        
+        XCTAssertEqual(leastInterval(input1, input2), answer)
+    }
+    
+    func test_insertIntervals_1() throws {
+        let input1 = [[1,2], [3,5], [6,7], [8,10], [12, 16]]
+        let input2 = [4,8]
+        let answer = [[1,2], [3,10], [12,16]]
+        
+        XCTAssertEqual(insert(input1, input2), answer)
+    }
+    
+    func test_insertIntervals_2() throws {
+        let input1 = [[1,3],[6,9]]
+        let input2 = [2,5]
+        let answer = [[1,5], [6,9]]
+        
+        XCTAssertEqual(insert(input1, input2), answer)
+    }
+    
+    func test_insertIntervals_3() throws {
+        let input1 = [[1,5]]
+        let input2 = [1,7]
+        let answer = [[1,7]]
+        
+        XCTAssertEqual(insert(input1, input2), answer)
+    }
+    
+    func test_updateMatrix_1() throws {
+        let input1 = [[0,0,0],[0,1,0],[0,0,0]]
+        let answer = [[0,0,0],[0,1,0],[0,0,0]]
+        
+        XCTAssertEqual(updateMatrix(input1), answer)
+    }
+    
+    func test_updateMatrix_2() throws {
+        let input1 = [[0,0,0],[0,1,0],[1,1,1]]
+        let answer = [[0,0,0],[0,1,0],[1,2,1]]
+        
+        XCTAssertEqual(updateMatrix(input1), answer)
+    }
+    
+    func test_updateMatrix_3() throws {
+        let input1 = [[0,1,0,1,1],[1,1,0,0,1],[0,0,0,1,0],[1,0,1,1,1],[1,0,0,0,1]]
+        let answer =
+        [[0,1,0,1,2],[1,1,0,0,1],[0,0,0,1,0],[1,0,1,1,1],[1,0,0,0,1]]
+        
+        XCTAssertEqual(updateMatrix(input1), answer)
+    }
+    
+    
 }

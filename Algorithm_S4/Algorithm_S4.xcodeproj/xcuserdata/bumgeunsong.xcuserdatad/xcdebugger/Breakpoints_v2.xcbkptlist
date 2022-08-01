@@ -20,5 +20,69 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4FBC826-D1F2-4E2B-8B27-8CFE364E692A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S4/leastInterval.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "leastInterval(_:_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C4FBC826-D1F2-4E2B-8B27-8CFE364E692A - 8c55f6f195013980"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Algorithm_S4.leastInterval(Swift.Array&lt;Swift.Character&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Algorithm_S4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S4/Algorithm_S4/leastInterval.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1688">
+               </Location>
+               <Location
+                  uuid = "C4FBC826-D1F2-4E2B-8B27-8CFE364E692A - d0ab44584fd2f780"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoTests.leastInterval(Swift.Array&lt;Swift.Character&gt;, Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlgoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bumgeunsong/coding/algorithm-practice/Algorithm_S4/Algorithm_S4/leastInterval.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1688">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73C17403-2630-4210-9882-BA940DA1683F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm_S4/leastInterval.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "leastInterval(_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
