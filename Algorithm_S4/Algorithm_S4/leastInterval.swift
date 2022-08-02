@@ -8,7 +8,7 @@
 import Foundation
 
 func leastInterval(_ tasks: [Character], _ n: Int) -> Int {
-    if n == 0 { tasks.count }
+    if n == 0 { return tasks.count }
     
     let frequency = tasks.reduce(into: [Character: Int]()) { partialResult, char in
         partialResult[char, default: 0] += 1

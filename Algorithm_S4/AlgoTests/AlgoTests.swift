@@ -169,5 +169,41 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(updateMatrix(input1), answer)
     }
     
+    func test_longestSubstring_1() throws {
+        let input1 = "abcabcbb"
+        let answer = 3
+        
+        XCTAssertEqual(lengthOfLongestSubstring(input1), answer)
+    }
+    
+    func test_longestSubstring_2() throws {
+        let input1 = "abcdefghijklmnopqrstuvwxyz"
+        let answer = 26
+        
+        XCTAssertEqual(lengthOfLongestSubstring(input1), answer)
+    }
+    
+    func test_3sum_1() throws {
+        let input1 = [-1,0,1,2,-1,-4]
+        let answer = [[-1,-1,2],[-1,0,1]]
+        
+        XCTAssertEqual(threeSum(input1), answer)
+    }
+    
+    func test_3sum_2() throws {
+        let input1 = [0,1,1]
+
+        let answer = [[Int]]()
+        
+        XCTAssertEqual(threeSum(input1), answer)
+    }
+    
+    func test_3sum_3() throws {
+        let input1 = [0,0,0]
+
+        let answer = [[0,0,0]]
+        
+        XCTAssertEqual(threeSum(input1), answer)
+    }
     
 }

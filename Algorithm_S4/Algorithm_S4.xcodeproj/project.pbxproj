@@ -43,6 +43,10 @@
 		BCEC2D592897BCD9002B1F74 /* Insert Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D572897BCD9002B1F74 /* Insert Interval.swift */; };
 		BCEC2D5B2897CD93002B1F74 /* updateMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D5A2897CD93002B1F74 /* updateMatrix.swift */; };
 		BCEC2D5C2897CD93002B1F74 /* updateMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D5A2897CD93002B1F74 /* updateMatrix.swift */; };
+		BCEC2D5E2897F28C002B1F74 /* kClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D5D2897F28C002B1F74 /* kClosest.swift */; };
+		BCEC2D5F2897F28C002B1F74 /* kClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D5D2897F28C002B1F74 /* kClosest.swift */; };
+		BCEC2D6128981217002B1F74 /* threeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D6028981217002B1F74 /* threeSum.swift */; };
+		BCEC2D6228981217002B1F74 /* threeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D6028981217002B1F74 /* threeSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +83,8 @@
 		BCEC2D5428968631002B1F74 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		BCEC2D572897BCD9002B1F74 /* Insert Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Insert Interval.swift"; sourceTree = "<group>"; };
 		BCEC2D5A2897CD93002B1F74 /* updateMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateMatrix.swift; sourceTree = "<group>"; };
+		BCEC2D5D2897F28C002B1F74 /* kClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kClosest.swift; sourceTree = "<group>"; };
+		BCEC2D6028981217002B1F74 /* threeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,8 @@
 				BCEC2D5128967B3D002B1F74 /* leastInterval.swift */,
 				BCEC2D572897BCD9002B1F74 /* Insert Interval.swift */,
 				BCEC2D5A2897CD93002B1F74 /* updateMatrix.swift */,
+				BCEC2D6028981217002B1F74 /* threeSum.swift */,
+				BCEC2D5D2897F28C002B1F74 /* kClosest.swift */,
 				BCEC2D5428968631002B1F74 /* Heap.swift */,
 				BCEC2D3928951903002B1F74 /* ListNode.swift */,
 				BCEC2D4E28965FF6002B1F74 /* TreeNode.swift */,
@@ -240,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCEC2D3A28951903002B1F74 /* ListNode.swift in Sources */,
+				BCEC2D5E2897F28C002B1F74 /* kClosest.swift in Sources */,
+				BCEC2D6128981217002B1F74 /* threeSum.swift in Sources */,
 				BCEC2D4928965983002B1F74 /* longestPalindrome.swift in Sources */,
 				BCEC2D43289641DA002B1F74 /* detectCycle.swift in Sources */,
 				BCEC2D5528968631002B1F74 /* Heap.swift in Sources */,
@@ -265,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCEC2D3B28951903002B1F74 /* ListNode.swift in Sources */,
+				BCEC2D5F2897F28C002B1F74 /* kClosest.swift in Sources */,
+				BCEC2D6228981217002B1F74 /* threeSum.swift in Sources */,
 				BCEC2D4A28965983002B1F74 /* longestPalindrome.swift in Sources */,
 				BCEC2D44289641DA002B1F74 /* detectCycle.swift in Sources */,
 				BCEC2D5628968631002B1F74 /* Heap.swift in Sources */,
