@@ -99,29 +99,6 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(longestPalindrome(input1), answer)
     }
     
-    func test_leastInterval_1() throws {
-        let input1: [Character] = ["A","A","A","B","B","B"]
-        let input2 = 2
-        let answer = 8
-        
-        XCTAssertEqual(leastInterval(input1, input2), answer)
-    }
-    
-    func test_leastInterval_2() throws {
-        let input1: [Character] = ["A","A","A","B","B","B"]
-        let input2 = 0
-        let answer = 6
-        
-        XCTAssertEqual(leastInterval(input1, input2), answer)
-    }
-    
-    func test_leastInterval_3() throws {
-        let input1: [Character] = ["A","A","A","A","A","A","B","C","D","E","F","G"]
-        let input2 = 2
-        let answer = 16
-        
-        XCTAssertEqual(leastInterval(input1, input2), answer)
-    }
     
     func test_insertIntervals_1() throws {
         let input1 = [[1,2], [3,5], [6,7], [8,10], [12, 16]]
@@ -206,4 +183,54 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(threeSum(input1), answer)
     }
     
+    func test_Trie_1() throws {
+        
+        let trie = Trie()
+        trie.insert("apple")
+        XCTAssertTrue(trie.search("apple"))
+        XCTAssertTrue(trie.startsWith("app"))
+        XCTAssertFalse(trie.search("app"))
+        
+    }
+    
+    func test_coinChange_1() throws {
+        let input1 = [1,2,5]
+        let input2 = 11
+
+        let answer = 3
+        
+        XCTAssertEqual(coinChange(input1, input2), answer)
+    }
+    
+    func test_coinChange_2() throws {
+        let input1 = [1]
+        let input2 = 0
+
+        let answer = 0
+        
+        XCTAssertEqual(coinChange(input1, input2), answer)
+    }
+    
+    func test_coinChange_3() throws {
+        let input1 = [186,419,83,408]
+        let input2 = 6249
+
+        let answer = 20
+        
+        XCTAssertEqual(coinChange(input1, input2), answer)
+    }
+    
+    func test_productExceptSelf_3() throws {
+        let input1 = [1,2,3,4]
+        let answer = [24,12,8,6]
+        
+        XCTAssertEqual(productExceptSelf(input1), answer)
+    }
+    
+    func test_productExceptSelf_2() throws {
+        let input1 = [-1,1,0,-3,3]
+        let answer = [0,0,9,0,0]
+        
+        XCTAssertEqual(productExceptSelf(input1), answer)
+    }
 }

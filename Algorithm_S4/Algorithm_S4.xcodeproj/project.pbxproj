@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F956D0E289A5EA4003BDF1A /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F956D0D289A5EA4003BDF1A /* Trie.swift */; };
+		4F956D0F289A5EA4003BDF1A /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F956D0D289A5EA4003BDF1A /* Trie.swift */; };
+		4F956D11289B582E003BDF1A /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F956D10289B582E003BDF1A /* CoinChange.swift */; };
+		4F956D12289B582E003BDF1A /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F956D10289B582E003BDF1A /* CoinChange.swift */; };
+		4F956D14289B8122003BDF1A /* productExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F956D13289B8122003BDF1A /* productExceptSelf.swift */; };
+		4F956D15289B8122003BDF1A /* productExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F956D13289B8122003BDF1A /* productExceptSelf.swift */; };
 		BCEC2D192894FBB6002B1F74 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D182894FBB6002B1F74 /* main.swift */; };
 		BCEC2D262894FC00002B1F74 /* AlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D252894FC00002B1F74 /* AlgoTests.swift */; };
 		BCEC2D2B2894FC42002B1F74 /* RunningSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2D2A2894FC42002B1F74 /* RunningSum.swift */; };
@@ -62,6 +68,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F956D0D289A5EA4003BDF1A /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		4F956D10289B582E003BDF1A /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
+		4F956D13289B8122003BDF1A /* productExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productExceptSelf.swift; sourceTree = "<group>"; };
 		BCEC2D152894FBB6002B1F74 /* Algorithm_S4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_S4; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEC2D182894FBB6002B1F74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BCEC2D232894FC00002B1F74 /* AlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +154,9 @@
 				BCEC2D5D2897F28C002B1F74 /* kClosest.swift */,
 				BCEC2D5428968631002B1F74 /* Heap.swift */,
 				BCEC2D3928951903002B1F74 /* ListNode.swift */,
+				4F956D0D289A5EA4003BDF1A /* Trie.swift */,
+				4F956D10289B582E003BDF1A /* CoinChange.swift */,
+				4F956D13289B8122003BDF1A /* productExceptSelf.swift */,
 				BCEC2D4E28965FF6002B1F74 /* TreeNode.swift */,
 			);
 			path = Algorithm_S4;
@@ -203,7 +215,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					BCEC2D142894FBB6002B1F74 = {
 						CreatedOnToolsVersion = 13.3;
@@ -250,14 +262,17 @@
 				BCEC2D3A28951903002B1F74 /* ListNode.swift in Sources */,
 				BCEC2D5E2897F28C002B1F74 /* kClosest.swift in Sources */,
 				BCEC2D6128981217002B1F74 /* threeSum.swift in Sources */,
+				4F956D0E289A5EA4003BDF1A /* Trie.swift in Sources */,
 				BCEC2D4928965983002B1F74 /* longestPalindrome.swift in Sources */,
 				BCEC2D43289641DA002B1F74 /* detectCycle.swift in Sources */,
+				4F956D14289B8122003BDF1A /* productExceptSelf.swift in Sources */,
 				BCEC2D5528968631002B1F74 /* Heap.swift in Sources */,
 				BCEC2D4028963A8E002B1F74 /* middleNode.swift in Sources */,
 				BCEC2D4C28965FE0002B1F74 /* isBalanced.swift in Sources */,
 				BCEC2D2E289500AF002B1F74 /* pivotIndex.swift in Sources */,
 				BCEC2D5228967B3D002B1F74 /* leastInterval.swift in Sources */,
 				BCEC2D192894FBB6002B1F74 /* main.swift in Sources */,
+				4F956D11289B582E003BDF1A /* CoinChange.swift in Sources */,
 				BCEC2D4F28965FF6002B1F74 /* TreeNode.swift in Sources */,
 				BCEC2D3128950A64002B1F74 /* isIsomorphic.swift in Sources */,
 				BCEC2D46289653DE002B1F74 /* maxProfit.swift in Sources */,
@@ -277,14 +292,17 @@
 				BCEC2D3B28951903002B1F74 /* ListNode.swift in Sources */,
 				BCEC2D5F2897F28C002B1F74 /* kClosest.swift in Sources */,
 				BCEC2D6228981217002B1F74 /* threeSum.swift in Sources */,
+				4F956D0F289A5EA4003BDF1A /* Trie.swift in Sources */,
 				BCEC2D4A28965983002B1F74 /* longestPalindrome.swift in Sources */,
 				BCEC2D44289641DA002B1F74 /* detectCycle.swift in Sources */,
+				4F956D15289B8122003BDF1A /* productExceptSelf.swift in Sources */,
 				BCEC2D5628968631002B1F74 /* Heap.swift in Sources */,
 				BCEC2D4128963A8E002B1F74 /* middleNode.swift in Sources */,
 				BCEC2D4D28965FE0002B1F74 /* isBalanced.swift in Sources */,
 				BCEC2D2F289500AF002B1F74 /* pivotIndex.swift in Sources */,
 				BCEC2D5328967B3D002B1F74 /* leastInterval.swift in Sources */,
 				BCEC2D262894FC00002B1F74 /* AlgoTests.swift in Sources */,
+				4F956D12289B582E003BDF1A /* CoinChange.swift in Sources */,
 				BCEC2D5028965FF6002B1F74 /* TreeNode.swift in Sources */,
 				BCEC2D3228950A64002B1F74 /* isIsomorphic.swift in Sources */,
 				BCEC2D47289653DE002B1F74 /* maxProfit.swift in Sources */,
@@ -416,6 +434,7 @@
 		BCEC2D1D2894FBB6002B1F74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6HM92H898;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -427,6 +446,7 @@
 		BCEC2D1E2894FBB6002B1F74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6HM92H898;
 				ENABLE_HARDENED_RUNTIME = YES;
