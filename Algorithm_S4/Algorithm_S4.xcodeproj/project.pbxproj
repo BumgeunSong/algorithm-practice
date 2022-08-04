@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F54DAF6289BB17200968F0B /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F54DAF5289BB17200968F0B /* MinStack.swift */; };
+		4F54DAF7289BB17200968F0B /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F54DAF5289BB17200968F0B /* MinStack.swift */; };
 		4F956D0E289A5EA4003BDF1A /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F956D0D289A5EA4003BDF1A /* Trie.swift */; };
 		4F956D0F289A5EA4003BDF1A /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F956D0D289A5EA4003BDF1A /* Trie.swift */; };
 		4F956D11289B582E003BDF1A /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F956D10289B582E003BDF1A /* CoinChange.swift */; };
@@ -68,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F54DAF5289BB17200968F0B /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		4F956D0D289A5EA4003BDF1A /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		4F956D10289B582E003BDF1A /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		4F956D13289B8122003BDF1A /* productExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productExceptSelf.swift; sourceTree = "<group>"; };
@@ -157,6 +160,7 @@
 				4F956D0D289A5EA4003BDF1A /* Trie.swift */,
 				4F956D10289B582E003BDF1A /* CoinChange.swift */,
 				4F956D13289B8122003BDF1A /* productExceptSelf.swift */,
+				4F54DAF5289BB17200968F0B /* MinStack.swift */,
 				BCEC2D4E28965FF6002B1F74 /* TreeNode.swift */,
 			);
 			path = Algorithm_S4;
@@ -270,6 +274,7 @@
 				BCEC2D4028963A8E002B1F74 /* middleNode.swift in Sources */,
 				BCEC2D4C28965FE0002B1F74 /* isBalanced.swift in Sources */,
 				BCEC2D2E289500AF002B1F74 /* pivotIndex.swift in Sources */,
+				4F54DAF6289BB17200968F0B /* MinStack.swift in Sources */,
 				BCEC2D5228967B3D002B1F74 /* leastInterval.swift in Sources */,
 				BCEC2D192894FBB6002B1F74 /* main.swift in Sources */,
 				4F956D11289B582E003BDF1A /* CoinChange.swift in Sources */,
@@ -300,6 +305,7 @@
 				BCEC2D4128963A8E002B1F74 /* middleNode.swift in Sources */,
 				BCEC2D4D28965FE0002B1F74 /* isBalanced.swift in Sources */,
 				BCEC2D2F289500AF002B1F74 /* pivotIndex.swift in Sources */,
+				4F54DAF7289BB17200968F0B /* MinStack.swift in Sources */,
 				BCEC2D5328967B3D002B1F74 /* leastInterval.swift in Sources */,
 				BCEC2D262894FC00002B1F74 /* AlgoTests.swift in Sources */,
 				4F956D12289B582E003BDF1A /* CoinChange.swift in Sources */,
