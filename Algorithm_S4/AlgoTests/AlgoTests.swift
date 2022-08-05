@@ -233,4 +233,5 @@ class AlgoTests: XCTestCase {
         
         XCTAssertEqual(productExceptSelf(input1), answer)
     }
+
 }
