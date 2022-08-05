@@ -39,14 +39,13 @@ func orangesRotting(_ grid: [[Int]]) -> Int {
             }
         }
         
-        if !nextLv.isEmpty {
-            toVisitLevel.append(nextLv)
-            levelCount += 1
-        }
+        // 다음 레벨이 있을 때만 Queue에 레벨 추가하고, levelCount 추가
+        if nextLv.isEmpty { continue }
+        toVisitLevel.append(nextLv)
+        levelCount += 1
     }
     
     // grid에 1이 남아있는지 확인
-    
     if searchGrid(grid, target: 1).isEmpty {
         return levelCount
     } else {

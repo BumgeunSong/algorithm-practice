@@ -234,4 +234,69 @@ class AlgoTests: XCTestCase {
         XCTAssertEqual(productExceptSelf(input1), answer)
     }
 
+    
+    func test_searchRotated_1() throws {
+        let input1 = [4,5,6,7,0,1,2]
+        let input2 = 0
+        let answer = 4
+        
+        XCTAssertEqual(search(input1, input2), answer)
+    }
+    
+    func test_searchRotated_2() throws {
+        let input1 = [4,5,6,7,0,1,2]
+        let input2 = 3
+        let answer = -1
+        
+        XCTAssertEqual(search(input1, input2), answer)
+    }
+    
+    func test_searchRotated_3() throws {
+        let input1 = [5,1,3]
+        let input2 = 5
+        let answer = 0
+        
+        XCTAssertEqual(search(input1, input2), answer)
+    }
+    
+    func test_searchRotated_4() throws {
+        let input1 = [3,5,1]
+        let input2 = 3
+        let answer = 0
+        
+        XCTAssertEqual(search(input1, input2), answer)
+    }
+    
+    
+    func test_searchRotated_5() throws {
+        let input1 = [5,1,3]
+        let input2 = 3
+        let answer = 2
+        
+        XCTAssertEqual(search(input1, input2), answer)
+    }
+    
+    
+    func test_searchRotated_6() throws {
+        let input1 = [4,5,6,7,8,1,2,3]
+        let input2 = 8
+        let answer = 4
+        
+        XCTAssertEqual(search(input1, input2), answer)
+    }
+    
+    func test_combiSum_1() throws {
+        let input1 = [2,3,6,7]
+        let input2 = 7
+        let answer = [[2,2,3],[7]]
+        
+        XCTAssertEqual(combinationSum(input1, input2), answer)
+    }
+    
+    func test_merge_1() throws {
+        let input1 = [[1,3],[2,6],[8,10],[15,18]]
+        let answer = [[1,6],[8,10],[15,18]]
+        
+        XCTAssertEqual(merge(input1), answer)
+    }
 }
